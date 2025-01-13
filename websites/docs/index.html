@@ -1,18 +1,177 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Action Quake Documentation - Complete Archive</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 20px;
+        background: #f5f5f5;
+      }
+      .section {
+        background: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      h1 {
+        color: #333;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: #444;
+        margin-top: 0;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        columns: 2;
+      }
+      li {
+        margin: 5px 0;
+        break-inside: avoid;
+      }
+      a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
   <body>
-    <script>
-      (async () => {
-        const response = await fetch('https://api.github.com/repos/darkshade9/actionquake/contents/');
-        const data = await response.json();
-        let htmlString = '<ul>';
-        
-        for (let file of data) {
-          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
-        }
+    <h1>Action Quake Documentation Archive</h1>
 
-        htmlString += '</ul>';
-        document.getElementsByTagName('body')[0].innerHTML = htmlString;
-      })()
-    </script>
-  <body>
+    <div class="section">
+      <h2>3Team</h2>
+      <ul>
+        <li><a href="3team/3t_action.html">3t_action.html</a></li>
+        <li><a href="3team/3team.html">3team.html</a></li>
+        <li><a href="3team/3teams.txt">3teams.txt</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Action 2000</h2>
+      <ul>
+        <li><a href="a2k/general.htm">General Guide</a></li>
+        <li><a href="a2k/items.htm">Items Guide</a></li>
+        <li><a href="a2k/weapons.htm">Weapons Guide</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Action Quake 2</h2>
+      <ul>
+        <li><a href="aq2/Action Quake2 Home Page.url">Home Page</a></li>
+        <li><a href="aq2/action.txt">action.txt</a></li>
+        <li><a href="aq2/extras.txt">extras.txt</a></li>
+        <li><a href="aq2/radio.txt">radio.txt</a></li>
+        <li><a href="aq2/readme100c.txt">readme100c.txt</a></li>
+        <li><a href="aq2/readme152.txt">readme152.txt</a></li>
+        <li><a href="aq2/versions.txt">versions.txt</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>AQ2-16</h2>
+      <ul>
+        <li><a href="aq2-16/changes.txt">changes.txt</a></li>
+        <li><a href="aq2-16/readme.txt">readme.txt</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>AQDT</h2>
+      <ul>
+        <li><a href="aqdt/index.html">index.html</a></li>
+        <li><a href="aqdt/arena.htm">arena.htm</a></li>
+        <li><a href="aqdt/esp.htm">esp.htm</a></li>
+        <li><a href="aqdt/lowlag.htm">lowlag.htm</a></li>
+        <li><a href="aqdt/team.htm">team.htm</a></li>
+        <li><a href="aqdt/te.htm">te.htm</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>AQ Guide</h2>
+      <ul>
+        <li><a href="aqguide/index.html">index.html</a></li>
+        <li><a href="aqguide/3t_action.html">3t_action.html</a></li>
+        <li><a href="aqguide/a2k_general.htm">a2k_general.htm</a></li>
+        <li><a href="aqguide/aqte.htm">aqte.htm</a></li>
+        <li><a href="aqguide/ctb.html">ctb.html</a></li>
+        <li><a href="aqguide/fire_readme.html">fire_readme.html</a></li>
+        <li><a href="aqguide/ltk_history.html">ltk_history.html</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Edition</h2>
+      <ul>
+        <li><a href="edition/adf.txt">adf.txt</a></li>
+        <li><a href="edition/credits.txt">credits.txt</a></li>
+        <li><a href="edition/readme.ger">readme.ger</a></li>
+        <li><a href="edition/readme.txt">readme.txt</a></li>
+        <li><a href="edition/sounds.txt">sounds.txt</a></li>
+        <li><a href="edition/version.txt">version.txt</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Fire Mode</h2>
+      <ul>
+        <li><a href="fire/features.html">features.html</a></li>
+        <li><a href="fire/locations.txt">locations.txt</a></li>
+        <li><a href="fire/new.html">new.html</a></li>
+        <li><a href="fire/readme.txt">readme.txt</a></li>
+        <li><a href="fire/whatis.html">whatis.html</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>LTK</h2>
+      <ul>
+        <li><a href="ltk/LICENSE.TXT">LICENSE.TXT</a></li>
+        <li><a href="ltk/LTK2Bots.txt">LTK2Bots.txt</a></li>
+        <li><a href="ltk/acebot.txt">acebot.txt</a></li>
+        <li><a href="ltk/history.txt">history.txt</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Matchlock</h2>
+      <ul>
+        <li><a href="ml/faq.html">faq.html</a></li>
+        <li><a href="ml/features.html">features.html</a></li>
+        <li><a href="ml/howto.html">howto.html</a></li>
+        <li><a href="ml/location.html">location.html</a></li>
+        <li><a href="ml/updates.html">updates.html</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>RC</h2>
+      <ul>
+        <li><a href="rc/docu.htm">docu.htm</a></li>
+        <li><a href="rc/download.htm">download.htm</a></li>
+        <li><a href="rc/info.htm">info.htm</a></li>
+        <li><a href="rc/links.htm">links.htm</a></li>
+        <li><a href="rc/news.htm">news.htm</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Variants</h2>
+      <ul>
+        <li><a href="variants/q2v.htm">q2v.htm</a></li>
+      </ul>
+    </div>
+
+  </body>
 </html>
