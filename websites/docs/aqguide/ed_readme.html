@@ -1,0 +1,461 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake:Edition Manual</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+<H1>Action Quake:Edition Manual</H1>
+
+Action Quake 2, ver. 1.51, PG BUND edition 1.10<BR>
+Action Quake made by the A-TEAM, <A HREF="http://action.action-web.net/">http://action.action-web.net.</A><BR>
+AQ2: Edition is available at <A HREF="http://action.gametown.de/">http://action.gametown.de/</A><BR>
+Last update: 25.04.99<BR>
+<BR>
+This file describes any modifications and extensions of
+the original Action Quake 2 and AQ2: Edition.<BR>
+<BR>
+<BR>
+FEATURES<BR>
+########<BR>
+<BR>
+	- Six new % variables for say or say_team<BR>
+        - Onscreen player menu<BR>
+	- Map voting (thanx to Black Cross[NL]) (optional)<BR>
+        - Player kick voting (optional)<BR>
+	- Player ignoring<BR>
+	- Real friendly fire in teamplay (optional)<BR>
+	- Custom voice shouting (optional)<BR>
+	- Auto download enabled for new sounds<BR>
+	- "Anti camper sounds" (optional)<BR>
+	- Player punching<BR>
+	- Online help<BR>
+	- Minor bug fixes<BR>
+<BR>
+All new commands and variables since the last version are marked
+with: [!NEW!]<BR>
+<BR>
+<BR>
+=====================<BR>
+NEW SERVER VARIABLES:<BR>
+=====================<BR>
+<BR>
+ppl_idletime [!NEW!]<BR>
+------------<BR>
+default: 30, range 0..?<BR>
+<BR>
+Remarks:<BR>
+	If a player wont move for this amount of seconds, he will 
+	"shout" a random insane sound (from sound/insane).
+	You may switch it off by setting ppl_idletime to 0.<BR>
+<BR>
+use_voice<BR>
+---------<BR>
+default: 1, range 0,1<BR>
+<BR>
+Remarks:<BR>
+	This variable enables or disables the client voice command. 
+	If 0, voice command is disabled, if 1, voice command is enabled.<BR>
+<BR>
+<BR>
+use_friendlyfire<BR>
+----------------<BR>
+default 0, range 0,1<BR>
+<BR>
+Remarks:<BR>
+	This variable enables or disables friendly fire in teamplay.
+	Instead of using the server flag, this variable is used to prevent 
+	conflicts with future extensions of AQ2 by the A-Team.<BR>
+<BR>
+<BR>
+ff_maxkills<BR>
+-----------<BR>
+default: 6, range 0..?<BR>
+<BR>
+Remarks:<BR>
+	To prevent that some morons kill its own team when friendly 
+	fire is enabled, ff_maxkills was made for. If a player has 
+	killed the same amount or more teammates as in ff_maxkills 
+	given, he will commit suicide after each teammate killed. 
+	To disable ff_maxkills set it to 0. But beware...
+	After level changes all player will start with 0 killed 
+        teammates.<BR>
+<BR>
+<BR>
+ff_kickat [!NEW!]<BR>
+---------<BR>
+default: 10, range 0..?<BR>
+<BR>
+Remarks:<BR>
+	If suiciding wont help, this will! If a player has 
+	killed the same amount or more teammates as in ff_kickat
+	given, he will be kicked out of the game.
+	To disable ff_kickat set it to 0. But beware...
+	After level changes all player will start with 0 killed 
+        teammates.<BR>
+<BR>
+<BR>
+ff_tempban [!NEW!]<BR>
+----------<BR>
+default: 1, range 0,1<BR>
+<BR>
+Remarks:<BR>
+	This variable controls, if a player, who was kicked due 
+	too much teamkills, will temporary be banned.
+	Temporary means, he will be banned until the map
+	changes. If set on 1, it is switched on.<BR>
+<BR>
+<BR>
+use_mapvote<BR>
+-----------<BR>
+default: 1, range 0,1<BR>
+<BR>
+Original remark:<BR>
+<BR>
+	Enable map voting.  Set to "1" to be able to vote on the
+	next map.  The maplist is read from the "maplist.ini" file in
+	the action directory; if it doesn't exist, the maplist from
+	"action.ini" is used instead.<BR>
+	A map must have more than 50% (default, may be changed with
+	the <mapvote_pass> variable) of the votes before it is chosen
+	(in teamplay you have to wait to the end of the round before
+	it is selected).<BR>
+<BR>
+<BR>
+mapvote_min<BR>
+-----------<BR>
+default: 1, range 0..?<BR>
+<BR>
+Orginal remark:<BR>
+<BR>
+	Minimum number of clients before map voting is allowed.<BR>
+<BR>
+<BR>
+mapvote_need<BR>
+------------<BR>
+default: 0, range 0..100<BR>
+<BR>
+Original remark:<BR>
+<BR>
+	Percent of clients required to vote (0-100).<BR>
+<BR>
+<BR>
+mapvote_pass<BR>
+------------<BR>
+default: 50, range 1..100<BR>
+<BR>
+Original remark:<BR>
+<BR>
+	Percent of yes votes required to pass the vote (1-100).<BR>
+<BR>
+<BR>
+use_kickvote [!NEW!]<BR>
+------------<BR>
+default: 1, range 0,1<BR>
+<BR>
+Remarks:<BR>
+	Enables kick voting. Players may vote for a player to
+	be kicked out of the game if set on 1. A player will be
+	kicked under following circumstances:<BR>
+<BR>
+ 	- Amount of or more players are on the server as set in
+	  kickvote_min.<BR>
+	- Amount of or more percent of all players have voted to
+	  kick SOMEONE as set in kickvote_need.<BR>
+	- Amount of or more percent of all players have voted to
+	  kick THE SAME player as set in kickvote_pass.<BR>
+<BR>
+	see the referring variables for more details.<BR>
+<BR>
+<BR>
+kickvote_min [!NEW!]<BR>
+------------<BR>
+default: 4, range 0..<BR>
+<BR>
+Remarks:<BR>
+	As many players or more as given in kickvote_min must 
+	play on the server, before a player may be kicked 
+	because of kick voting.<BR>
+<BR>
+<BR>
+kickvote_need [!NEW!]<BR>
+-------------<BR>
+default: 0, range 0..<BR>
+<BR>
+Remarks:<BR>
+	As many PERCENT of all players must have voted 
+	to kick SOMEONE, before a player may be kicked 
+	because of kick voting.<BR>
+<BR>
+<BR>
+kickvote_pass [!NEW!]<BR>
+-------------<BR>
+default: 75, range 0..<BR>
+<BR>
+Remarks:<BR>
+	As many PERCENT of all players must have voted 
+	to kick THE SAME player, before a player may be 
+	kicked because of kick voting.<BR>
+<BR>
+<BR>
+kickvote_tempban [!NEW!]<BR>
+----------------<BR>
+default: 1, range 0,1<BR>
+<BR>
+Remarks:<BR>
+	If set on 1, a player who was kicked because of
+	kick voting, will be banned until map changes
+	(or until his IP changes...)<BR>
+<BR>
+<BR>
+=============<BR>
+NEW COMMANDS:<BR>
+=============<BR>
+<BR>
+menu [!NEW!]<BR>
+----<BR>
+Remarks:<BR>
+	This command will bring up the player on screen menu.
+	Any menu may also be called due "menu menuname",
+	e.g. "menu mapmenu" will bring up the map menu.<BR>
+<BR>
+<BR>
+rules [!NEW!]<BR>
+-----<BR>
+Remarks:<BR>
+	With this command a online help is available. Just
+	use "rules" for further instructions... :)<BR>
+<BR>
+<BR>
+punch [!NEW!]<BR>
+-----<BR>
+Remarks:<BR>
+	There was no reason, why a player cannot chop another...now
+	it is possible, with "punch". With this command, you may try
+	to knock out an enemy.<BR>
+<BR>
+<BR>
+voice [soundfile.wav]<BR>
+---------------------<BR>
+Remarks:<BR>
+	This command will play an local, public sound hearable to
+	anyone who is near. Every person may play only one public sound 
+	at the same time. It is played on the channel, where the pain 
+	sounds are played too. If someone dont got the sound, it wont 
+	be played, so to have fun make sure, that players may download 
+	them. The sounds have to be placed in the action directory, 
+	"sounds\user". If autodownload is enabled, they may be  downloaded
+	within quake. To do this, you have to add your sounds to a file 
+	called sndlist.ini which have to be placed in your AQ2 directory.
+	See the file sndlist.ini for further details.<BR>
+<BR>
+<BR>
+ignorelist<BR>
+----------<BR>
+Remarks:<BR>
+	This will give a list of all players and there internal number. 
+	All Players marked with '*' are ignored by you.<BR>
+<BR>
+<BR>
+ignore [playername]<BR>
+-------------------<BR>
+Remarks:<BR>
+	After this command all messages from <playername> will be ignored 
+	and not shown. The player, who is ignored, will get a notice of that. 
+	If that player allready was ignored, he wont be ignored further. 
+	The player will get also a notice that  you "unignored" him. 
+	You currently may ignore up to 10 players.<BR>
+<BR>
+<BR>
+ignorenum [number]<BR>
+------------------<BR>
+Remarks:<BR>
+	Same effect as ignore, but by number.
+	Some players may try to avoid to be ignored, by giving strange, 
+	duplicated or no names. If you aren't able to ignore a player 
+	by name, you may do it by number.<BR>
+<BR>
+<BR>
+ignoreclear<BR>
+-----------<BR>
+Remarks:<BR>
+	All currently ignored players aren't ignored no more. This will also
+	happen when level changes.<BR>
+<BR>
+<BR>
+maplist<BR>
+-------<BR>
+Remarks:<BR>
+	This will list all maps for which players may vote. The command name 
+	was changed  from "votelist" to "maplist", because there may be more 
+	votings instead of just the maps. :)
+	Original remark:<BR>
+<BR>
+	List the percentages of votes to each map, and how many who
+	have voted.  Also lists the maps that can be voted on.  (Only
+	if "use_mapvote" is enabled.)<BR>
+<BR>
+<BR>
+votemap [mapname]<BR>
+-----------------<BR>
+Remarks:<BR>
+	Let a player vote for a map. The command name was changed from "vote" 
+	to "votemap", because there may be more votings instead of just the 
+	maps. :)<BR>
+	Original remark:<BR>
+<BR>
+	Vote on <mapname> (only if "use_mapvote" is enabled).<BR>
+<BR>
+<BR>
+kicklist [!NEW!]<BR>
+--------<BR>
+Remarks:<BR>
+	This will give a list of all players and there internal number.
+	A Player marked with '*' is the one you voted on to be kicked.<BR>
+<BR>
+<BR>
+votekick [playername] [!NEW!]<BR>
+---------------------<BR>
+Remarks:<BR>
+	Use this command to vote on to kick a certain player.
+	If you allready voted on that player, your vote will be
+	removed. <BR>
+<BR>
+<BR>
+votekicknum [number] [!NEW!]<BR>
+--------------------<BR>
+Remarks:<BR>
+	Same effect as votekick, but by number.
+	Some players may try to avoid to be kicked, by giving strange, 
+	duplicated or no names. If you aren't able to vote for a 
+	player to be kicked by by name, you may do it by number.<BR>
+<BR>
+<BR>
+addpoint [description]<BR>
+----------------------<BR>
+Remarks:<BR>
+	Now it is possible to set some map points together with a description.
+	All added points are saved within a text file found in your map 
+	directory and named like the maps with the extension ".pg". This
+	points are read in during map initialization and used for new % 
+	variables %G and %L. This is only a server side extention what means,
+	that clients do not need to have the .pg files and if so, they will
+	be ignored. Addpoint will only be enabled, with cheats set on 1 to
+	prevent clients to add new points during gameplay. Currently a maximum
+	of 60 points are supported.<BR>
+<BR>
+<BR>
+NEW % VARIABLES:<BR>
+================<BR>
+<BR>
+%E: Enemies name<BR>
+%F: Enemies weapon<BR>
+%G: Enemies position<BR>
+-----------------------------<BR>
+Remarks:<BR>
+	These variables will only show contents, if you directly see an enemy 
+	and look at. If not, you get something like "no enemy", "no weapon" 
+	and "nowhere". When a .pg file (see above) is present, the enemies
+	position (%G) is named to the nearest location point. If not, a relative
+	position is given. The enemies relative position is the position as seen 
+	from the reporting person, e.g. "in the southwest, up" or "in the north, 
+	down". If your teammate is elswhere, it wont help him. But if your 
+	teammate is with you or knows where you are, he will get the enemies 
+	hideout.<BR>
+<BR>
+<BR>
+%K: Last killed player<BR>
+----------------------<BR>
+Remarks:<BR>
+	This variable stands for the last killed player. It will show contents 
+	only once. After usage it contains "No one". <BR>
+	Example: If you killed "player" and report it due "say_team I killed %K" 
+	to your teammates, you will get "I killed player".<BR>
+	If you use it twice without killing someone between, you will get 
+	"I killed No one".<BR>
+	This is to prevent taunting and message flooding.<BR>
+<BR>
+<BR>
+%L: Location<BR>
+------------<BR>
+Remarks:<BR>
+	This variable gives the players current position. The nearest point taken
+	from a .pg file is searched and its description is used. If no .pg file
+	for the current map is found, %L will result in "somewhere".<BR>
+<BR>
+<BR>
+%S: Seen location [!NEW!]<BR>
+-----------------<BR>
+Remarks:<BR>
+	This variable is similar to %G, but it will report the seen
+	location. If a .pg location file is present, it will show
+	the desctiption of the seen place. If not, it will report
+	a relative position.<BR>
+<BR>
+<BR>
+BUG FIXES<BR>
+=========<BR>
+	- Fixed the "Out of ammo" bug, which happens due fast reload
+	  since AQ2 v1.51. This happened if you had hit the reload
+	  button a couple of times and you were killed during
+	  reloading.<BR>
+	- Fixed infravision on dead bodies. It was annoying that
+	  dead corpses were still seen through infravision. Now
+	  dead bodies will "cool out" (really fast :).<BR>
+	- Fixed "player died" bug...this happened if a player was
+	  wounded and did not bandage...after a while, he died
+	  from the wound "without cause". Not more!<BR>
+<BR>
+<BR>
+================<BR>
+ERRORS AND BUGS:<BR>
+================<BR>
+<BR>
+None known so far, if you get one please report it to me, 
+send me an e-mail! <BR>
+<BR>
+<BR>
+<BR>
+========<BR>
+GENERAL:<BR>
+========<BR>
+<BR>
+You may write me an e-mail even if you just have some 
+questions, ideas or intentions. :)<BR>
+Software is provided "as is" bla bla bla ...<BR>
+<BR>
+<BR>
+<BR>
+========<BR>
+CREDITS:<BR>
+========<BR>
+Special thanks go to <BR>
+<BR>
+	- my clanmates Rookie[Rock] and Igor[Rock] who supported
+	  me all the time and showed much patience. :)<BR>
+        - [AE]Judge for testing and (hopefully :) for beeing
+	  co-mod of the AQ2 edition home page.<BR>
+	- [HsF]Kerstin and [sLs]Avatar for really bad needed 
+          compiling jobs. :)<BR>
+	- Black Cross[NL] for his modifications and offering his
+	  source for free download<BR>
+	- all server admins running my mod! :)<BR>
+	- the qdevels message board for answering my questions
+	  regarding Quake 2 programing<BR>
+	- the A-Team for creating this great mod<BR>
+<BR>
+<BR>
+PG BUND[Rock]<BR>
+r.bund@gmx.de<BR>
+<BR>
+Homepage: <A HREF="http://action.gametown.de">http://action.gametown.de</A><BR>
+Clanpage: <A HREF="http://www.homepages.de/sgiesen@dialup.nacamar.de/rockclan/">http://www.homepages.de/sgiesen@dialup.nacamar.de/rockclan/</A> (link no longer works)<BR>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>

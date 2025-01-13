@@ -1,0 +1,36 @@
+Action Quake 2 KNIFE-SHOOTERS Documentation
+Version 1.0a
+-------------------------------------------
+
+DESCRIPTION: 
+
+Pretty self-obvious.  All the guns shoot knives instead of regular bullets.
+
+STUFF YOU CAN DO:
+
+	* Changing knife damage and speed for weapons
+
+The way I have it written now, each weapon shoots standard knives (250 damage, 1200 speed).  This is easily changable.  Edit g_weapon.c and modify the last value that fire_bullet, fire_shotgun, and fire_sniper pass on to fire_lead (I modified the SR to call fire_lead instead of fire_lead_ap, since knives don't make a difference) to change the speed (fire_lead takes this value as variable "sped," something I added). To edit the damage, just go to p_weapon.c and modify the damage to each weapon (I set each weapon's damage to 250, that of a standard thrown knife).  And recompile. 
+
+STUFF YOU _NEED_ TO DO:
+
+	* Set an adequate knifelimit.
+
+This can be tough, and should vary depending on your server's capacity.  Normally, I would set the knifelimit to 10, if it were just all MP5's shooting knives.  But notice that the Handcannon shoots ~17 knives, so that clearly won't do.  I like to set it to 34, to ensure that if 2 HC's fire simultaneously, all those knives will fire (but will start to disappear as soon as the next person fires an MP5).  If you have a really great server, set it higher.  But 20-35 is the range I've had the most success with, without greatly lagging or overflowing the server.  I would encourage the people who play NOT to ALL use HC's; maybe 1 person per team.  While it's fun to see your HC spit out 17 knives (and deathly scary if you're on the receiving end of that), it's just not very good for servers.
+
+THANKS TO:
+
+Hamhed, for writing the original library, and for really telling me what to do.
+Hal[9k], who also told me a lot of what to do.
+Markov, for letting me use his server to extensively develop and test it;
+and Clan NSV, for helping me test out the weapons.
+
+None of this would have been possible without them.
+
+TROUBLE:
+
+Problems?  Contact me.
+
+inghaw
+i-cheng@uchicago.edu
+Clan NSV

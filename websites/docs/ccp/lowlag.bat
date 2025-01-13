@@ -1,0 +1,9 @@
+copy sounds\weapons\mk23fire.wav sounds\weapons\blastf1a.wav
+copy sounds\weapons\cannon_fire.wav sounds\weapons\sshotf1b.wav
+copy sounds\weapons\mp5fire1.wav sounds\weapons\machgf1b.wav
+copy sounds\weapons\mp5fire1.wav sounds\weapons\machgf2b.wav
+copy sounds\weapons\mp5fire1.wav sounds\weapons\machgf3b.wav
+copy sounds\weapons\mp5fire1.wav sounds\weapons\machgf4b.wav
+copy sounds\weapons\mp5fire1.wav sounds\weapons\machgf5b.wav
+copy sounds\weapons\ssgfire.wav sounds\weapons\hyprbf1a.wav
+copy sounds\weapons\m4a1fire.wav sounds\weapons\rocklf1a.wav

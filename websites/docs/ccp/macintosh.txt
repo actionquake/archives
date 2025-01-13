@@ -1,0 +1,112 @@
+
+  Action Quake 2
+
+  http://action.action-web.net/
+
+
+  Please read the _docinfo.txt file in the "action/docs/" folder.
+
+  Please read the layout.txt and pak1.txt files in the "action/" folder.
+
+  Please read the _maplist.txt file in the "action/maps/docs/" folder.
+
+  Macintosh servers are available in the "action/servers" folder.
+
+
+
+  For specific information on installing Action Quake 2 on a Macintosh, 
+
+  Please refer to the following websites:
+
+  http://www.xlr8yourmac.com/games/actionquake/ (Action Quake instructions)
+
+  http://www.xlr8yourmac.com/games/  (General Macintosh gaming guides)
+
+
+
+  In addition, you may need to get Stuffit or an alternative unzipping program from:
+
+  http://mac.tucows.com/  (ShareWare/FreeWare Macintosh utilities and applications)
+
+  Stuffit has sometimes been reported to corrupt the PAK files in the ZIPs.  
+
+  If you have problems with missing or corrupt files, this may be the case.  
+
+
+
+  Action Quake 2 has been confirmed to WORK on a Blue and White G3/300.  I know.  
+
+  I helped set it up.  :)  If you run into problems with Quake 2 itself, then you 
+
+  can get the update to the latest version (which may include bug fixes) here:
+
+  ftp://ftp.logicware.com/pub/quake2/
+
+
+
+  Macintosh users can run a server themselves.  You may use the included server 
+
+  files or download the ones at http://railgun.macquakeinfinity.com/.
+
+
+
+  Since Action Quake 2 is primarily an online game, you may want to be 
+
+  able to SEARCH for online games, right?
+
+  http://www.gameranger.com/  (Macintosh game server searcher/organizer)
+
+
+
+  The last bit of information is about an error you may receive.  
+
+  It will be a scrolling error message stating something like, 
+
+  "cannot find ../player/male/resdog_i.pcx".
+
+  These errors are caused by not having the little tumbnail picture 
+
+  of the player's face when you do a player listing while playing.  
+
+  The solution is relatively simple:
+
+
+
+  1. Check your Multiplayer settings and make sure you're set to auto-download skins.  
+
+  2. Reconnect to the server, see if Quake 2 downloads the needed files.  
+
+     This will be shown in the console as the map loads--watch carefully.  
+
+     You will STILL get the error message at this point so continue on to 
+
+     the next step.  Make note of the error message(s).
+
+  3. Exit Quake 2 and look in 
+
+     Quake2 > action > players > [model name] > [skin name]_i.pcx
+
+  4. If this file is NOT present, i.e. the server did not allow you to download 
+
+     the file, then try going to the Guild and finding the missing skin.
+
+  5. Once you have the file, copy ONLY the [skin name]_i.pcx file into the 
+
+     Quake2 > action > pics folder.  
+
+  6. If you are unable to obtain this skin, then you can still get rid 
+
+     of the error messages.  Copy any other pair of [skin name].pcx and 
+
+     [skin name]_i.pcx files in the same model directory (such as "male" 
+
+     or "aqmarine") and then rename them to the requested file names.  
+
+     Now copy the [skin name]_i.pcx file that you just made into the 
+
+     Quake2 > action > pics folder.  The skin will look the same as one 
+
+     of the skins you alread have BUT at least the errors will stop spamming 
+
+     you--and you'll be able to read what other people are saying!  :)
+

@@ -1,0 +1,11 @@
+HOW TO USE THE SOUNDS
+---------------------
+
+1. Create a dir named "user" within your action/sound directory.
+2. Copy all sounds to this directory.
+3. Copy sndlist.ini into your action directory 
+   (if you allready use a sndlist.ini, add all new sounds to it)
+4. Enable download options for clients
+5. Let your clients know, that new sounds are available
+
+Done! :)

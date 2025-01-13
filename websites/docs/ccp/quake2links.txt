@@ -1,0 +1,31 @@
+Useful Quake II-related websites
+
+
+http://cstats.quakecity.net/ -- Server Log file analyzer and statistics generator 
+http://www.ogl.org/ -- OGL, Online Gaming League, competition between online clans 
+                       in an organized manner, also non-AQ games 
+http://www.theclq.com/main.asp -- CLQ, Champions League for Quake, automatically 
+                                  tracks your online playing and rates you 
+                                  (not a tournament) 
+http://www.allianceofpain.com/antibot.htm -- Place for server admin info and 
+                                             anti-bot software (auto-aim bots) 
+http://www.dfsoftware.com/html/server_watch.html -- Server watcher and 
+                                                    remote administrator 
+http://www.gamespy.com/ -- Server searcher and sorter 
+http://www.pingtool.com/ -- Server searcher and sorter 
+http://www.qtracker.com/ -- Server launcher and searcher 
+                            (like GameSpy and PingTool) 
+http://www.gameranger.com/ -- Macintosh Server searcher and sorter 
+http://www.planetquake.com/demospecs/faq/faq.html -- FAQ on recording 
+                                                     Quake 2 demos 
+http://www.gfxspace.com/gamepower/ -- Quake 2 configs 
+                                      (Action Quake included) 
+http://www.xoanan.com/ -- Server Admin Management tool, GameHost 
+http://www.planetquake.com/q2admin/ -- Server Admin tool, Q2Admin 
+http://hosted.barrysworld.com/zarjazz/ -- Server Admin tool, BWAdmin 
+http://www.planetquake.com/matchmod/ -- Matchmod anti-cheating tool 
+http://www.savageuk.com/quaketv/ -- Quake TV broadcaster 
+http://www.planetquake.com/q2s-faq/ -- Quake 2 Server FAQ 
+http://www.planetquake.com/console/commands/quake_2.html -- Commands for Quake 2 
+                                                            that are used by both 
+                                                            clients and servers 

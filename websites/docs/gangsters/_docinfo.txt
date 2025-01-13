@@ -1,0 +1,13 @@
+
+    The files in this directory:
+
+
+  _docinfo.txt ----- You're reading this file
+
+* AQG-Readme.txt --- AQ:Gangsters instructions.
+
+* Setupinfofile.txt -- AQ:Gangsters configuration information.
+
+
+    Please read at least the ones with the * in front.
+

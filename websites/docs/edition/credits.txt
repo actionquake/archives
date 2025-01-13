@@ -1,0 +1,8 @@
+Thanks go out to the following people for creating the .ADF files
+in this archive:
+
+armyterr.adf	- Done by
+rhcity1.adf	-
+urban.adf	- =DIE=Tempfile <bgreiner@ba.blitz.net>
+
+city.adf	- Utyske[ABySS] <frederik@esser.dk>

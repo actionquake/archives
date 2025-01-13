@@ -1,0 +1,44 @@
+
+  The "grapple" variant is based off of PG BUND's AQ:Edition 
+
+  version 1.23 and can use many of the same features and commands.  
+
+  AQ:Grapple was created by $illy, who can be reached at 
+
+  doze206@hotmail.com.  He integrated and tweaked 
+
+  the grappling hook found at the following websites:
+
+
+  http://www.planetquake.com/qdevels/index.shtml
+
+  http://www.quakefiles.com/skunkworks/q2/tutorial.html
+
+
+
+  The only addional command that a client needs to know is to 
+
+  bind a key to "+hook".  This should probably be mentioned 
+
+  somewhere in the MOTD (message that shows up when someone 
+
+  connects) so people new to the variant will know how to 
+
+  take advantage of the grappling hook.  
+
+
+
+  The aq2.dll file appears to be the "grapple" aq2 variant 
+
+  the same as the gamex86.dll file.  The only difference is 
+
+  that aq2.dll complained about camping and promptly killed 
+
+  me off for using the grapple to stay in one place for too 
+
+  long.  Other than that it seemed identical.  Just rename 
+
+  files as appropriate if you wish to use the "anti-camping" 
+
+  version.
+

@@ -1,0 +1,283 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake:Espionage Manual</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+<H1>Action Quake:Espionage Manual</H1>
+
+<PRE>
+                              AQ: Espionage
+                           Table Of Contents
+
+1) Who we are/Credits
+2) What client operators need to know
+3) What server ops need to know
+4) Whats different
+5) Rules
+6) Scenarios
+
+
+1.  Who we are/Credits
+
+    We are the AQDT, the Action Quake Development Team.  We make mods 
+for the mod of Action Quake.  With Espionage's scripting language, you can 
+create your own gameplay.  Scenarios, as they're called, can use any map 
+you can dream of and make it how you want it to be.  Although the scenario 
+language is new, with a little bit of learning and reading, you can make your 
+own scenarios for any map made for Quake 2.
+
+           Cast: (in no special order)
+
+    Lance 'Hal9000' Burton       - Main coder/Scripting language developer
+    Mike 'Homer' Connor          - Coder
+    Inghaw 'Inghaw' Cheng        - Coder
+    Chris 'Fool Killer' Gedhardt - ServerOp/Scenario maker
+    Bill 'Fex' Geiger            - HTML coder/Resource management/VWep
+    Graeme 'Homosaurus' Rolfe    - Male voice actor/Sound p1mp/VWep
+
+            Extras:    (in no special order)
+
+    David 'ViperX' Jensen        - Briefcase/Backpack skins
+    Minh 'Gooseman' Le           - Briefcase model
+    Jessica 'Sndgrrl' Lemieux    - Female voice actor
+    Johnny 'Mm2000' Mesa         - Location investigator
+    Bryan 'Stinger' Parker       - Location spotter
+    Kevin '_beasti_' Parker      - Location guy
+
+
+            Beta Server Operators:
+
+    Will 'Fenriz' Smith       - Doggus
+    Jarmo Tolvanen            - MistyVortex
+    John 'KaRRiLLioN=' Corwin - =AR= Barracks
+    GsG9                      - VortexQ
+    Death "No name" Mark      - AMC
+
+2.  What do client operators need to know
+
+  As of v3.3, AQ:E uses a different naming scheme for weapon sounds.
+  The sounds map as follows:
+
+  Mk23       sound/weapons/blastf1a.wav 
+  Shotgun    No change 
+  Handcannon sound/weapons/sshotf1b.wav 
+  MP5        sound/weapons/machgf1b.wav 
+             sound/weapons/machgf2b.wav 
+             sound/weapons/machgf3b.wav 
+             sound/weapons/machgf4b.wav 
+             sound/weapons/machgf5b.wav 
+             (Yes, all of them are the same MP5 sound)  
+  SSG-3000   sound/weapons/hyprbf1a.wav 
+  M4         sound/weapons/rocklf1a.wav 
+  Silencer   sound/weapons/rocklf1b.wav
+             (The RL actually plays two sounds, so we have to 
+              make this sound quiet) 
+
+  AQ:Espionage introduces some new client commands:
+
+  * "goals" - Redisplays the current objectives for both teams. 
+  * "ignore <player name>" - Lets you ignore messages from a particular player
+  * "unignore" - Clears your ignore field
+  * "volunteer" - Makes you eligible for special duty
+  * "scenarios" - Lists the scenarios in rotation on the server
+
+  For scenarios authors, additional commands are available when sv_author
+is set to 1 (see below):
+
+  * "moveto <target name>" - moves the player to the location of the
+      specified target
+  * "movespawn <target name> <away>" - Moves the players to <away>'th
+      nearest spawn spot to the specified target
+
+  New radio sounds are included with Espionage.  See aqdt-radio.txt.
+
+  The %L location variable for messages is now supported. AQ:E currently
+supports two forms of location specification: 
+
+  1) All TARGET_AREA, TARGET_LOCATION, and TARGET_FLAG#_SPAWN targets in
+     an AQ:E script
+
+  2) A map-specific auxiliary file, action/location/<mapname>.loc. This
+     file is read for all forms of gameplay, including regular TP and DM.
+ 
+     <mapname>.loc consists of a series of entries of the form
+
+        TARGET_LOCATION "Location Name" ( x y z )
+
+  If the server has it enabled, players may vote on various items. Currently,
+AQ:E supports voting to move to the next map/scenario in rotation and voting 
+to move to a specific map/scenario in the rotation.
+
+  The gameplay will vary with each scenario. The goals of each scenario
+will be displayed on the screen at the beginning of each round. Some players 
+may be designated in special roles, in which case it is vital that you read 
+the goals specified to determine what needs to be done. Some scenarios are
+continuous, which means the players won't "reset" when the goals have been
+met.
+
+2a.  Ettiquette for client operators
+
+  Since some Espionage scenarios allow people to respawn, "Enemy Down," 
+"Im Hit," "Enemy Spotted" and other related radio/text messages are neither
+necessary nor useful.  Please unbind them, or dont use them in respawning
+scenarios.  If you do use them during a scenario with respawning, you may 
+aggravate the server op and the other players.
+
+3.  What do server ops need to know
+
+  To get imediately started with Espionage out of the box, extract the
+server files into your action directory.  Enable the scenario code by either
+including the line "set scripts 1" in your server.cfg file or adding 
+"+set scripts 1" to you startup command line. The maps and scenarios are
+specified in action/action.scp, which includes the scenarios from the
+"scenes" subdirectory using a C-like #include statement. After that, 
+everything will take care of itself, assuming you extracted the files to the 
+proper directories :).  
+
+  Sample command line:
+
+quake2 +set dedicated 1 +set game action +exec server.cfg
+
+  Cvars:
+
+  * scripts <0|1> (default: 0)
+    - 0: normal teamplay
+    - 1: scripted teamplay
+
+  * escore <0|1> (default: 1)
+    - 0: original AQ scoreboard
+    - 1: enhanced Espionage scoreboard
+
+  * e_voteWait <secs> (default: 120)
+    - Number of seconds between successive vote requests by a player
+
+  * e_mustVolunteer <0|1> (default: 1)
+    - 0: anyone can be special player
+    - 1: a player must 'volunteer' to be a special player
+
+  * allow_vote <0|1> (default: 1)
+    - 0: voting is disabled
+    - 1: voting is enabled
+
+  * sv_author <0|1> (default: 0)
+    - 0: normal mode
+    - 1: author mode - player spawn locations are visible, 'moveto' and 
+          'movespawn' commands are enabled
+
+4.  What's Different
+
+  There are many new and exciting features in AQ: Espionage:
+
+  New radio sounds for both female and male are implemented
+  Automatic sounds for when you capture/return/assassinate
+  Bonus points for capturing, assassinating, defending, harrasing 
+    bodyguards, or invading
+  Teammates get small bonuses if someone on their team captures
+  HUD indicator for 'special' players (ie: leader, package carrier)
+  Door kicking enabled, if some chump is blocking a door with their 
+    body, just jump kick the door!
+  You can ignore and unignore players (look in Total Commands list for 
+    more info) 
+  HUD display to tell you when you might respawn. This display is located 
+    under frag count 
+  There are several respawn options that can be set up differently per team:
+    - instant respawn (normal DM click-to-spawn)
+    - timed respawn (the HUD indicator shows how many seconds left till 
+        respawn)
+    - periodic respawn (the HUD indicator shows how many seconds left till 
+        respawn)
+    - percentage respawn (the HUD indicator shows the percentage of your 
+        team in DEAD mode)
+  Dead people can talk to the living if respawning is enabled, but dead 
+    people can only chasecam their teammates (no free flight)
+  Stealth Slippers are beefed up.  User doesn't receive the 'limp mode' 
+    walk when they get shot in leg.  User also gets less falling damage and 
+    can fall down farther.  
+  
+  Other features have been added to fix standing AQ bugs, accomodate 
+limited network bandwidth and help prevent client overflows:
+
+  Weapons and item entities that are dropped have a 10 or 30 second 
+    life-span
+  Out of ammo scroll bug fixed (Thanks goes to Mike from AQ:G)
+  Long bleeder died bug fixed
+  Opening the menu cuts off the MOTD refreshes 
+  Optimized network traffic for weapon sounds
+        
+5. Rules
+
+  The rules of the game are defined by the scenario made for that map.  
+Generally, most scenarios fall under these categories: 
+
+  CTB - [Capture The Briefcase] two briefcases and two bases. One BC spawns 
+        at one base, and the other spawns at the other.
+    
+  ATL - [Assassinate The Leader] two randomly selected players become the 
+        leader of each team.  The first team to assassinate the enemy
+        leader wins.
+    
+  FRD - [Find, Retrieve/Defend] a randomly selected player on one team is 
+        chosen to pickup a package from a fixed location, and deposit it at 
+        another fixed location.  The enemy team's objective is to 
+        assassinate the randomly selected player.
+
+  ETV - [Escort the VIP] a randomly selected player on one team is chosen 
+        to be escorted to a fixed location to win. The enemy team must 
+        assassinate that randomly selected player.
+    
+  OFC - [One Flag Capture] two teams battle it out for a single package to 
+        bring to their base.  The package is spawned in a neutral location.
+
+  CNH - [Capture and Hold] teams vie for control of territories; holding
+        a territory for a certain period of time scores points
+    
+  Rules that exist in all variants of Espionage scenarios:
+    1) Anyone who is picking up the package needs to hold the handgun or knife
+    2) A CNH target must be occupied for two seconds in order to take control
+
+
+6.  Scenarios
+
+  Scenarios are the heart of AQ: Espionage. Scenarios are activated by
+setting the 'scripts' variable to 1, as described in section 3 above.
+If scripts is set to 0, gameplay will be regular teamplay (or deathmatch if 
+teamplay is set to 0).  
+
+  The AQ: Espionage release includes several sample scenarios that operate
+on a range of maps. Some scenarios (in particular those that don't require
+map coordinates) may be used with any map. Espionage will try to follow
+the map rotation specified in action.scp as best it can. If a map is
+manually loaded (e.g., via the 'map' command) that is not in the rotation, 
+gameplay reverts to regular teamplay for the duration of that map. If map
+is manually loaded that IS in the rotation, then the first scenario in
+the rotation associated with that map is loaded.
+
+  You are encouraged to make your own scenarios; however, the AQDT strongly 
+urges you not to make scenarios that have poor playability.  Also, it is not 
+recommended that you drastically modify the scenarios that we provide.  When 
+we say 'drastically' we mean that it's ok to change the team names, and 
+skins; but take care in modifying the goal spots and other 'drastic' things.
+If you do make such drastic changes, please change the name of the scenario 
+to minimize confusion.
+
+ If you do not wish to create your own scenarios, just make sure you have 
+action.scp in /quake2/action, and all the *.scn's in /quake2/action/scenes 
+directory and you're set. (Dont forget to have scripts 1 in your startup 
+file!).  If you DO wish to make your own scenarios, there is a 
+/quake2/action/devel directory which has a devel.txt document on how to 
+create scenarios, debug them, example files, and other server side options.
+
+</PRE>
+--AQDT <A HREF="http://aqdt.fear.net/">http://aqdt.fear.net/</A><BR>
+
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>

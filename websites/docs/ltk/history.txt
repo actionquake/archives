@@ -1,0 +1,145 @@
+/*
+ * $Header: /LTK2/history.txt 6     29/02/00 22:59 Riever $
+ */
+						License To Kill 2 (AQ2) History file
+						====================================
+[ + added, - changed, # bugfix, * release ]
+
+0.01Beta	+ Complete AI and Movement Rewrite!
+			+ BS_ROAM state support
+			+ Visible enemy detection
+
+======================= LTK2 BEGINS HERE ================================================
+
+1.22		- Changed weapon selection code to detect if no weapon is available.
+			+ Enabled knife throwing.
+			+ Enabled kick attacks if no weapon available and close enough.
+			# Stopped bots leaping off rooftops with knives!
+			+ Knives are now seen as collectable items.
+			- Increased sniper accuracy at lower skill levels.
+			+ Corner collision detection and avoidance code added.
+
+1.21(Rel)	- Jump code changed to allow LTK to navigate better.
+
+1.20(Exp)	- 'radioteam treport' will now get a vocal response from bots
+			# Door support greatly improved, old route files will not work!
+			- debug mode is now 'sv botdebug on/off' not acedebug.
+			+ New command 'sv shownodes on/off' will display only visible nodes.
+			- Nodes displayed for only 1 minute during route creation.
+			# Fixed 'ltk_routing' usage, wasn't initialising properly.
+			- Updated routefile version to 4 - this forces creation of new routes.
+			+ 'sv shownodes on/off' node visibility command
+
+1.12(Rel)	- Further modification to help bot reactions to being shot in the back -
+				this one seems to be working now.
+			- CanMoveSafely() altered to return 'false' by default 
+			# Stopped jumping/crouching with sniper rifle.
+			+ Added new CVAR 'ltk_routing' set this to 1 to create new route files,
+				or update old ones.
+			- Temporarily enabled bot route creation while this cvar is set.
+			# Added jump checks with is_jumping to fix jump node creation.
+			+ Taught bots to send radio messages to report in and when badly hurt.
+			- Slight modification to door handling code when stuck. (needs more work)
+			+ Basic Radio Gender handling added for bots.
+			# Fixed ItemList to be in the right order!
+
+1.11		- Altered code to prevent 180 degree spin attacks when shot in back.
+
+1.10		+ Added William's (CGF) fog support for OpenGL 3D cards.
+			- Bot vision restricted by fog.
+			# Code added to prevent anyone creating bad links upwards!
+			- Altered maximum "drop" distance to 180 QU.
+			- Increased maximum nodes in route file to 1200
+
+1.01		+ Light Level is now used when looking for enemies. The light level is
+				determined by the engine, not my code! Some weird values at times!
+
+1.00 rel.	# Fixed ladder node creation
+			+ "ltk_showpath [0/1]" CVAR will display bot path selection information.
+			+ New ladder detection function.
+			- Distance checks added for ladder climbing.
+			+ Special handling to reduce velocity at ladder mount point.
+			+ Ledge handling code allows jumping up small obstacles.
+			# Air Walking code found and removed.
+			- Ladder climbing code refined and working.
+			- Item selection weighting altered.
+			# Route files with less than 100 nodes will not be saved. This is to prevent good
+				route files being overwritten when the game glitches at load-time and quits.
+			! ** Updated route file version to 3, old routes will not work! **
+
+0.16 beta	# Fixed respawning in deathmatch games. (sorry!)
+			- updated internal version number (forgot last time!)
+			+ new CVAR "ltk_chat [0/1]" on by default, set to 0 to disable bot chat.
+			+ New config file added to set bot names, skins, teams.
+			+ Config files can now be set for individual levels.
+			- Stopped bot route creation - too many bad links from them!
+			- Changed jumping code to help them get over desks, ledges, etc.
+			+ Weapon and Equipment selection added to config file for Teamplay.
+			- Modified Wander code again (needs a complete rewrite!)
+
+0.15 beta	- Re-enabled mode and damage prints.
+			- Re-enabled user bot naming on spawn
+			+ Bots can now init and load the route file if it exists.
+			+ Special initial movement handling for TeamPlay games. (Anti-Centipede code)
+			+ Random weapon and equipment choices for Teamplay now working.
+			# Fixed Teamplay spawning bugs so teams now balance.
+			# Stopped bots following or targetting spectators in Teamplay.
+			- Bots now check if firing will harm a teammate.
+			# Bots now disconnect correctly when removed.
+
+0.14 beta	- New path and route system is now in place and working
+			- Extra checks added to node creation code to make sure LOS exists
+			- ** Node file version number updated to 2 - old files won't be used **
+			+ More range breaks added for weapon selection
+			+ LOS checks added for "hurt by enemy"
+			- Items now just as likely to be selected as a long range goal
+			+ Allowed bots to create their own nodes and links.
+			+ pathList initialised on spawn to forestall errors.
+			+ Bot "speech" added at spawn and respawn.
+			- Bots now remember who killed tham after a respawn.
+			# Node linking code altered to avoid more bad links
+			+ Real random names added for bots (made up "on the fly").
+			+ 'Sindarin' nameset added to standard name set.
+			- Modified combat code to stop crouching etc., beyond a certain range.
+
+0.13 beta	- Bots now only see things in front of them.
+			- Changed enemy selection to fight closest enemy
+			# HC reloads fixed (ammo storage was different)
+			+ All new path and optimisation code in place but not used yet!
+			+ Bots react when shot in the back if not already under attack.
+			- Bots do not break off combat if you're too close
+
+0.12 beta	# Found the MP5 reload problem
+			- Migrated the new MP5 code across all the special weapons to prevent reload problems
+			+ Bots will now automatically "balance" teams if you don't specify one.
+			+ Bots will now look for ammo if not at max clips.
+			+ Ammo and Weapon nodes added to node tables
+			+ Added LTK version information to compiled code. Use "ltkversion" to access.
+			~ temporary change installed for centipede effect (bot delay time)
+
+0.11 beta	- Changed all bprints to safe_bprints to prevent overflows
+			! Updated all code to use the 1.52 Action Quake source
+			+ Added new node storage structure with dynamic linking
+			# Nodes are now created after changing to a new level at timelimit/fraglimit
+			+ DOOR nodes are automatically created for rotating doors
+			+ New debug command "shownode NN" added
+			- Bots can now handle "rotating" doors correctly
+			- Increased time of random door opening attempts until all the door code is in
+			- Changed the ledge checking code to discourage leaping off buildings
+			- Removed the main cause of the centipede effect for teamplay
+			- altered MP5 code to check for reload correctly
+			- Node tables are now *.LTK and are saved in "./terrain/" to match CGF.
+			+ Simple weapon choice code included for longer range shots
+
+0.10 beta	+ "ltk_skill" cvar added. Takes value from 0 to 10 (default 10) to modify aiming
+			- Modified LTK aiming to take skill into account
+			- Changed pickup code to look for dual pistols
+			+ Weapon state is now checked before trying to fire so that reloads can happen
+			+ Tactics changed to allow only forward movement if using knife
+
+0.02alpha	+ Individual weapon checks to allow switching to multiple weapons
+			+ Working on firing through "windows" problem (not solved)
+			- Changed route finding functions to detect windows
+			* Better weapon usage justifies a second release.
+
+0.01alpha	* Initial release of AQ2 source / ACEBot combo

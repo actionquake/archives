@@ -1,0 +1,35 @@
+
+  Action Quake 2
+
+  http://action.action-web.net/
+
+
+  Please read the _docinfo.txt file in the "action/docs/" folder.
+
+  Please read the layout.txt and pak1.txt files in the "action/" folder.
+
+  Please read the _maplist.txt file in the "action/maps/docs/" folder.
+
+  BeOS servers are available in the "action/servers" folder.
+
+
+
+  Quake 2 port for BeOS:
+
+  http://www.bedepot.com/products/be/quakeii.asp
+
+
+  Quake 2 installation Guide for BeOS:
+
+  http://beos.about.com/compute/beos/library/weekly/aa020101.htm
+
+
+  Quake 2 mod ports for BeOS:
+
+  http://reality.sgi.com/rhess_engr/beos/q2/
+  http://192.82.208.21/rhess_engr/beos/q2/
+
+  BeOS gaming website:
+
+  http://begamer.com/
+

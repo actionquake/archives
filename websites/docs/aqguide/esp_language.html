@@ -1,0 +1,121 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake:Espionage Scripting Language</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+<H1>Action Quake:Espionage Scripting Language</H1>
+
+<PRE>
+======================================================================
+
+ BASIC FORMAT
+
+ This document gives a semi-formal specification of the scripting
+language used in AQ:Espionage. Please look at the example scenario
+files to see how the language is used.
+======================================================================
+(* means optional field)
+
+action.scp:
+
+MAPS
+{
+  &lt;map name> &lt;scenario name>
+  ...
+}
+#include "scenes/scenario1.scn"
+#include "scenes/scenario2.scn"
+....
+
+
+x.scn:
+
+SCENARIO &lt;scenario name>
+{
+  * CONTINUOUS
+  TARGETS
+  {
+    ....
+  }
+
+  TEAM &lt;team name>
+  {
+    SKIN &lt;skin name>
+    weapons (see below)
+    * INITIAL_SPAWN &lt;target name>
+    GOALS
+    {
+    }
+  }
+}
+
+weapons:
+WEAPONS + MP5 + M3 + SSG - M4 + AKIMBO + KNIVES - HC
+ '+' means the weapon is automatically added to the inventory
+ '-' means the weapon cannot be chosen
+
+respawn:
+    RESPAWN 
+    * INSTANT | TIME &lt;time> | FRACTION &lt;percent>
+    * INITIAL_SPAWN | AWAY_FROM &lt;target name> &lt;spawn spots>
+
+Targets:
+
+TARGET_PLAYER_RANDOM &lt;target handle> 
+   TEAM &lt;team name> SKIN &lt;special skin> 
+   * weapons (as above)
+
+TARGET_AREA &lt;area handle> 
+   &lt;lower corner point> &lt;high corner point> 
+   * MODEL &lt;model name>
+
+TARGET_OBJECT &lt;object handle>  
+   MODEL &lt;model name> PIC &lt;inventory pic>
+   * FOLLOW | GLOW | VWEP &lt;vwep name>
+
+TARGET_LOCATION &lt;location handle> 
+   &lt;point>
+
+TARGET_RANDOM_SPAWN &lt;location handle>
+
+TARGET_FLAG1_SPAWN &lt;area handle>
+   * MODEL &lt;model name>
+
+TARGET_FLAG2_SPAWN &lt;area handle>
+   * MODEL &lt;model name>
+
+Goals:
+
+ASSASSINATE &lt;target handle>
+
+ELIMINATE &lt;team name>
+
+ESCORT &lt;target handle> 
+   TO &lt;area handle>
+
+RETRIEVE &lt;object handle> 
+   FROM &lt;location handle> TO &lt;area handle>
+   * BY &lt;player handle>
+   * WITH &lt;object handle>
+   * TOUCH_RETURN | AUTO_RETURN &lt;time>
+
+ACQUIRE &lt;object handle> 
+   FROM &lt;location handle>
+
+HOLD &lt;area handle> 
+   &lt;time>
+
+HOLDALL &lt;overall handle>
+   &lt;time> &lt;area handle 1> &lt;area handle 2> ....
+</PRE>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>

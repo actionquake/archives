@@ -1,0 +1,20 @@
+
+    The files in this directory:
+
+
+  _docinfo.txt ----- You're reading this file
+
+  acebot.txt -- ACE Bot codebase information.
+
+  history.txt -- History of LTK revisions.
+
+  LICENSE.TXT -- License agreement.
+
+* Licensed To Kill For Action Quake II.doc -- MS Word formatted instructions.
+
+* LTK2Bots.txt -- Instructions for using LTK Bots.
+
+
+
+    Please read at least the ones with the * in front.
+

@@ -1,0 +1,26 @@
+
+    The files in this directory:
+
+
+  _docinfo.txt ----- You're reading this file
+
+* action.txt ------- Startup info, read this first to learn about Action
+                     Quake 2!
+
+  extras.txt ------- Extra credits for contributors not on the A-Team
+
+* radio.txt -------- Commands that allow you to use the RADIO, 
+                     please read this!
+
+* readme100c.txt --- Readme file for version 1.0c 
+                     (useful information inside)
+
+* readme152.txt ---- Readme file for version 1.52 
+                     (useful information inside)
+
+  versions.txt ----- Changes in versions up to version 1.52
+
+
+
+    Please read the ones with the * in front.
+

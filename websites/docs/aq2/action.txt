@@ -1,0 +1,215 @@
+
+Introduction
+
+	Action Quake2 is a Quake 2 modification where stealth, strategy, ammo conservation, 
+and accuracy are what matter.  Rather than who can get to the BFG fastest.  Try it out, see 
+how you like it, we think it's probably the most fun we've ever had playing Quake, but we're
+biased.  
+
+	Below you will find all the information you need to get fragging.
+
+
+Getting Started
+
+	After installation you should load up a game and get tour configuration set up.   
+There are a few commands you need to know and bind, I will go into details about each one a 
+bit later:
+
+General Commands
+----------------
+opendoor     : It opens doors for you.
+bandage      : Bandages your wounds.
+reload       : Discharges current clip and loads a new one.
+drop item    : Drops your current special item, if you have one.
+drop weapon  : Drops your unique weapon, if you have one.
+weapon	     : Changes mode of your current weapon, if applicable.
+use special  : Changes to your Unique weapon
+
+Teamplay Commands
+-----------------
+id	     : Disables or turns back on the identity command 
+               (note: this only works for teammates or when you're dead)
+team X	     : In teamplay changes your team from team 1 or team 2
+inven	     : In teamplay changes what weapons you bring on the field...
+
+Be sure to read radio.txt to use the radio commands.
+
+
+Action Quake2 may differ from what you are used to; this is how we planned it.  
+
+opendoor  *  Doors, for one, do not open automatically, like in Quake 2.  Instead you will 
+have to actually open the door with the 'opendoor' command that I told you to bind.  This 
+is to encourage thoughtful, strategic play, rather than the 'run, shoot' matches Quake 
+games often turn into.  
+
+bandage * Another thing that might take some getting used to is our unique damage code.  
+Instead of taking a set amount of damage, wounds are actually inflicted on regions of your 
+body.  While head wounds are almost always fatal, some wounds will continue to bleed and 
+create other adverse effects.  To stop the bleeding and any other effects of the wound 
+simply hit your 'bandage' key, but beware; bandaging takes six seconds, during which time 
+you cannot fire.  There is no way to regain lost hit points, so try not to get shot.
+
+reload * This empties your gun of all rounds currently in it and loads a new clip.  Ammo is 
+scarce so be careful with this one. 
+
+drop item * This is simple, it drops whatever special item you currently have.
+
+drop weapon * Also simple, drops your unique weapon.
+
+weapon *  The sniper rifle comes equipped with a high powered visible light scope.  It has 
+three lenses to accommodate your sniping needs.  1x, 2x, 4x, and 6x, the 'lens' command 
+cycles through them.  Also changes the pistol between fully and semi-auto modes. For the knife,
+this switches between slice and throw modes. For the Mp5 and M4, this changes between 3 round
+burst mode and full automatic mode...
+
+	One other quick reminder, fall damage has been greatly increased in this mod, so 
+don't go jumping out of any 3rd story windows.
+
+
+
+The Weapons
+	
+	The heart of any mod, the big guns. 
+
+The Knife
+	The SOG-37 is the knife of choice for the Navy SEALs, and it is for you as well.  
+Killing swiftly and silently this is good is good in close quarters combat as well as when 
+you run out of ammo. You can also throw them, increasing damage!
+
+The Pistol
+	The H&K Mk23 pistol is the standard side-arm used by SpecOps units world-wide, and 
+with good reason.   A single shot to the head is enough to take down anyone, and unless 
+your opponent is wearing a vest a few shots to the chest area are also quite fatal.
+	Many people prefer this weapon above all others simply because it is reliable, 
+accurate and deadly.  One thing to be aware of when using this gun is its range, while it 
+retains much of its power at close range it lacks punch at very long ranges.  Ammo comes in 
+clips of 12 rounds, but you can only carry two extra clips at a time.
+	Use 'weapon' to switch it to semiautomatic. This increases accuracy at the cost of
+fire rate.
+
+Akimbo Pistols
+	Kill somebody, get another Mk23.  'Nuff said.
+
+The Shotgun
+	The old standby, the M3 Assault Shotgun is perfect in that medium range fighting.  
+It carries 7 rounds that must be reloaded one at a time.  This one functions much the same 
+as the Quake 2 shotgun, with one obvious difference, power.  One good, clean shot can take 
+anyone down, and even grazing hits will hurt them.  The knock-back from this baby is 
+impressive to say the least, makes it perfect for blasting people off a roof or out a 
+window.  You can carry 14 shells at a time, plus whatever is in the gun itself.  This 
+weapon is unique and there is only one on the level.  You can only carry one unique weapon 
+at a time.
+
+The Sub-Machine Gun
+	Although wildly inaccurate the MP5/10 more than makes up for it by shooting very 
+fast.  Less powerful than the pistol it's quite useful when clearing a room.  It holds 30 
+rounds per clip and you can carry two extra clips at a time.  Reload time is the same as the 
+pistol. This weapon is unique. Use 'weapon' to switch to 3 round burst mode and increase accuracy.
+
+The Sniper Rifle
+	A Sig Sauer SSG 3000 fitted with a powerful scope, this gun is not to be trifled 
+with.  Although terribly inaccurate if shot from the hip, it is deadly when sighted and 
+aimed properly.  The scope can be switched from 2x, to 4x, all the way down to 6x.  The 
+rifle has a 6-round box attached that must be reloaded one round at a time.  Bullets come 
+in containers of 10, and you can carry up to 20 extra rounds. This weapon is unique.
+	Try hitting reload repeatedley while reloading. It will put more than one in at a time.
+
+The Assault Rifle
+	This is a special issue M4, basically a scaled down version of the M16.  As you 
+would expect it is accurate and deadly.  The rounds are also penetrating so they actually 
+pass through the victim and can hit people behind him.  It carries 24 rounds per clip but 
+only one extra clip may be carried at a time. Use 'weapon' to switch to 3 round burst mode
+and increase accuracy.
+
+The Hand Cannon
+	Word to the wise; don't get in front of this thing.  Basically a sawed off 
+double-barrel shotgun it's spread is wide enough to kill just about anyone getting too 
+close.  However, this benefit causes the gun to become nearly useless at long and medium 
+range.  It uses the same ammo as the shotgun but only holds two shells at a time. This 
+weapon is unique.
+
+The Grenades
+	If you see an M26 Frag Grenade thrown you had better take cover fast. Even if it 
+doesn't kill you it is liable to blow you out a window or break your legs.  Of course the 
+one who threw it is just as susceptible to it's effects, and impatient handling of these 
+has led to more than one player blasting himself.  You can only carry 2 at a time, so use 
+them wisely.
+	Duck to reduce damage by this sucker by half. Use 'weapon' to increase your throwing
+range...
+
+
+
+The Items
+
+	Akin to the runes from CTF these items can be held in addition to your unique 
+weapon, making for some very interesting combinations.  You can only carry one item at a 
+time, but can drop your current item by using the 'dropitem' command.
+
+The Kevlar Vest
+	All shots to your chest do no damage, however, you are still knocked back and can 
+be shot out a window.  The grenades, shotgun, knife, and hand cannon can still penetrate 
+the vest however, and a well placed shot from any other weapon will do damage as normal.
+
+The Silencer
+	The Pistol, MP5, and Rifle all become 'silenced'.  They give no muzzle flash and 
+make only the tiniest noise.  This and the sniper rifle makes for a very dangerous foe.  
+Takes a few moments to put on a weapon.
+
+The Laser Sight
+	Projects a beam of light from the tip of your gun.  This not only increases you 
+ability to aim the weapon; it also increases the accuracy o the weapon.  Don't let the guy 
+with the MP5 get this item.  This also takes a few moments to install.
+
+The Stealth Slippers
+	These finely crafted silken slippers will muffle your footsteps, making you silent 
+as a cat. Long falls and other activities still make noise.
+
+The Bandolier 
+	This item allows you to increase your max clips per weapon.
+	 
+
+Semi-FAQ
+
+Q:  When I jump off the building I keep dying, what gives?
+A:  Fall damage has been increased greatly in Action Quake2.  Really, how impressed would
+    you be if you shot that guy out the window, only to watch him scamper off?
+
+Q:  I'm losing life and it won't stop!  What gives?
+A:  You are bleeding, bandage up by typing 'bandage' at the console.  I suggest binding a 
+    key to do this for you.
+
+Q: I died in one hit from that guy!  What gives?
+A: He's not cheating, he probably shot you in the head.  Try and do it back to him.  There, 
+   feel better?
+
+Q: I'm having trouble moving!  What gives?
+A: You are limping, bandage up.
+
+Q: Where do I get more health?  I'm at 3 life!
+A: You don't.  Don't worry about it though, you are still as lethal at 3 life as you are at 
+   a 100.
+
+Q: This game is great!  Why doesn't it have team play or CTF? 
+A:  It will, look for it in the next release.  This is a beta after all.
+
+Q:  Why does this game cater to campers?
+A:  We don't think it does, but it certainly isn't a normal game of Quake.  If there is a 
+    camper that is bugging you, toss a grenade at him.
+
+Q:  Any more questions I should ask?
+A:  Not any I can think of, but if anyone does have any questions, game play related or 
+    otherwise, don't hesitate to write us at ateam@telefragged.com
+
+
+Contact
+
+	The alien looks like Jodie Foster's father.
+
+	Oh, wrong Contact, sorry.
+
+	
+WWW  		http://action.telefragged.com
+EMAIL		ateam@telefragged.com
+
+
+Copyright The A-Team 1998

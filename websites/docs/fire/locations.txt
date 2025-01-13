@@ -1,0 +1,29 @@
+Locations description info
+==========================
+If you've got this file, then you've got the locations mod built into whatever mod this is. (Does that make sense? Nope, oh well)...
+
+Anyway, this text file basically tells you how to create your own Locations files for any map you wish. If you have access to a server, then you can get these customised locations files uploaded to the servers locs directory and then when you join the game it will load your own locations files for you.
+
+First, we'll go through the commands and methods used for the in game editor. Before you can use any of these commands you must first move the game into edit mode by typing "editmode" at the console (no quotes). This should move you into editmode, if it doesn't then make sure there is no one else on the server. Editmode only works when there is one player on the server.
+
+When in edit mode you will see a list of all the current locations (if theres none, then no locations will be displayed). Use the inventory prev/next buttons to scroll through this list. Press your help/score key (default F1) to change the list to display the current location name and details. When the list is displaying the current location name, you can use the inventory prev/next buttons to move straight to other locations. This is important as you must first move to a location (using the menu in this way) to select the location before you can remove it, rename it, update it etc..etc...
+
+The commands are...
+addlocation x - adds a location named x at your current position
+removelocation - removes the current location (shown at the top of the screen)
+updatelocation - changes the locations current position, to your current position
+renamelocation x - renames the current location to x
+listlocations - toggles the display from all locations to current locations and vice versa
+
+When you have finished your file exit edit mode by typing edit mode again. The file will now be in your <modname>/locs/ directory. If you wish to create a default file for the server then simply name yourself default before joining the server. Default files are loaded for any client who doesn't have a custom locations file.
+
+Oh btw, to use these locations descriptions simply include a %L bit in your say_team commands....like "say_team I'm %L" and it'll say "I'm near the big tower" when your near the big tower etc...
+
+Hope this all makes sense....kinda ;-)
+
+Write to me if you've got any ideas for alterations/improvements.
+
+rab@games.theplanet.net
+
+-- 
+Rab AKA TeenyBoppa[FSB]

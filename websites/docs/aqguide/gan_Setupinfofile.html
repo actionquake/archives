@@ -1,0 +1,291 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake:Gangsters Configuration Information</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+<H1>Action Quake:Gangsters Configuration Information</H1>
+
+<PRE>
+		ACTION QUAKE:GANGSTER! setup guide
+
+###############################################################################
+Table of Contents
+###############################################################################
+1.  Introduction
+2.  Installing
+3.  Configuring
+ 3.1 Configuring "gangsters.ini"
+ 3.2 Configuring "maplist.ini"
+ 3.3 Configuring "rules.txt"
+ 3.4 Configuring "motd.txt"
+4. Starting the servers
+ 4.1 Starting an AQ:G! server
+ 4.2 Running more than 1 server
+ 4.3 The bounding box fix
+App A: Files
+App B: Links
+App X: Version control
+
+###############################################################################
+1. Introduction
+###############################################################################
+Welcome to ActionQuake:Gangsters!, aka Gangsters!
+
+This text file is meant to be an aid in installing an AQ:G! server, altough
+it presumes that YOU are familiar with running Q2 servers already. If not,
+check out 'Appendix A' for links to FAQs and sites that might be of help.
+
+Action Quake:Gangsters! is an addon to Action Quake, but will still let you
+be able to play ordinary Teamplay and Deathmatch as well as Gangsters!  And
+it even adds a few new options to regular TP and DM.
+
+###############################################################################
+2. Installing
+###############################################################################
+There are a few files that you need to have on the server, but they are
+mostly configuration files. And 95% of those files will go into the
+gangsters directory.
+
+Okay, let's copy those files to where they belong (although they should extract
+into the correct directories themselves).
+
+The following files should be copied to "quake2/action/"
+aq2.ini 
+maplist.ini
+gamei386.so/gamex86.dll (dependent of your OS)
+
+The following files should be copied to "quake2/action/gangsters/"
+AQG-Readme.txt
+Setupinfofile.txt
+gangsters.ini
+maplist.ini
+motd.txt
+rules.txt
+aqg_<mapname>.ini 
+
+All files except the "aqg_<mapname>.ini" can and should be modified. If you
+want to modify the "aqg_<mapname>.ini" please read an appropriate tutorial
+on the subject.
+And don't touch the "gamei386.so" or "gamex86.dll", that's the binary files :)
+
+###############################################################################
+3. Configuration
+###############################################################################
+The two ini files that are copied to the "quake2/action/" directory are
+optional and not needed if your not planning to run regular TP/DM and want
+to use some of the new custom options available like mapvoting, limited
+chasecam and auto zoom-out on running snipers. 
+
+"aq2.ini" (used in regular TP) is the AQ2 version of "gangster.ini" (used in regular TP) and the
+two "maplist.ini" files are identical.
+
+-------------------------------------------------------------------------------
+3.1 Configuring "gangsters.ini"
+-------------------------------------------------------------------------------
+Map voting options
+
+use_mapvote:0/1 	
+	- Turns map voting off/on. 0=off and 1=on
+
+mapvote_min:1
+	- Minimum number of clients before map voting is allowed.				 
+
+mapvote_need:0
+	- Percent of clients required to vote (0-100)
+
+mapvote_pass:50
+	- Percent of yes votes required to pass the vote (1-100)
+
+# Misc custom options
+random_maps:0
+	- Set to "1" to enable random map rotation of the maps listed in
+	  "maplist.ini"
+
+limchasecam:1
+	- Limit the chasecam in teamplay valid values are 0-2, where 0 is
+	  off.
+	
+penjump:0
+	- Penalize jumpers.  Set to "1" to enable it, this will modify the
+	  spread while you're jumping.
+
+penzrun:0
+	- Penalize snipers when running.  Set to "1" to enable it.
+	
+bodylimit:8
+	- Limit the number of dead bodies lying around. This will reduce lag
+	  for modem players.
+
+# specific AQG variables
+locationlimit:40
+	- This is the maximum number of locations that can be read
+        from a map ini-file (including spawn and flag points)
+
+# these overrides the settings in action.ini, makes it possible to have TP &
+# AQ:G! running on the same server with the different skins/names for the
+# teams on each server 
+
+team1_skin:male/villain
+	- The model/skin that team1 will use.
+
+team2_skin:male/thug
+	- The model/skin that team2 will use.
+
+team1_name:Villains
+	- The name of team1
+
+team2_name:Thugs
+	- The name of team2
+
+leader1_skin:male/shaft
+	- The model/skin the boss of team 1 will have
+
+leader2_skin:actionmale/thugboss
+	- The model/skin the boss of team 1 will have
+
+leader_both_min:0
+	- This should be less than (or equal to) the "maxclients"   
+        variable. If set to '0' then only 1 boss will be used all
+	  the time, if any other 'value' <= 'maxclients' will result
+	  in 2 bosses being used when the number of clients equals the
+	  'value' you have set.
+
+leader_random:1
+	- If set to '1', will pick a random player on the team to be a
+	  leader if set to '0' will pick one of the 3 players on the
+	  team with most frags.
+
+leader_hero:0
+	- Set to "1" to enable hero-mode for the leader(s).  If set,
+        the leader will become an action hero and have better aim than
+        the other players.
+
+leader_respawn:0
+	- Set to "1" to enable respawn of dead players only if the
+        leader is at the home base.  The respawning still only happens
+        once a minute and the leader must be at the location at that  
+        time. 
+
+aqg_sounds:1
+	- Set to "1" to enable AQG sounds (including radio messages)
+	
+aqg_maplist:maplist.ini
+	- Set to the file that will be this servers maplist, default is
+	  "maplist.ini"
+
+-------------------------------------------------------------------------------
+3.2 Configuring "maplist.ini
+-------------------------------------------------------------------------------
+In this file you will just list each map that you would like to have in rotation
+and be able to vote on. Each map name on seperat lines.
+
+Example "maplist.ini":
+
+# Use # at the begining of lines to make comments in the file
+#
+urban
+blockwar
+riot
+
+-------------------------------------------------------------------------------
+3.3 Configuring "rules.txt"
+-------------------------------------------------------------------------------
+This text is displayed "as is" when a client issues the rules command.
+So feel free to write what ever you like. There are some limits though, all
+Quake2 font limitations are still valid. And the amount of lines that can
+be displayed and also the lenght of the lines to be displayed is limited to the
+same as Q2/AQ2.
+
+-------------------------------------------------------------------------------
+3.4 Configuring "motd.txt"
+-------------------------------------------------------------------------------
+
+This is the motd that will be displayed when you enter a AQ:G! server.
+The same limits as for the ordinary AQ2 motd is in use.
+
+###############################################################################
+4. Starting an AQ:G! server.
+###############################################################################
+
+Now that we have configured AQ:G! to our liking we can start it the 
+sameway as any other AQ TP server. Except that you should "+set Teamplay 2"
+instead of "+set Teamplay 1"
+
+-------------------------------------------------------------------------------
+4.1 Starting an AQ:G! servers
+-------------------------------------------------------------------------------
+Basic Example:
+
+quake2 +set game action +set teamplay 2 +set noscore 1
+
+(If you dont understand this please check the links section for places you 
+can find information on running a server.
+
+
+-------------------------------------------------------------------------------
+4.2 Running more than 1 server
+-------------------------------------------------------------------------------
+As of version 0.8b of AQ:G! it is possible to run more than one server from
+the same place with different configurations. This is achived buy specifying
+what configuration files should be used for each server. There is a new
+server variable you can use in the startup line or you regular server.cfg
+file. It is "aqg_ini"; to start a second server with another configuration:
+
+quake2 +set game action +set aqg_ini AQGserver2.ini +set port 27007 +set teamplay 2
+
+Now you will have a second AQ:G! server that runs on port 27007 on the same
+machine as the first one, and with the possibillity for a totally different 
+configuration.
+
+-------------------------------------------------------------------------------
+4.3 The bounding box fix
+-------------------------------------------------------------------------------
+Start the server with the "aqg_bb" variable set to "1" to enable this.  E.g.,
+
+quake2 +set game action +set aqg_bb 1 +set teamplay 1 
+
+Now you will have a TP server running where the bounding box is now the same as
+the model (ie. you hit where you aim).  This bug in AQ2 is due to the fact that
+the bounding box in Q2 is smaller than most models.  Models supported are:
+
+	actionmale, aqg_actionmale, aqg_velvetj, female, m, male, messiah,
+	oddjob, sas, syndey, terror
+
+Other models will use the "male" bounding box.  The default value of "aqg_bb"
+is "0" which means that the standard AQ2 bounding box will be used.
+
+###############################################################################
+Appendix B: LINKS
+###############################################################################
+
+AQ:G!			<A HREF="http://www.planetquake.com/gangsters">http://www.planetquake.com/gangsters</A>
+AQ 			<A HREF="http://action.action-web.net">http://action.action-web.net</A>
+Q2 server FAQ		<A HREF="http://www.planetquake.com/q2-serv">http://www.planetquake.com/q2-serv</A>
+LinuxQuake		<A HREF="http://www.linuxquake.com">http://www.linuxquake.com</A>
+Wedges AQ site  	<A HREF="http://action.wedge.net">http://action.wedge.net</A>
+
+###############################################################################
+Appendix X: Version control
+###############################################################################
+
+Updated: 
+
+10.05.99 18:14 CET by Eyes
+08.05.99 16:45 CET by BC
+04.05.99 12:28 CET by Eyes
+07.04.99 19:46 CET by Eyes
+31.03.99 16:30 CET by Eyes
+
+Written by: Eyes[NW] and Black Cross[NL]
+</PRE>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>

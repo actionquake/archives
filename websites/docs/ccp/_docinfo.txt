@@ -1,0 +1,23 @@
+
+    The files in this directory:
+
+
+  _docinfo.txt ----- You're reading this file
+
+* actionlinks.txt -- Web links that are useful to Action Quake players.
+
+  credits.txt -- AQ2:CCP Team credits.
+
+  features.txt -- AQ2:CCP feature list.
+
+* linux.txt -- Configuration information and instructions for Linux.
+
+* macintosh.txt -- Configuration information and instructions for Macintosh.
+
+* quake2links.txt -- Web links that are useful for any Quake 2 players.
+
+  space.txt -- A listing of which files may be deleted if space is low.
+
+
+    Please read at least the ones with the * in front.
+

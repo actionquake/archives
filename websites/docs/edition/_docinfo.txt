@@ -1,0 +1,21 @@
+
+    The files in this directory:
+
+
+  _docinfo.txt ----- You're reading this file
+
+* adf.txt --- AQ:Edition ADF Location file information and instructions.
+
+  credits.txt -- AQ:Edition ADF Location file credits.
+
+  readme.ger -- Configuration information and instructions in German.
+
+* readme.txt -- AQ:Edition configuration information and instructions.
+
+* sounds.txt -- AQ:Edition new sounds instructions.
+
+  version.txt -- AQ:Edition version information.
+
+
+    Please read at least the ones with the * in front.
+

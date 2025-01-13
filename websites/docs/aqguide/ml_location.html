@@ -1,0 +1,82 @@
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>Action ML - Taking out the trash</TITLE>
+
+</HEAD>	
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=000000 TEXT=CCCCCC>
+<CENTER>
+	
+		<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=3 COLS=1 WIDTH="370" ><TR>
+		<TD WIDTH="370" BGCOLOR="#212121" >
+		<b>Mike's giude in making location files</b>
+		</TD></TR>
+
+		<TR>
+		<TD ALIGN=LEFT VALIGN=TOP WIDTH="370" BGCOLOR="#0A120D">
+		What are these so called location files?<br>
+		Well..they are a way for the players to report whre they are on the maps,
+		where they saw the enemy, killed an enemy, and so on.<br>
+		A location is a cubic area, and when you are within that area, and use
+		%L in your say or say_team message, the server will replace "%L" with
+		the name for that location "cube".<br>
+		Here is an example, "I'm %L" will be replaced with
+		"I'm at the constuction site"<br>
+		<br>
+		You can also use %S to report a location, but then it'll say the name of the 		location, where your crosshair aims. So you can say "Enemy spotted %S" and it
+		will say "Enemy spotted on the bridge" for example.<br>
+		<br>
+		The "cube" is defined with 6 numbers,
+		the first 3 is a point in the 3d space, that all maps are made in, and it's
+		also the center of each location cube, while the last 3 numbers, are width,
+		length and height from the center of the cube, that will define the boundrys
+		of the location.<br>
+		<br>
+		The location file, should be named the same as the map file is called , but 		with aqg as extension. ie. BLOCKWAR.bsp, should have a location file named 		"BLOCKWAR.aqg". It's important to use same chars as the mapname is made by, 		meaning, if the mapfile is all written with capitol letters, then that's what 		the location file should use too.<br>
+		<br>
+		To help you make these locations, i added a new client command, with 5 diffrent 		parameters to pass along to it.<br>
+		<br>
+		aqg_location 1<br>
+		aqg_location 2<br>
+		aqg_location calc<br>
+		aqg_location checkL<br>
+		aqg_location checkS<br>
+		<br>
+		"aqg_location&nbsp;1" marks the first position and "aqg_location&nbsp;2" the 		second position of the location cube. (see picture below)<br>
+		When these 2 corners have been marked, you use "aqg_location&nbsp;calc" to
+		display the 6 numbers, defining the location.<br>
+		<br>
+		<center>
+		<a href="location.gif">
+		<img width="300" src="location.gif"><br>
+		</a>
+		<a href="location.gif">Click picture to enlarge</a>		
+		</center>
+		<br>
+		<br>
+		-Tip-<br>
+		I set "logfile 1" before i do a calculation, to get the numbers saved in 
+		qconsole.log (in your action folder) so i then can just do a copy & paste
+		into my location file. I also type the location name i want, in the console
+		so it gets written into the logfile, and making it easier for me to remeber
+		what location cube, the numbers reprecent.<br>
+		<br>
+		<br>
+		"aqg_location&nbsp;checkL" and "aqg_location&nbsp;checkS" is used to be able
+		to echo the location that you're within, while floating around the game, 		without a round started.<br>
+		<br>
+		Also, if you use more than 40 location definitions in your location file,
+		you need to set the server cvar "locationlimit" to a higher number than 40,
+		which is default.<br>
+		</TD></TR></TABLE><p>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+</CENTER>
+<BR>
+</BODY>
+
+</HTML>

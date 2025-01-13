@@ -1,0 +1,77 @@
+Useful Action Quake-related websites
+
+Note: All the "action-web.net" can also be replaced 
+with "telefragged.com" if not working.
+
+
+Action Quake 2: Official Websites:
+
+http://action.action-web.net/ -- Client/Server 
+http://guild.action-web.net/ -- Models and Skins 
+http://aqmd.action-web.net/ -- Official Maps 
+http://aqmods.action-web.net/ -- AQ Spin-offs 
+http://aqservers.telefragged.com/ -- Official Servers 
+http://aq1.action-web.net/ -- AQ for Quake 1 
+http://ahl.action-web.net/ -- AQ for Half-Life 
+http://www.aq2zone.com/ -- AQ2 Zone, official AQ2/A-Team messageboards 
+
+
+Action Quake 2: Modifications of Action Quake:
+
+http://aqdt.fear.net/ -- Espionage, Lowlag, Tournament Edition, Arena 
+http://aqdt.fear.net/scenarios/ -- Espionage Scenarios 
+http://action.gametown.de/english/index.html -- Edition 
+http://gauntlet.telefragged.com/action/ -- Mister Brian's Capture the Briefcase 
+http://www.botepidemic.com/aid/cgf/ -- BOTs (to practice against, sorta like 
+                                       an online game on your own system) 
+http://www.planetquake.com/maxtron/ltk/ -- More BOTs (to practice against, sorta 
+                                           like an online game on your own system) 
+http://squadron.telefragged.com/aq2sp/index2.html -- Single Player Action Quake 2 
+                                                     (Quake 2 with AQ weapons) 
+http://www.babylon4.com/llamadome/ -- Enhanced control of the server for specific 
+                                      fights... knives or kicking for instance 
+http://www.algonet.se/~ml2/action/ml/ -- Action ML, anti-cheating modifications 
+                                         for servers 
+http://www.planetquake.com/eclipse/ -- Solaris x86/SPARC version of AQ2 
+                                       (files at download page) 
+
+
+Action Quake 2: News Sites:
+
+http://crossfire.warzone.com/aq2/ -- AQ News site 
+http://www.actionquake.com/6thfloor/ -- AQ info site 
+http://www.action-quake.de/ -- Action Quake DE, German Action site with information 
+                               and news (English version also available) 
+
+
+Action Quake 2: Informative Sites:
+
+http://proshop.fear.net/ -- Newbie/Info site 
+http://action.wedge.net/ -- Server config info for Linux mostly 
+http://www.actiongames.co.uk/tnn/ -- The Newbie's Niche (information, 
+                                     LTK route files, and other goodies) 
+http://www.pondscum.co.uk/ltk/ltkpage.htm -- Pondscum's LTK route file 
+                                             and information page.
+http://stunt.stomped.com/ -- Stunt site (demos and tips) 
+http://aw.telefragged.com/demoteam/ -- AQ Demo Team 
+http://aqdt.fear.net/rules.htm -- AQ IRC channel info 
+http://albert.zyxel.no/quake/ -- Norwegian Whalers, for some European action 
+
+
+Action Quake 2: Useful Utilities:
+
+http://planetquake.com/borderfield/amdi.htm -- It's MAP organization-related, 
+                                               good to have what with all the 
+                                               AQ maps out there 
+http://www.planetquake.com/borderfield/ -- It's MAP organization-related, good 
+                                           to have what with all the AQ maps out 
+                                           there (same as above) 
+
+
+Action Quake 2: Organized Ladders for Clan Competition:
+
+http://aql.telefragged.com/ -- AQL, Action Quake Ladder, competition between 
+                               online clans in an organized manner 
+http://www.actiongames.co.uk/aqsl/ -- AQSL, Action Quake Super League, 
+                                      competition between online clans 
+                                      in an organized manner 

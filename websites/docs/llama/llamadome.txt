@@ -1,0 +1,70 @@
+Action Quake 2 v 1.52/ Llama Dome 1.05
+
+This is the first draft of a readme file for the Llama Dome
+mod for Action Quake 2.  This version is based on the
+AQ 2 v 1.52 source code.
+
+Llama Dome is a server-side only mod.  It is designed to run
+with any standard Action Quake 2 server.  It is also possible
+to set the server settings so that this server functions
+exactly like a standard AQ 2 server (so why bother running
+the default when you can run this one?).
+
+Please have a look at the Llamadome website for reasonably
+up-to-date information about this modification at:
+
+	http://www.babylon4.com/llamadome
+
+
+Here is a quick summary of the major server and player
+additions that are in this mod.
+
+Server variable controls:
+    hardarmor 0/1  	- 0 kevlar vest will allow bruising damage
+		   	  1 kevlar vest stops all chest damage
+
+    gunmode 0/1    	- 0 guns operate in standard AQ 1.51 mode
+			  1 sets a more realistic scatter model that
+        	            is tunable via cvars (see dmguns.cfg).
+			    Also the M4 can be silenced and the MP5
+			    will kick up.
+ 
+    allow_llama 0/1	- 0 do not allow players to become Llamas
+                          1 enable the player command "llamamode"
+
+    allow_llama_items 0/1 - 0 do not spawn the extra "llama" items
+                            1 do spawn the llama items
+			      (the only llama item in 1.05 is the Ninja/Berserk)
+ 
+    allow_farming 0/1	- 0 do not allow grenade farming
+                          1 allow grenade farming (I had requests...)
+
+    stathud 0/1		- 0 display standard AQ HUDs
+			  1 display HUD with extra statistics and high scores
+ 
+There are also a lot of variables in the file "dmguns.cfg" that are
+used to tune the scatter patterns of the guns when your server is
+in "gunmode 1".
+ 
+ 
+Player commands:
+    commands     - lists all avaliable commands
+ 
+    highscore    - shows the current high scores
+ 
+    stats        - partially implemented.  It will report the
+		   statistics about how well you are shooting.
+		   Nominally will report number of shots per
+		   gun, number of hits, number of kills, etc.
+		   Server is not recording this data yet, but
+		   will in Llamadome 1.06.
+
+    timeleft     - tells you how much time is left on a level in
+                   HH:MM:SS mode (prints to the console or to the
+                   top of your screen if you bind a key)
+ 
+    llamamode    - kills the player and moves him/her into or
+                   out of Llama mode.  You get 10 knives and
+		   can only use the knife an the pistol (though
+		   you can still carry a special weapon and pick
+		   up ammo).

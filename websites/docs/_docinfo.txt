@@ -1,0 +1,25 @@
+
+    The documentation directories in this directory:
+
+
+  3team -------- Holds all hte AQ:3 Teams documentation.
+  a2k ---------- Holds all the A2K documentation.
+  aq2 ---------- Holds all the plain Action Quake 2 documentation.
+  aq2-16 ------- Holds all the AQ:Karmann's Unofficial 1.6 update documentation.
+  aqdt --------- Holds all the AQ:Arena, AQ:Espionage, AQ:TE (AQ:ETE), and LowLag docs.
+  aqguide ------ HTML version of all the documentation for easier reading.
+  aqknife ------ Holds all the AQ:Knife documentation.
+  aqsingle ----- Holds all the AQ:SP documentation.
+  ccp ---------- Holds all the original Consolidated Client Pack documentation.
+  ccpguide ----- HTML version of all the original CCP documentation for easier reading.
+  cgf ---------- Holds all the AQ:CGF documentation.
+  ctb ---------- Holds all the AQ:Mister Brian's CTB documentation.
+  edition ------ Holds all the AQ:Edition documentation.
+  fire --------- Holds all the AQ:Fireteams documentation.
+  fonts -------- Holds the fonts used for the in-game AQ2 menus.
+  gangsters ---- Holds all the AQ:Gangsters documentation.
+  heroes ------- Holds all the AQ:Heroes documentation.
+  llama -------- Holds all the AQ:Llama Dome documentation.
+  ltk ---------- Holds all the LTK Bot documentation.
+  ml ----------- Holds all the AQ:ML documentation.
+

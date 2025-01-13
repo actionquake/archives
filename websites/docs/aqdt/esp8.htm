@@ -1,0 +1,606 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake Developers Team</TITLE>
+<LINK rel="stylesheet" type="text/css" href="aqdt.css" title="aqdt">
+</HEAD>
+
+<BODY BGCOLOR="#333333" MARGINHEIGHT="0" MARGINWIDTH="0" TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0">
+<TABLE WIDTH="761" CELLSPACING="0" CELLPADDING="0" BORDER="0" BGCOLOR="#000000">
+ <TR HEIGHT="40" VALIGN="bottom">
+  <TD WIDTH="726" ALIGN="right">
+   <IMG SRC="aqdt2.gif" ALIGN="bottom" BORDER="0" width="532" height="99" >
+  </TD>
+  <TD WIDTH="41" ALIGN="bottom" BACKGROUND="side2.gif">
+<TABLE WIDTH="41" CELLSPACING="0" CELLPADDING="0" BORDER="0" BACKGROUND="top1.gif" ALIGN="bottom">
+ <TR HEIGHT="28">
+  <TD WIDTH="41"><SPACER TYPE="block" HEIGHT="28" WIDTH="41">
+  </TD>
+ </TR>
+</TABLE>
+  </TD>
+ </TR>
+</TABLE>
+
+<TABLE WIDTH="761" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+ <TR VALIGN="top">
+  <TD WIDTH="120" BACKGROUND="corner5.gif" ALIGN="left">.</TD>
+  <TD WIDTH="30" BGCOLOR="#660000">.</TD>
+  <TD WIDTH="570" BGCOLOR="#660000">
+   <H2><i>Espionage - Tournament Edition
+  </TD>
+  <TD WIDTH="41" BACKGROUND="top2.gif"><SPACER TYPE="block" HEIGHT="100%" WIDTH="41">
+  </TD>
+ </TR>
+ <TR VALIGN="top">
+  <TD BACKGROUND="side.gif">
+   <P ALIGN="right">
+    <A HREF="team.htm">The Team</A><BR>
+   </P>
+   <H3><U>Espionage<BR>Contents</U></H3>
+   <P ALIGN="right">
+    <A HREF="esp.htm">Introduction</A><BR>
+    <A HREF="esp2.htm">Player Info</A><BR>
+    <A HREF="esp3.htm">Server Ops</A><BR>
+    <A HREF="esp4.htm">Differences</A><BR>
+    <A HREF="esp5.htm">Scenarios</A><BR>
+    <A HREF="esp6.htm">Scenario Rules</A><BR>
+    <A HREF="esp7.htm">Radio Sounds</A><BR>
+    <A HREF="esp8.htm">Version History</A>
+   </P>
+   <P ALIGN="right">
+    <A HREF="te.htm">Tournament</A><BR>
+    <A HREF="arena.htm">Action Arena</A><BR>
+    <A HREF="lowlag.htm">Lowlag</A>
+   </P>
+    <H3><A HREF="http://www.ogl.org"><IMG SRC="ogl.gif" border="0" width="73" height="30"></A></H3>
+  </TD>
+  <TD>
+   <IMG SRC="corner2.gif" width="12" height="18">
+  </TD>
+  <TD>
+   <P><H5>AQDT Modified Action Quake - AQ: Espionage Tournament Edition</H5></P>
+
+<PRE>
+v4.3c
+
+ * Removed some debug messages
+ * Added cvar 'e_maxVolunteers'
+ * Fixed choose crash bug
+   - if weapon choice is restricted, players can't choose weapons until they
+     join a team, and they must use the menu
+ * Fixed tkok forgiving enemies (I'm all for world peace, but....)
+ * Removed TARGET_LOCATION printing for .loc files
+ * Added cvar 'e_allRadio' to allow all radio sounds
+
+v4.3b
+
+ * Added cvar allowMPELPSuicide
+
+v4.3a
+
+ * Made $$ handling kindler and gentler
+
+v4.3
+
+ * Made several cvars _not_ serverinfo (to fix "info string length exceeded")
+ * Fixed $$ skin bug
+ * TK's are remembered for a while after disconnecting
+ * Added voluntary 'tkok' console command to forgive a TK
+   - Only forgives last TK'er
+   - Doesn't restore frag loss
+ * Added informative messages for referee and sub
+ * Added # of subs to scoreboard 1 frags/players summary line
+ * Added team info to scoreboard 2 with indicators for captain, sub, and referee
+ * Fixed not being able to pick up briefcase
+ * Added OFFSET directive to TARGET_AREA so you can place the area's model 
+    somewhere other than the center of the box
+   - Specified as a vector relative to the center
+   - Only valid when TARGET_AREA has a MODEL
+   - e.g., to lower the key model 10 units:
+       TARGET_AREA "A" ( 0 0 0 ) ( 10 15 10 ) 
+       MODEL "models/items/keys/red_key/tris.md2" OFFSET ( 0 0 -10 )
+
+v4.2
+
+ * Added %S for line of sight location reporting
+ * Added support for ML-style location files
+   - Works with scripts 0 or 1
+   - looks for file called action/ml/&lt;mapname>.aqg
+   - TARGET_AREA and TARGET_FLAGSPAWN locations take precedence
+   - location files can be found at: 
+     <A HREF="http://www.algonet.se/~ml2/action/ml/downloads.html">http://www.algonet.se/~ml2/action/ml/downloads.html</A>
+   - Be careful of filename case on Linux (e.g. BLOCKWAR.aqg)
+ * Force teamplay 1 if scripts is 1
+ * Added "weaponBan" cvar to restrict weapon/item usage independent of and 
+    in addition to scenario specifications
+   - Works with scripts 0 or 1
+   - Add together components like dmflags
+     #     1 M4
+     #     2 MP5
+     #     4 Handcannon
+     #     8 M3 Shotgun
+     #    16 Sniper Rifle
+     #    32 Akimbo
+     #    64 Knives
+     #   128 Mk23 Pistol
+     #   256 Kevlar Vest
+     #   512 Stealth Slippers
+     #  1024 Silencer
+     #  2048 Bandolier
+     #  4096 Laser
+   - e.g., to ban M4, HC, Akimbo, and Vest: 
+      weaponBan = 1 + 4 + 32 + 256 = 293
+ * Added cvars "e_useDefaultScenario" and "e_defaultScenarioName" for
+     default scenario support
+   - Requires scripts 1
+   - e_useDefaultScenario:
+     # 0 - default to normal teamplay for maps where a scenario can't be found
+     # 1 - use scenario specified in e_defaultScenarioName if a scenario can't 
+             be found
+     # 2 - use default scenario for all maps
+     # 3 - use default scenario on maps in action.ini instead of action.scp
+   - e.g., to default to ATL on maps without scenarios
+     # e_defaultScenarioName "Assassinate The Leader"
+     # e_useDefaultScenario 1
+   - Make sure to #include the default scenario (e.g. #include "scenes/atl.scn")
+
+v4.1
+
+ * Added motd message for lowlag sounds
+ * Discouraged unsportsmanlike suicide
+ * Changed default value of allow_vote to 0
+ * Made "scripts" a serverinfo variable so browsers can filter
+
+v4.0
+
+ * RELEASE
+
+v3.7
+
+ * Fixed mapvoting bug
+ * Fixed missed shot bug
+ * Fixed unnamed nasty cheat bug
+ * Added informative 'captain' and 'ready' messages
+
+v3.6
+
+ * Fixed crash bug when bogus AWAY_FROM target is specified
+
+v3.5
+
+ * Integrated TE 1.21
+
+   - Changes from 1.2a to 1.21:
+
+     * Added support for a match.ini, which will reconfigure the server maplist
+       to whatever specified upon changing to tournament mode--see sample.
+     * Fixed numerous bugs, including (but not limited to):
+       - infinite loop voting bug (brand new, refined voting code)
+       - reduced scoreboard lag and fixed incorrect displays (brand new code)
+       - code optimization to reduce the "missing shot" effect
+
+v3.4d
+
+ * Added weapon usage restriction
+   - RESTRICT - MK23 - MP5 -LASER
+ * Set weapon lifetimes to be longer when teams don't respawn
+ * Frags are fully credited on default ELIMINATE scenarios (no targets/goals
+    specified)
+
+v3.4c
+
+ * Fixed non-script crash bug
+ * Fixed erroneous carryovers when loadout changes (e.g. from switching
+     to a team with a restricted item selected)
+ * Added 'e_enhancedSlippers' cvar
+
+v3.4b
+
+ * Fixed script weapon/item specification to skip menus as needed
+ * Fixed weapon/item choice restriction 
+ * Added 'rules' command to show spawn and equipment rules as well as goals
+
+v3.4a
+
+ * Fixed Join Team menu line mismatch
+ * Fixed psycho chasecam
+ * Fixed erroneous "ate too much glass" messages when a round ends
+
+v3.4
+
+ * Integrated with AQ 1.52 source base
+
+v3.3a
+
+ * Fixed score not being recorded on CONTINUOUS scenarios
+
+v3.3
+
+ * RELEASE
+ * Fixed crash bug when someone connects during the intermission
+    right before going to the first scenario in the rotation
+ * Cleaned up other places where a similar situation might occur
+ * Removed "item_flag_team# doesn't have a spawn function" messages
+ * Removed "info_player_team# doesn't have a spawn function" messages
+
+v3.2r
+
+ * Added support for map-specific location files for %L
+   - when a map is loaded, "action/location/&lt;mapname>.loc" is opened
+   - &lt;mapname>.loc should contain TARGET_LOCATION specifications with
+      names and coordinates of interesting landmarks, e.g.
+      TARGET_LOCATION "Coke Sign" ( -483 770 171 )
+   - works for all forms of gameplay (AQ:E, TP, DM)
+ * Removed messages for BC events - TALK TO YOUR TEAM!
+
+v3.2q
+
+ * Added %L variable for messages
+   - uses target names for TARGET_AREA, TARGET_LOCATION, and TARGET_FLAG#_SPAWN
+ * Fixed HOLD/HOLDALL ignoring roundlimit
+ * Changed HOLD/HOLDALL informative messages to centerprint
+ * Fixed HOLD/HOLDALL crash bug in non-CONTINUOUS mode
+ * HOLD/HOLDALL goals now become unowned between rounds in non-CONTINUOUS mode
+ * Tweaked Espionage scoreboard
+ * Lowered radius for frag bonuses near a HOLD/HOLDALL goal
+
+v3.2p
+
+ * Added "e_carrierReturn" cvar (default: 0)
+   - 0 means carrier can't return his team's briefcase
+   - 1 means carrier can return his team's briefcase
+ * Changed default of escore to 1
+ * Added messages/sounds for briefcase taking/returning
+ * Fixed bug where briefcase vwep lingered if client disconnects
+ * Fixed crash bug on selecting respawn spot
+ * Fixed Espionage scoreboard reporting incorrect totals
+ * Fixed Espionage scoreboard showing "string" for team 2 special players
+
+v3.2o
+
+ * Updated scoreboard
+ * Added "escore" cvar (default: 0)
+   - 0 for original AQ scoreboard
+   - 1 for Espionage
+ * Added "e_voteWait" cvar 
+   - determines how many seconds between successive vote requests
+ * Added "e_mustVolunteer" cvar 
+   - 0 means anyone can be a TARGET_PLAYER
+   - 1 means a player needs to 'volunteer' to be a TARGET_PLAYER
+ * Fixed voting getting locked up at the end of a round
+ * Adjusted informative messages for HOLDALL to centerprint
+ * Aliased classnames for flag spawns
+   - "info_flag_team1", "info_flag_red", and "item_flag_team1" are equivalent
+   - "info_flag_team2", "info_flag_blue", and "item_flag_team2" are equivalent
+ * Fixed HOLD/HOLDALL goals continuing to score during intermission
+ * HOLD/HOLDALL goals must now be occupied for 2 seconds before possession
+ * Fixed HOLD goals getting initialized as both HOLD and HOLDALL
+ * Fixed TARGET_AREA targets being improperly recognized for HOLD/HOLDALL goals
+ * Added localized sounds for acquisition of HOLD/HOLDALL targets
+ * Added informative messages for acquisition of HOLD/HOLDALL targets
+ * Fixed weapons disappearing early in regular teamplay (again)
+
+v3.2n
+
+ * Added frag bonuses for HOLDALL
+
+v3.2m
+
+ * Added sound effects for HOLDALL
+ * Updated scoreboard
+ * Adjusted informative messages for HOLDALL
+ * Added reddish flash for special players at the beginning of a round
+ * Set quick-disappear for dropped items to be only during scripted teamplay
+
+v3.2l
+
+ * Fixed items respawning during scripted teamplay
+ * Added multi-hold objective
+   - HOLDALL "The Hotel" 15 "Room 101" "Room 102"
+ * Added inghaw's nifty scoreboard
+
+v3.2k
+
+ * Fixed loadout not giving a player his chosen weapon when only
+    the item(s) are forced with WEAPONS
+
+v3.2j
+
+ * Fixed %-$ mixup in parser output (again?)
+ * Added unique loadouts for special players
+ * Players must use the console command "volunteer" to make them 
+    candidates for special players (anti-clueless measure)
+ * Made "Weapon and item selection" the default menu choice when
+    voting is enabled
+ * Incorporated "LowLag" efficient sound scheme
+
+v3.2i
+
+ * Fixed PERIODIC spawning so it doesn't always use the initial spawn
+ * Added entity dump to NFE.log when "no free edicts" occurs
+
+v3.2h
+
+ * Fixed voting menus to only show 5 items at a time with the
+    option to move to the previous and/or next set
+
+v3.2g
+
+ * Fixed crash bug when a HOLD switched teams
+ * Fixed glow effect on HOLD not changing properly
+
+v3.2f
+
+ * Added HOLD directive
+   - HOLD "target area" &lt;seconds>
+     e.g., HOLD "Room 202" 60
+
+v3.2e
+ 
+ * Fixed head gib happening on other weapons than SSG
+ * Fixed head not flying in a satisfactory fashion
+ * Head gibs now disappear after 15 seconds instead of
+    going into the body queue
+ * Added "allow_vote" cvar (Default: 1)
+ * Changed name of "Admin stuff" menu to "Voting" to avoid confusion
+ * Vote notification is now centerprinted
+ * Sounds are played along with voting events
+ * Tweaked the menu robustness
+
+v3.2d
+
+ * Added head gib for sniper head shot
+
+v3.2c
+
+ * Fixed map voting lock bug
+ * Fixed quirky bug that caused weird stuff on 2nd map in rotation
+ * Fixed incorrect frag counting for scripts 1 and teamplay 0
+ * Added AKIMBO and KNIVES to weapon loadout
+ * Multiple loadout items now works correctly
+ * Added PERIODIC option for RESPAWN
+   - RESPAWN PERIODIC 30
+
+v3.2b
+
+ * Added map voting
+   - Must be on a team to vote
+   - Hitting tab brings up a menu with "Admin" and "Weapon" options
+   - The Admin menu lets you choose 
+     = Next map in rotation
+     = Specific map/scenario from rotation
+   - If a vote is in progress, the Admin menu gives Yes and No options
+   - Only one vote at a time
+ * Added forced weapon/item selection
+   - Usage: WEAPONS + MP5 + SILENCER (note the space after the '+')
+   - Keywords: MP5 M4 M3 SSG HC SILENCER VEST BANDOLIER LASER SLIPPERS
+   - Weapon, item, or both can be forced
+
+v3.2a
+
+ * Scenario name is now displayed in the teams menu
+ * Enabled gibbing for Handcannon (and Grenade, but it's not working right)
+ * AUTO_RETURN now works for values other than 30
+ * Bounding box for zones are now only shown in sv_author mode
+ * Added scenario control commands
+   - "scenarios" - lists the maps and associated scenarios in rotation
+   - "sv scenarios" - server version of above
+   - "sv goto &lt;scn num>" - changes to the referenced scenario number
+
+v3.2
+
+ * RELEASE
+
+v3.1j
+
+ * Fixed timing bug when someone grabs the briefcase right after a capture
+ * Changed MOTD and Menus to reflect the new name AQ: Espionage
+
+v3.1i
+
+ * Fixed stupid bug that caused infinite respawning with CONTINUOUS gameplay
+ * Added smarter respawn to put respawners away from the action, but not
+    too far
+
+v3.1h
+
+ * Teamplay team scores are now reported correctly
+ * Added sounds for interesting events
+ * Fixed lingering HUD icon for special players
+ * A round won't start until all the TARGET_PLAYER_* slots can be filled
+ * Not enough players on a team to fill TARGET_PLAYER_* slots
+    is now handled by cancelling a round in progress
+
+v3.1g
+
+ * Fixed crash bug related to some internal bookkeeping
+ * Fixed moveto so it accepts quoted target, e.g. "warez cd"
+ * Fixed moveto and movespawn so they can be used with mobile targets
+ * Fixed "lost" briefcase problem on TOUCH_RETURN and no return
+   - a dropped briefcase that isn't picked up or returned after 120
+      seconds gets moved to a random spawn point (no freebie returns)
+   - AUTO_RETURN works the same
+ * Added fix for "out of ammo" bug - thanks to Mike from AQ:G
+ * Made some tweaks to help overflows
+   - Opening a menu now cuts off motd refreshes
+   - At the start of a round, just the goals are displayed (no LCA)
+
+v3.1f
+
+ * Fixed bonuses for fragging a special player and his/her escort
+ * Teammates now get a (smaller) bonus when one of their 'mates captures
+ * Fixed bug (?) where an attacker wouldn't get credit for a long bleeder
+    (more than 5 seconds) 
+    [maybe this is supposed to penalize the bleeder for not bandaging]
+ * Added HUD indicator for special players
+ * Increased expiration time for pistols and knives 
+ * Fixed bug where briefcase would autoreturn after 30 seconds regardless
+    of the return policy
+ * Fixed "floating corpse" bug
+ * Fixed some bugs related to a special player disconnecting or changing
+    teams
+ * Beefed up slippers - no limp, and reduced falling damage 
+    (still can't jump while wounded in the legs)
+
+v3.1e
+
+ * Fixed chasecam bug with sniper crosshairs
+ * Fixed chasecam bug with TIME and RESPAWN counters not showing up
+ * The dead are now allowed to talk if team respawning is enabled
+    (since they can only chasecam their teammates)
+ * New frag bonus system
+   - increased bonus radius for capture zones
+   - increased bonus radius for objects/players
+   - every normal frag is worth 0.25 frags
+   - other stuff is worth much more :)
+ * Fixed doorkicking bug
+ * Fixed spurious RemoveFromTransparentList() message with INSTANT respawn
+ * Integrated new radio sounds
+ * Added ignore commands
+   - ignore &lt;name>
+   - unignore
+ * Added script validation
+   - on parse errors, gameplay reverts to default teamplay
+   - target names in goals are checked to make sure they match a target
+
+v3.1d
+
+ * Added author mode
+   - set sv_author 1 to enable (must restart map)
+   - makes player spawn locations visible
+   - new commands "moveto" and "movespawn"
+     > moveto &lt;targetname>
+     > movespawn &lt;targetname> &lt;numspawnpointsaway>
+       (still flaky with multiword target names)
+ * Limited chasecam when team respawning is enabled
+ * Fixed vwep so it uses the right player model
+ * Pistols and knives now expire
+
+v3.1c
+
+ * Added carrier-indicator options for TARGET_OBJECT
+   - TARGET_OBJECT "A" MODEL "m" PIC "p" VWEP "w_bc1.md2"
+   - TARGET_OBJECT "B" MODEL "m" PIC "p" FOLLOW
+   - TARGET_OBJECT "B" MODEL "m" PIC "p"   (defaults to blue/red glow)
+ * Modified the frag bonus structure
+   - A player gets frag bonuses if either he or his victim are near
+     something interesting 
+   - Interesting things include capture zones, dropped briefcases,
+     carriers, and special players (TARGET_PLAYER_*)
+ * Added CONTINUOUS directive - removes the end-of-round massacre 
+   and subsequent restart
+ * Added MAXTEAM directive to limit the number of players on a team 
+   (still in development)
+
+v3.1b
+
+ * Fixed briefcase dropping
+ * Fixed nasty crash bug when "instant" damage killed someone
+ * Changed GAMEVERSION references to cvar game->string_value
+
+v3.1a
+
+ * Added score bonuses for goal-related activities
+ * Added HUD indicator for the carrier
+ * Added console commands 'goals' to redisplay mission objectives
+ * Fixed echoing "Lights Camera Action" on timed respawns
+ * Readded goal information in between LCA messages
+
+v3.1 
+
+ * Added door kicking
+ * Integrated with AQ 1.51
+
+v3.0g
+
+ * Fixed %-$ mixup in parser output
+ * Added AWAY_FROM respawn locational directive to specify how many
+    of the spawn spots closest to a target should be avoided
+     RESPAWN INSTANT AWAY_FROM "Hondo 2nd Floor" 2
+ * Added TOGETHER option for RESPAWN FRACTION
+ * Fixed memory leak in SelectTeamplaySpawnPoints()
+ * Fixed respawn counter while chasecamming
+ * Fixed crash bug on empty teams
+ * Added 2 second respawn protection - firing negates it
+ * TARGET_AREA TARGET_FLAG#_SPAWN models no longer rotate
+ * Cleaned up checks to see if scripting is active
+
+v3.0f
+
+ * Fixed "Action!" messages on respawn so they only go to the relevant players
+
+v3.0e
+
+ * Tweaked parser output to match input - should make debugging scripts easier
+ * Added INITIAL_SPAWN directive
+ * Fixed TIME chasecam bug
+ * Changed 'scripts' cvar to not be SERVERINFO
+ * Added HUD display for % dead or time remaining until spawn 
+   (only visible while dead)
+
+v3.0d
+
+ * Fixed normal teamplay crash on spawn
+ * Captures are based on whether BC is "tagged" as being home or not,
+    instead of how far it is from home (capture points too high above
+    the floor made captures impossible)
+ * Dead players under FRACTION or TIME respawn can now chasecam
+ * New players may now spawn into a game in progress as soon as they 
+   join a team
+   - if the team has TIME or INSTANT respawn, the new player spawns immediately
+   - if the team has FRACTION respawn, the new player spawns when the FRACTION 
+     condition has been met
+
+v3.0c
+
+ * Changed malloc() calls to gi.TagMalloc()
+ * Added function Q_strdup()
+ * Changed strdup() calls to Q_strdup()
+ * Changed stricmp() calls to Q_strcasecmp()
+ * Players are now no longer able to respawn instantly on FRACTION or TIME respawn
+ * Fixed nasty infinite goal return bug
+
+v3.0b
+
+ * Fixed bug - special player disconnecting causes deadlock
+ * Beefed up RESPAWN 
+     RESPAWN &lt;time> &lt;location> where
+       &lt;time> is (null - defaults to INSTANT) or
+                 INSTANT or
+                 FRACTION &lt;%> or 
+                 TIME &lt;secs>
+       &lt;location> is (null - defaults to RANDOM_SPAWN) or
+                     INITIAL_SPAWN or
+                     RANDOM_SPAWN
+
+ * Added MODEL directive to TARGET_AREA
+    e.g.   TARGET_AREA "The Head" (-50, 24, -30) (-10, 64, 10) 
+           MODEL "models/items/c_head/tris.md2"
+
+ * Added TOUCH_RETURN for RETRIEVE goal
+
+v3.0a
+
+ * Fixed bugfix - disappearing BC for one team only
+
+v3.0
+
+ * Fixed bug - disappearing BC
+ * Added AQDT credits
+ * Added new radio sounds
+ * Inititated versioning
+</PRE>
+
+  </TD>
+ </TR>
+ <TR VALIGN="top">
+  <TD><IMG SRC="corner3.gif" width="120" height="18"></TD>
+ </TR>
+</TABLE>
+
+<H4>Copyright 2000, Action Quake Developers Team</H4>
+
+</BODY>
+
+</HTML>

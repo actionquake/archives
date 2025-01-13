@@ -1,0 +1,32 @@
+3-Teams for ActionQuake2 1.5h
+------------------------------------------
+Features:
+-3 Teams in one level (works just like normal Teamplay, only 2 teams need players to start gaming)
+-New item: Helmet (Protects head somewhat well, not from sniper or knives ;)
+-M4 cant get Lasersight, but it is a bit more accurate than before without it.
+-Lasersight doesn't help so much when running as it did before
+-Game will begin if just two of the 3 teams have players.
+-Shotgun & Handcannon now check where you hit.(Removed for now, caused a stupid bug, fill be fixed)
+-Helmet works in DM too without modifying maps. (aq2 feature :)
+-If there were 3 teams but one gets empty, its score will be put back to 0 
+-Message when you shoot enemy to HELMET.
+-Random round win messages.
+-Set smallteam 1/0 variable (configures whether people are forced to join the team with least number of players or not(1 is on, defaults to 0)
+
+Coming:
+-Better model&pic for helmet, when i find some :)
+-Something else I find interesting :-) (maybe defineable weapon banning?)
+
+How to get it work(win95/NT):
+
+1. Backup your original gamex86.dll from quake2\action directory
+2. Unzip the gamex86.dll from 3TeamAQ.zip to your quake2\action directory
+3. Edit your action.ini and add there [team3], its name, and used model&skin just the same way as team1 and team2 are configured.
+4. Get some buddys to play with and start fragging! 
+
+Bugs? Suggestions?
+
+Homepage: http://come.to/3Team
+EMAIL: grimmel@hotmail.com
+IRC: I can be found at IRCnet from channels #greyz, #actionquake2 usually with nick Grimmel
+ICQ: My ICQ UIN is 21085064

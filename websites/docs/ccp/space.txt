@@ -1,0 +1,78 @@
+
+AQ2:CCP Files and Directory Structure:
+
+
+NOTE: This listing and the comments should help you to determine 
+      which files may be safely removed to free up extra space.
+      The items listed here are considered potentially removable 
+      if they are removed with thought towards their function.
+
+      Size is noted only when it is above 500 KB.
+
+
+action/            (server file, .cfg files)
+
+action_mac.sit.bin (server file for Macintosh, delete if you don't have a Macintosh)
+gamei386.so        (server file for Linux, delete if you don't run Linux)
+gamei586.so        (server file for BeOS, delete if you don't run BeOS)
+gamesparc.so       (server file for Solaris SPARC, delete if you don't run Solaris SPARC)
+gamex86.dll        (server file for Windows, delete if you don't run Windows)
+pak1.pak           (alternative AQ2 HUD graphics--delete for originals)
+pak1.txt           (information and credits for the alternative graphics)
+pak2.pak (32 MB)   (15 most popular AQ2 maps, delete if you already have them)
+
+                          ---------------------------------------------------------
+action/bots/             (LTK bot .cfg files, delete if you don't run LTK bots     )
+                          =========================================================
+action/cgf/ (2.3 MB)     (CGF configuration files, delete if you don't run CGF bots)
+                          =========================================================
+action/configexamples/   (example .cfg files, delete if you don't need them        )
+                          =========================================================
+action/demos/ (variable) (where demos get recorded to, delete any demos you don't  )
+                         (want                                                     )
+                          =========================================================
+action/devel/            (samples for developing AQ:Esp scenarios, delete if you   )
+                         (don't plan on developing any AQ:Espionage scenarios      )
+                          =========================================================
+action/docs/ (1 MB)      (AQ2 documentation                                        )
+                          =========================================================
+action/ents/ (600 KB)    (AQ:Single Player entity replacement files                )
+                          =========================================================
+action/filters/          (GameSpy and PingTool filters to find AQ2 games!          )
+                          =========================================================
+action/location/         (AQ:Gangsters and AQ:Esp config files, delete if you      )
+                         (don't run Gangsters or Espionage servers                 )
+                          =========================================================
+action/locs/             (AQ:Fireteams location files, delete if you don't use them)
+                          =========================================================
+action/missions/ (1 MB)  (CGF configuration files, delete if you don't run CGF bots)
+                          =========================================================
+action/maps/ (variable)  (maps appear here, delete the ones you never play         )
+                          =========================================================
+action/ml/               (AQ:ML location files, delete if you don't use them       )
+                          =========================================================
+action/pics/             (Macintosh and Linux HUD pics for players                 )
+                         (Windows users may delete the entire directory, Linux     )
+                         (users may delete the CONTENTS of the directory but must  )
+                         (keep the now empty directory intact, Macintosh users may )
+                         (not delete this directory at all                         )
+                          =========================================================
+action/players/ (22 MB)  (common player models and skins, you may delete skins and )
+                         (models you never seem to use but it's tedious and not    )
+                         (recommended as you never know when you'll need a skin    )
+                          =========================================================
+action/plugins/          (Windows and Linux web browser server viewer plugins,     )
+                         (delete once installed in the web brower of your choice   )
+                          =========================================================
+action/scenes/           (AQ:Espionage scenario configuration files                )
+                          =========================================================
+action/servers/ (17 MB)  (server files and information for common AQ2 variations   )
+                         (delete the platforms you don't use, i.e. Solaris, Linux, )
+                         (etc., and then within the remaining platform delete the  )
+                         (server files that you don't use                          )
+                          =========================================================
+action/source/ (4.6 MB)  (source code to AQ2 variations, delete unless you program )
+                          =========================================================
+action/terrain/ (62 MB)  (LTK Bot route files, may delete if you never use LTK Bots)
+                         (CGF mission and route files, may delete if not use CGF   )
+                          ---------------------------------------------------------

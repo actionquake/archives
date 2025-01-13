@@ -1,0 +1,63 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake:Espionage Scenario Development</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+<H1>Action Quake:Espionage Scenario Development</H1>
+
+How-To's are not available in this version of AQ:E.  How-To scenarios will 
+be available in the future releases of AQ:E.  However, there are scenario 
+templates.  If you know a little bit about coding, it should be incredibly 
+easy to figure it out.  The templates go as follows:<BR>
+<BR>
+<B>ctb_with_flag_team_func_template.scn</B><BR><BR>
+	-This is the template you would use to make scenarios that contain
+         the info_flag_team1 and info_flag_team2 spawn functions (AQ:E uses
+         those spawn points to spawn the flags<BR>
+<BR>
+		example maps:	blockwar, ctbcity<BR>
+<BR>
+<B>ctb_with_noflag_team_func_template.scn</B><BR><BR>
+	-This is the template you would use to make scenarios that do NOT 
+         contain info_flag_team1 and info_flag_team2 spawn functions.  This
+         requires a little bit more work; any map that is out there can be
+         scripted for AQ:E<BR>
+<BR>
+<B>etv_template.scn</B><BR><BR>
+	-This is the template you would use to make scenarios for Escort 
+         the VIP<BR>
+<BR>
+<B>ofc_template.scn</B><BR><BR>
+	-This is the template you would use to make scenarios for One Flag
+         Capture<BR>
+<BR>
+<B>atl_template.scn</B><BR><BR>
+	-This is the template you would use to make scenarios for 
+         Assassinate the Leader<BR>
+<BR>
+<B>frd_template.scn</B><BR><BR>
+	-This is the template you would use to make scenarios for Find,
+         Retrieve/Defend<BR>
+<BR>
+<BR>
+**NOTE**<BR><BR>
+	To find the exact location (this is needed for force-spawning stuff)
+        on a map. simple go into console and type 'viewpos' it will give you
+        your X, Y, and Z position. Copy those down. It should look like: <BR>
+<BR>
+        ( 31 -494 20 ) : 349   <BR>
+<BR>
+        The numbers in the parentheses are important!  Also, if you want to
+        comment stuff out, simply put a // on the line you want AQ:E to 
+        skip over (good for debugging).<BR>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>

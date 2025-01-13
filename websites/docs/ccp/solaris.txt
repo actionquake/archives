@@ -1,0 +1,33 @@
+
+  Action Quake 2
+
+  http://action.action-web.net/
+
+
+  Please read the _docinfo.txt file in the "action/docs/" folder.
+
+  Please read the layout.txt and pak1.txt files in the "action/" folder.
+
+  Please read the _maplist.txt file in the "action/maps/docs/" folder.
+
+  Solaris x86 and SPARC servers are available in the "action/servers" folder.
+
+
+
+  Yes, you really CAN get all you need from this one website!
+
+
+  Quake 2 port for Solaris:
+
+  http://www.planetquake.com/eclipse/
+
+
+  Quake 2 installation guide for Solaris:
+
+  http://www.planetquake.com/eclipse/
+
+
+  Quake 2 mod ports for Solaris:
+
+  http://www.planetquake.com/eclipse/
+

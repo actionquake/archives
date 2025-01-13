@@ -1,0 +1,176 @@
+<HTML>
+
+<HEAD>
+<TITLE>Action Quake:Single Player</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+<PRE>
+This is a modified action quake, in its most recent version (1.09)
+
+CREDITS
+-------
+THE A-TEAM for bringing us Action Quake 2!
+ID SOFTWARE for Quake 2
+ProMagnoN : mod programmer 
+Smoke : official beta tester
+Also Everyone who plays it !!!!  
+Grampa for helpin with linux ver!!
+
+INSTALLATION
+------------
+Backup your gamex86.dll in your action directory by renaming it
+(example, "ren gamex86.dll gamex86.bak")
+copy the gamex86.dll file of my mod into your /action directory
+
+to start a co-op game, type:
+
+quake2 +set game action +set coop 1 +map base1
+
+to start single player type:
+
+quake2 +set game action +map base1
+
+to start a team game type:
+
+quake2 +set game action +set teamplay 1 +map <name of map to play on>
+
+if you're using this dll, and you make a server, the ones connecting to it NEED NOT
+have the dll to play.
+If you have the dll, you will still be able to play unaffected on public, regular
+action quake servers.
+if you have the dll and want to play regular team action (why????) then just
+delete the gamex86.dll and rename the backup to gamex86.dll.
+
+I suggest a really fast server and high bandwidth connectees for internet co-op play
+due to the high number of entities (monsters AND players), far greater than in
+normal deathmatch or teamplay where there are only players...  those with fast
+connex, make sure you type "rate 10000" in the console.
+
+To ignore someone (if they are being obnoxious)... try typing
+ignore <their name> 
+in the console
+and 
+unignore
+(all by itself) to stop ignoring them
+you can also type 
+ignore
+(all by itself) to get status on who you're ignoring.
+
+I also suggest you type "weapons 5" and "items 5" in order to be allowed
+to carry all the items and weapons at the same time.
+
+------------------------------
+ProMagnoN
+promagnon@home.com
+------------------------------
+
+VERSION 1.09
+
+In this version:
+
+* Tweaks to hell mode
+* fixed the vanishing items
+* Fixed the damn overflows in certain levels (fact2)
+* Tweaked ammo droppage (Gunners could give you grenades now)
+
+Single player has been heavily modified.
+
+In Version 1.07:
+
+* Ultra violence nightmare hell mode.  Try skill 3.  Spray and pray, baby!
+* In Skill 3 mode Ammo is more plentiful (dropped ammo).
+* In skill 3 mode monsters do 3x more damage
+* In skill 3 mode monsters take 2x more damage before dying.
+* Compatiblility with the WEAPON server cvar.  Servers, type "weapon <number>" and
+  players will be allowed to carry that many weapons, double if bandolierd.
+* Key spawn in certain levels is fixt.  You can now win (hopefully) without any 
+  give commands.
+* God mode is completely protective now
+* I cannot make it tell me that the function pointers have moved so I guess that's 
+  fixed also
+* Cheats are enabled by typing "cheats 1" before starting a game.
+* Ammo drops bugfixed.
+* Damage tweaked to monsters
+* weapon spawn tweaked.
+* Leg damage for monsters.
+
+
+NOTE as of this version I have made changes which could affect deathmatch and teamplay.
+The change is: the placement of weapons.  Thats all.
+
+In version 1.06:
+
+* Shot gun in SINGLE and CO-OP ONLY(!) is made to hurt monsters more, to simulate
+  the additional damage of bleeding that would normally be taken.
+* Co-op items handling and weapons handling bettered.
+* now co-op responds to the "friendly_fire" dmflag
+* now sv_cheats 0 disallows cheating
+* weapons dont vanish after being dropped in co-op and single
+* power cubes fixups
+* silencer and slippers and knifes are stealthy to monsters... most of the time...
+* fraglimit for team games gets set to 5000 if its below 100 (because of the new
+  scoring mode...)
+* cannot kick teammates weapons out their hands in co-op
+* co-op is non-player damaging if "friendly_fire" is on, regardless of skin or
+  model
+* monsters drop stuff... soldiers drop knifes and clips and gladiators drop sniper
+  rounds. (But not always!)
+* monsters dont instagib... you need to cause damage lots.
+* a body blocking an elevator or door can now be removed by gibbing it... knife it
+  to pieces or blow it up or shoot it to bits.  Bodies blocking "must move" elevators
+  and doors are gibbed instantly, or move with the plat if possible.
+* monsters might not notice you sneak with slippers... unless you do it blatantly.
+* a silenced gun ALMOST always will not alert monsters untill its too late for them
+* missed knifes only have a 20 percent chance of being noticed.  
+* bandolier lets you carry 2 guns in single and co-op.  No more picking up as many
+  guns as you want or as many items as you want.
+
+In version 1.05:
+
+* Knifes fall out of monsters when kill them with one... but only if you KILL them
+  with it, not if you damage them with it... otherwise you'd have infinite knives
+  basically...
+* Monsters dropping non-aq2 items fixed, apparently (from 8 hrs play testing)
+* Damn body armor bug fixed.
+* COOP mode now shouldn't crash when a player dies.
+* UnIgnore command, type 'ignore <name>' to ignore someone, and 'unignore' to stop.
+* Monsters can suffer head shots (with appropriate noise, damage and bloodyness)
+* Coop mode is now 2.5x harder than single to win. (heehe)
+* Special items are spawned:  Silencer->silencer, Invuner->body armor, Quad->laser
+  sight, adrenaline->bandolier
+* Dual pistols go where super shot gun used to be so that certain levels and goals
+  are triggered.
+* fixed someone elses sloppy code that made the tank's and gunners bounding boxes 
+  too big and too small respectively.  Same with medic and gladiator.
+
+In 1.04
+
+* Saving and loading games is now un-fuxored, MOSTLY.
+* progressing from level to level in single player is also un-fuxored, MOSTLY.
+
+In 1.03
+
+* keys, powercubes, etc. now work
+* monsters can drop stuff like ammo or knifes
+* monster weaponary is more aq-like (watch out for the rail gun monsters, now they
+  shoot sniper rounds at ya)
+* Monsters aim at your chest/stomach area instad of head, (although the spread and inaccuracy of the monsters mean some head shots.
+* Lots of other stuff especially monster sound code, health modified and stuff, and effects. 
+* Multiplayer head shot effects, as well as better team scoring.
+
+In this version you can ignore one person, in future versions possibly more.
+
+
+-ProMagnoN
+promagnon@home.com
+</PRE>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>

@@ -1,0 +1,26 @@
+Red Rover v0.1 for AQ2  (based on orig Red Rover  http://www.planetquake.com/infinity)
+
+brianyee@hotmail.com
+
+
+Every round, one person is it, as he kills people, they become his helpful
+minions, and when everyone is a minion, the last person to be turned
+to a minion, becomes the new Minion Maker next round
+
+The jist: Survive as long as you can
+
+
+Rover server list will be maintained at:
+http://gauntlet.telefragged.com/action/roverservers.html
+
+
+and try my CTB too at :
+http://gauntlet.telefragged.com/action
+
+:)
+
+Special Thanks to: ^NINJA^Mad Gab,  [FMJ]Smurphster, [FMJ]@$$@$$in,
+                        , ~{ (RayD) }~. -=[Ghost]=-, 
+                   uhm, Microbrew, Dag]narf[, Apocolypse, and whoever else
+                   for all beta Testing
+

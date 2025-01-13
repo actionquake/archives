@@ -1,0 +1,50 @@
+==================================================
+=  .ADF Files für Action Quake2 PG BUND Edition  =
+=  Get AQ2 Edition at http://action.gametown.de  =
+=					         =
+=          letztes Update: 13.01.2000            =
+==================================================
+
+INFO
+####
+
+	.ADF Files enthalten Informationen über Position von Maps und können von
+	von Spielern in Teammessages benutzt werden um ihren Mitspielern die
+	aktuelle Position mitzuteilen.
+
+	Diese Files werden nur für Server benötigt, Clients brauchen sie nicht!
+
+	Wer eigene .ADF Files erstellen möchte sollte einen Blick in die Action
+	Quake2 Edition Readme werfen. Ich bitte alle mir ihre Files zuzusenden
+	damit ich sie auf die Edition Seite legen kann um sie auch für andere
+	Server Admins verfügbar zu machen.
+	Bitte achtet darauf das momentan nur maximal 300 Position pro Map
+	unterstützt werden. Wenn jemand mehr braucht kann er sich an
+	=DIE=Tempfile wenden und ihn bitten das Limit zu erhöhen oder aber selbst
+	den Sourcecode verändern und neu compilieren.
+
+
+INSTALLATION
+############
+
+	Einfach alle .ADF Files ins Verzeichnis action\location kopiereen, der
+	Server liest das jeweilige File bei jedem Mapwechsel automatisch ein.
+	Für einige Maps gibt es mehrere Files in diesem Archiv, einfach den
+	File den ihr benutzen wollt in MAPNAME.ADF umbenennen.
+
+	Ich selbst erstelle auch einige Location Files mit einem speziellen
+	Proxy. Diese Dateien haben die Endung .LOC können jedoch nicht von
+	Edition Servern benutzt werden da das Dateiformat nicht kompatibel ist.
+	Ich habe die Files nur mit dazu gepackt weil ein paar Leute danach
+	gefragt haben.
+
+
+KONTAKT
+#######
+
+	Die .ADF Files werden verwaltet von [HsF]Kerstin <Kerstin@headshot.de>
+
+	PG BUND Edition wurde geschrieben von:
+	- PG BUND[Rock] <r.bund@gmx.de>
+	- =DIE=Tempfile <bgreiner@ba.blitz.net>
+	- =DIE=Woodoo <Woodoo@woodoomagic.de>

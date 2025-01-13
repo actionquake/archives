@@ -1,0 +1,141 @@
+
+  Action Quake 2: Consolidated Client Pack (AQ2:CCP)
+
+  http://action.action-web.net/
+
+
+  =-=-=-=-=-=-=-=-=
+  People Involved:
+  =-=-=-=-=-=-=-=-=
+
+  Ace - Made a nice installer for this client package.
+
+  Black Monk - Did the grunt work and put this together.
+
+  Canus - Fixed Espionage case model, menu sound replacement, found menu fonts.
+
+  Dev - Suggested a sniper scope replacement.
+
+  Doc - Provided base for the new "look and feel" of this AQ2 client.
+
+  Hammer - AQ Guild head, helped sort out the player models.
+
+  Homer - Coordinator and person who kicked the process off.
+
+  Kramed - Provided access to some nifty menu graphics.
+
+  Lt. Hawkins - Picked his brain for the Linux setup information.
+
+  Lurker - Action Quake: Gangsters testing and organizing
+
+  MSDosMats - Client testing/beta mirroring.
+
+  neg - Client testing/beta mirroring.
+
+  NightfaII - Main Linux Tester, loads of good Linux advice
+
+  PACMAN - Map testing.
+
+  Sze - Main Macintosh Tester, loads of good Macintosh advice
+
+  THX - First person to make and release something like this.
+
+  WarMachine - AQ:Edition, AQ:Gangsters, and general server testing.
+
+  =-=-=-=-=-=-=-=-=-=
+  Mod Teams Involved:
+  =-=-=-=-=-=-=-=-=-=
+
+  A-Team:
+
+  http://action.action-web.net/
+
+
+  Action Quake Development Team (AQDT):
+
+  http://aqdt.fear.net/
+
+
+  AQ:Gangsters Team:
+
+  http://www.planetquake.com/gangsters/
+
+
+  AQ:Three Teams creator:
+
+  http://www.kolumbus.fi/reijop/
+
+
+  PG BUND and the AQ:Edition Team:
+
+  http://action.gametown.de/english/index.html
+  http://action.gametown.de/ (German version of site)
+
+
+  Mister Brian's CTB
+
+  http://gauntlet.telefragged.com/action/
+
+
+  Railgun Project
+
+  http://railgun.macquakeinfinity.com/
+
+
+  =-=-=-=-=-=-=-=-=
+  Additional Stuff:
+  =-=-=-=-=-=-=-=-=
+  
+  Crate map, model, and skins (Action Crate, baby!):
+
+  http://www.planetquake.com/shattered/shat/cratedm.htm
+
+
+  New HUD and menu lettering based off of this replacement PAK:
+
+  http://www.3ddownloads.com/showfile.php3?file_id=18058
+
+
+  =-=-=-=-=-=-=-=-=-=-=-=
+  Original Documentation:
+  =-=-=-=-=-=-=-=-=-=-=-=
+
+  For all maps:
+
+  action/maps/docs/
+
+
+  For all player models and skins:
+
+  action/players/[MODEL NAME]/docs/
+
+
+  For all Action Quake variations included:
+
+  action/docs/
+
+
+  Other documentation appears as appropriate.  :)
+
+
+  =-=-=-=-=-=
+  Thanks To:
+  =-=-=-=-=-=
+
+  The Action Quake Community
+
+  The A-Team
+
+  The Action Quake Development Team
+
+  Zayb0
+
+  Clan {FFJ} (Fugitives From Justice)
+
+  Nightfall (From Canada, different from the NightfaII listed above :)
+
+  fex
+
+  hal9000
+
+  Undream

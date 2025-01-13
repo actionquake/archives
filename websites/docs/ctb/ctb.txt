@@ -1,0 +1,19 @@
+Capture the Briefcase for AQ2  V.05
+- Brian Yee (brianyee@hotmail.com)
+
+-  Its simple, if you can grab both suitcases (same person must hold them), you win!
+
+- 'drop case'   drops the case.
+
+- set ctb 0       for server ops not running ctb
+
+- set respawndelay #      sets respawn rate
+
+Thanks to Chris 'Shatter' Holden for the kick arse suitcase skins :)
+          (shatter@planetquake.com)
+
+and to Ant, for his awesome server @ 24.130.68.234:27910
+
+and my distribution pimp, Kramed, at http://aq2og.telefragged.com
+
+and to the ATeam + Fireblade + Zucchini for releasing the AQ2 source

@@ -1,0 +1,73 @@
+  Action Quake 2: Consolidated Client Pack (AQ2:CCP)
+
+  http://action.action-web.net/
+
+
+  This client package has been designed to give you the best of 
+  ALL worlds.  Though a bit beefy on the download scale, it includes 
+  support for just about ALL the variations of the most popular 
+  and successful Quake 2 mod, Action Quake 2.  
+
+
+  Included here are the client support files for:
+
+  * Action Quake 2 (normal)
+  * Action Quake: Computer Generated Forces
+  * Action Quake: Edition
+  * Action Quake: Espionage
+  * Action Quake: Gangsters
+  * Action Quake: Low Lag sounds
+
+
+  The server support files included are:
+
+  * Action Quake 2 ("normal", official version 1.52)
+  * Action Quake: Action2000
+  * Action Quake: Arena
+  * Action Quake: Computer Generated Forces
+  * Action Quake: Edition
+  * Action Quake: Espionage
+  * Action Quake: Fireteams
+  * Action Quake: Gangsters
+  * Action Quake: Grappling Hook (based off of Edition 1.23)
+  * Action Quake: Heroes
+  * Action Quake: Karmann's unofficial 1.6 update
+  * Action Quake: Knife Shooters
+  * Action Quake: Llama Dome
+  * Action Quake: LTK Bots
+  * Action Quake: Mister Brian's Capture the Briefcase
+  * Action Quake: ML
+  * Action Quake: Single Player
+  * Action Quake: Three Teams
+  * Action Quake: Tournament Edition
+
+
+  Also included are:
+
+  * 15 Popular maps so you can play immediately!
+  * Popular player models and skins
+  * An enhanced and polished interface for Action Quake 2
+  * Server files for each major Action Quake variation
+  * Server files for Windows, Linux, Macintosh, BeOS, Solaris x86, and Solaris SPARC
+  * Preconfigured server files so you can run a server straight "out of the box"
+  * Premade GameSpy and PingTool filters
+  * Web browser plugins to allow you to view Quake 2 server information
+  * The source code to several of the Action Quake variations
+  * The text files that accompanied ALL maps and skins used in this client
+
+
+  In an effort to be user-friendly, we have done the following:
+
+  * Organized the Action Quake 2 directory structure
+  * Organized all the documentation for each Action Quake variation
+  * Included original documentation and explanations for new (and old) users
+  * Included BeOS, Linux, Macintosh, and Macintosh "how to" guides
+  * Created HTML versions of the documentation for easier reading
+  * Tested the client and server files on Windows, Macintosh, and Linux
+
+  We hope that this client package contains all the files that you need to 
+  play ALL the different kinds of Action Quake games.  We also hope that 
+  you have fun!  :)
+
+  ~ The AQ2:CCP Team
+

@@ -1,0 +1,45 @@
+<HTML>
+
+<HEAD>
+<TITLE>Locations description info</TITLE>
+</HEAD>
+
+<BODY LINK=773322 VLINK=AA6644 ALINK=DD9988 BGCOLOR=111111 TEXT=CCCCCC>
+
+Locations description info<BR>
+==========================<BR>
+If you've got this file, then you've got the locations mod built into whatever mod this is. (Does that make sense? Nope, oh well)...<BR>
+<BR>
+Anyway, this text file basically tells you how to create your own Locations files for any map you wish. If you have access to a server, then you can get these customised locations files uploaded to the servers locs directory and then when you join the game it will load your own locations files for you.<BR>
+<BR>
+First, we'll go through the commands and methods used for the in game editor. Before you can use any of these commands you must first move the game into edit mode by typing "editmode" at the console (no quotes). This should move you into editmode, if it doesn't then make sure there is no one else on the server. Editmode only works when there is one player on the server.<BR>
+<BR>
+When in edit mode you will see a list of all the current locations (if theres none, then no locations will be displayed). Use the inventory prev/next buttons to scroll through this list. Press your help/score key (default F1) to change the list to display the current location name and details. When the list is displaying the current location name, you can use the inventory prev/next buttons to move straight to other locations. This is important as you must first move to a location (using the menu in this way) to select the location before you can remove it, rename it, update it etc..etc...<BR>
+<BR>
+The commands are...<BR>
+addlocation x - adds a location named x at your current position<BR>
+removelocation - removes the current location (shown at the top of the screen)<BR>
+updatelocation - changes the locations current position, to your current position<BR>
+renamelocation x - renames the current location to x<BR>
+listlocations - toggles the display from all locations to current locations and vice versa<BR>
+<BR>
+When you have finished your file exit edit mode by typing edit mode again. The file will now be in your <modname>/locs/ directory. If you wish to create a default file for the server then simply name yourself default before joining the server. Default files are loaded for any client who doesn't have a custom locations file.<BR>
+<BR>
+Oh btw, to use these locations descriptions simply include a %L bit in your say_team commands....like "say_team I'm %L" and it'll say "I'm near the big tower" when your near the big tower etc...<BR>
+<BR>
+Hope this all makes sense....kinda ;-)<BR>
+<BR>
+Write to me if you've got any ideas for alterations/improvements.<BR>
+<BR>
+rab@games.theplanet.net<BR>
+<BR>
+-- <BR>
+Rab AKA TeenyBoppa[FSB]<BR>
+
+<BR>
+<BR>
+<A HREF="index.html">Back</A> to the documentation listing...<BR>
+<BR>
+</BODY>
+
+</HTML>
