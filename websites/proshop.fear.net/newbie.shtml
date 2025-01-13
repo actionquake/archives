@@ -5,14 +5,14 @@
   <TITLE>The Pro Shop's Newbie Llama Page</TITLE>
 </HEAD>
 <BODY BGCOLOR="#ffffff" LINK="#ffff80" ALINK="#ffff80" VLINK="#ffff80">
-
+
 <BASEFONT SIZE=2>
 <P><IMG SRC="images/pagegraphics/mrcproshop.gif" WIDTH="622" 
 HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
-
+
 <P><CENTER><B><FONT COLOR="#004080" SIZE="+4" FACE="Arial">NEWBIE
 LLAMAS</FONT></B></CENTER></P>
-
+
 <P><CENTER><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
   <TR>
     <TD COLSPAN="3" BGCOLOR="#025883"><BASEFONT SIZE=2>
@@ -26,12 +26,12 @@ LLAMAS</FONT></B></CENTER></P>
     <TABLE WIDTH="90%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
       <TR>
         <TD BGCOLOR="#0271a6"><BASEFONT SIZE=2>
-        <P><FONT COLOR="#ffffff" FACE="Arial">Welcome to the wide world
+        <P><FONT COLOR="#ffffff" FACE="Arial">Welcome to the wide world
         of Action Quake, where you get to be the star in your own melodrama
         about love, hate, revenge and slo-mo gunfights. Here is a game
         where you can unleash all of your pent-up aggressions without
         winding up in the big house.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Let us get right down to
         it. I'll assume that you have downloaded the AQ2 Client Pack
         from </FONT><FONT FACE="Arial"><A HREF="http://action.telefragged.com/"
@@ -43,7 +43,7 @@ LLAMAS</FONT></B></CENTER></P>
         installed these files and packs into your \quake2 setup, and
         you're now wondering how you do things like open doors, create
         custom config files, and in general just style like the man.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Fist off, let me point
         out that every Q2 mod, including the original Q2 game, has a
         game directory in your \quake2 directory. For the original game
@@ -53,7 +53,7 @@ LLAMAS</FONT></B></CENTER></P>
         directory is a &quot;default&quot; directory, which means that
         any mod will also look in that directory for resources that it
         needs.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Every mod will have its
         own config.cfg file in it's base directory. This file details
         all of the default setup and key binding information. Unless
@@ -63,7 +63,7 @@ LLAMAS</FONT></B></CENTER></P>
         it and start the mod again, and a fresh config file will be copied
         from your /baseq2 directory. Of course, if your config in \baseq2
         is screwed that is a problem.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Putting your key binds
         in your config.cfg file is unnecessary though, and you should
         in general refrain from modifying the config.cfg. Especially
@@ -72,7 +72,7 @@ LLAMAS</FONT></B></CENTER></P>
         called autoexec.cfg. This file should be in the base directory
         of the mod it is for, just like the config.cfg file. When loading,
         the mod will first load your config.cfg then load your autoexec.cfg.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">There are a lot of console
         commands (console is reached using the &quot;~&quot; key) and
         actions that can be bound using aliases and key binds. I will
@@ -85,7 +85,7 @@ LLAMAS</FONT></B></CENTER></P>
         HREF="http://www.planetquake.com/deathmatch101/" TARGET="_blank">www.planetquake.com/deathmatch101/</A></FONT><FONT
          COLOR="#ffffff" FACE="Arial"> ... this last url even gives info
         on how to use gamespy if you're having trouble in that department.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Information about installing
         map packs, skin packs, and such can be found at the home pages
         dedicated to that area. The button bar along the top of this
@@ -95,13 +95,13 @@ LLAMAS</FONT></B></CENTER></P>
         to by a little searching will often be ridiculed. Try not to
         be a llama by being too lazy to at least attempt to search out
         the information for yourself first.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Last but not least, you
         should read the information and teamplay sections on this page
         if you're a brand new player, as well as checking through the
         text-file documentation that is installed in the \action directory
         by the client install.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">If you have read all this
         material you should be well on your way to some action-packed
         nights of frantic AQ2. Go forth and discover the joys of sniping,
@@ -126,6 +126,6 @@ LLAMAS</FONT></B></CENTER></P>
      
   </TR>
 </TABLE></CENTER>
-
+
 </BODY>
 </HTML>

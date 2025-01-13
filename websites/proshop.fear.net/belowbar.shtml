@@ -6,7 +6,7 @@
 </HEAD>
 <BODY TEXT="#ffffff" LINK="#ffffff" ALINK="#ffffff" VLINK="#ffffff"
 BACKGROUND="images/pagegraphics/mrcbluegray.gif">
-
+
 <BASEFONT SIZE=1>
 <P><CENTER>
   <TABLE WIDTH="90%" BORDER="0" CELLSPACING="2" CELLPADDING="0">
@@ -65,6 +65,6 @@ BACKGROUND="images/pagegraphics/mrcbluegray.gif">
   <P>&nbsp;</P>
   <P><FONT FACE="Verdana" SIZE="1" COLOR="#FFFF99">Best viewed in 1024x768 resolution</FONT></P>
 </CENTER>
-
+
 </BODY>
 </HTML>

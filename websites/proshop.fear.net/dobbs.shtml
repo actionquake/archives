@@ -4,12 +4,12 @@
   <TITLE>Pro Shop Interview Center</TITLE>
 </HEAD>
 <BODY BGCOLOR="#ffffff" LINK="#ffffff" ALINK="#ffffff" VLINK="#ffffff" TEXT="#ffffff">
-
+
 <BASEFONT SIZE="2">
 <P><IMG SRC="images/pagegraphics/mrcproshop.gif" WIDTH="622" HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
-
+
 <P><CENTER><B><FONT COLOR="#004080" SIZE="+4" FACE="Arial">INTERVIEWS</FONT></B></CENTER></P>
-
+
 <P><CENTER><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
   <TR>
     <TD WIDTH="79%" BGCOLOR="#025883"><BASEFONT SIZE="2">
@@ -61,14 +61,14 @@ the teamplay code.  This was right after he proposed on the actionquake
 messageboard that the actionquake source be released.  He got a strong
 rejection to that idea from the A-Team so he was enthusiastic about
 working on what would become Axshun.<BR>
-<BR>
+<BR>
 <BR>
             </FONT><B><FONT COLOR="#f5edad" FACE="Arial">Do you foresee any further tinkering with the weapons, or do you see .95 as being the final edition of the weapons changing?</FONT><FONT FACE="Arial"> </FONT></B><FONT FACE="Arial"><BR>
-<BR>
+<BR>
             It is possible that certain things may change, in the interest of game balance.  However, as things stand right now, Fireblade and Zucchini have modified the weapon/damage and spreads to the exact Action Quake specifications. There are a couple notable exceptions:  The shotgun is approximately 10-15% more powerful.  We felt that was needed in order to make it a viable weapon.  Spreads are the same.<BR><BR>
 Zucchini: Unlikely, other than the aforementioned change to the shotgun<BR>
 <BR>
-<BR>
+<BR>
             </FONT><B><FONT COLOR="#f5edad" FACE="Arial">On the subject of grenades, do you feel that their addition to teamplay is a positive step in gameplay? </FONT></B><FONT FACE="Arial"><BR>
 <BR>
             I personally feel that grenades in teamplay are bad.  I know that Zucchini also feels the same way.  I'm not sure what Fireblade thinks.  However, we decided that we should leave it up to the server ops and their players to decide what THEY want, not for us to dictate our terms and conditions to them.  I feel that grenades in teamplay take away some of the skill of the game; I want people to have to WORK in order to kill me, not just nab me with a grenade.<BR><BR>Zucchini: Since the code is going to be released we have to acknowledge
@@ -99,7 +99,7 @@ took advantage of a new feature in the engine.
 <BR>
 <BR>
             </FONT><B><FONT COLOR="#f5edad" FACE="Arial">How many more versions until the official release, I know a lot of serverops are dying to get their hands on the .dll</FONT></B><FONT FACE="Arial"><BR>
-<BR>
+<BR>
             As many as it takes, and as long as it takes. :)  We realize that a lot of people are clamoring to finally crash-proof their servers, but we really have enough beta-test servers at the moment.  You can usually find the latest code on Zucchini or Fireblade's server(s).  They update and work on the code every day, which is a lot more frequent than it was being worked on before... <BR><BR>
 Zucchini: Fireblade and I are working as quickly as we can to fix critical
 bugs in order to get 1.5 ready.  Our goal is for there to be no bugs in
@@ -149,7 +149,7 @@ bug we know about.  <BR>
 <BR>
 <BR>
 <BR>
-
+
 <BR>
 <BR>
 <BR>
@@ -174,6 +174,6 @@ bug we know about.  <BR>
      
   </TR>
 </TABLE></CENTER>
-
+
 </BODY>
 </HTML>

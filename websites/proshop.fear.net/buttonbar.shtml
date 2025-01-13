@@ -5,7 +5,7 @@
   <TITLE>Pro Shop Button Bar</TITLE>
 </HEAD>
 <BODY BACKGROUND="images/pagegraphics/mrcbluegray.gif">
-
+
 <BASEFONT SIZE=1>
 <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="2" HEIGHT="100%">
   <TR>
@@ -31,6 +31,6 @@
     BORDER="0" NATURALSIZEFLAG="3" ALT="Telefragged"></A></FONT></B></TD>
   </TR>
 </TABLE>
-
+
 </BODY>
 </HTML>

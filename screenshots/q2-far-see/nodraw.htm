@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+
+Here it is kids, since Elite retired, I can release this secret.  I told many people I used software to see far, but I lied, it is something I came up with a couple months ago of messing with commands.  <BR>
+<BR>
+I'm sure people who camp the tall urban building and get killed by me from the back alley will finally be relieved to know how to do it.<BR>
+<BR>
+Here we go.<BR>
+<BR>
+From the tall urban building to the back alley.<BR>
+<BR>
+    <IMG SRC="flames1.jpg">
+
+<BR>
+From the back alley to the tall urban building.<BR>
+<BR>
+    <IMG SRC="flames2.jpg"> 
+
+<BR>
+See off in the distance there? It's the '4 boxes' where annoying snipers like to sit.  Easy picking from the back alley    :)<BR>
+<BR>
+    <IMG SRC="flames4.jpg"> 
+
+<BR>
+From the slant on TJ to the 'm4 ledge'.<BR>
+<BR>
+    <IMG SRC="flames3.jpg">   
+
+<BR>
+How do you do it??<BR>
+I'll tell you.<BR>
+<BR>
+First, you have to have your sky rotate so fast, it gives you the Hall Of Mirrors effect.  That lets you see far, but the sky is screwed up and makes it difficult to hit someone if they are against the HOM effect.  So what do you do?  Get rid of the effect, type:<BR>
+<BR>
+gl_clear "1"<BR>
+<BR>
+In the console.  Now you have a pretty pink sky like in the screenshots above.  For those of you who want an easy alias, here's mine.<BR>
+<BR>
+//far see<BR>
+gl_clear 1<BR>
+alias sky_t "skyoff"<BR>
+alias skyoff "alias sky_t skyon; sky stars 99999999999999999999"<BR>
+alias skyon "alias sky_t skyoff; sky stars"<BR>
+bind d sky_t<BR>
+<BR>
+And that, is how you get no draw-in, in quake2 in OpenGL.<BR>
+<BR>
+I came up with this on my own, and has served me well ever since.<BR>
+<BR>
+Have fun kids     :)<BR>
+<BR>
+</BODY>
+</HTML>

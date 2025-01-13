@@ -4,7 +4,7 @@
   <TITLE>The Pro Shop</TITLE>
 </HEAD>
 <FRAMESET FRAMEBORDER="0" BORDER="0" FRAMESPACING="0" COLS="100,86%">
-<FRAMESET FRAMEBORDER="0" BORDER="0" FRAMESPACING="0" ROWS="190,17*">
+<FRAMESET FRAMEBORDER="0" BORDER="0" FRAMESPACING="0" ROWS="190,17*">
 <FRAME SRC="sidebar.shtml" NAME="Frame9545" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="NO" NORESIZE>
 <FRAME SRC="belowbar.shtml" NAME="Frame26977" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="NO" NORESIZE>
 </FRAMESET>
@@ -15,10 +15,10 @@
   <TR>
     <TD WIDTH="100%" ALIGN="CENTER" HEIGHT="100%">
     <P><B><FONT COLOR="#ffff80" SIZE="+2" FACE="Arial">The Pro Shop</FONT></B></P>
-
+
     <P><B><FONT COLOR="#ffff80" FACE="Arial">requires a browser that
     supports frames</FONT></B></P>
-
+
     <P><I><FONT COLOR="#ffff80" FACE="Arial">-mr clark</FONT></I></TD> 
   </TR>
 </TABLE></CENTER>

@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <TITLE>Join CAPP</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#ffffff" ALINK="#ffffff" VLINK="#ffffff"
+TEXT="#ffffff">
+
+<BASEFONT SIZE=2>
+<P><IMG SRC="images/pagegraphics/mrcproshop.gif" WIDTH="622" 
+HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
+
+<P><CENTER>
+    <B><FONT COLOR="#004080" SIZE="+4" FACE="Arial">JOIN CAPP</FONT></B> 
+  </CENTER></P>
+
+<P><CENTER>
+  <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
+    <TR> 
+      <TD COLSPAN="3" BGCOLOR="#025883"><BASEFONT SIZE=2> <B><FONT COLOR="#ffffff" FACE="Arial" SIZE="2">Consolidated 
+        Association of Professional Professionals - Join Here</FONT></B></TD>
+    </TR>
+    <TR> 
+      <TD COLSPAN="3" BGCOLOR="#004080"><BASEFONT SIZE=2> 
+        <P ALIGN="LEFT">&nbsp; 
+        <TABLE WIDTH="74%" ALIGN="CENTER" CELLPADDING="0" CELLSPACING="0">
+          <TR> 
+            <TD COLSPAN="3" BGCOLOR="#008080" HEIGHT="26"> 
+              <DIV ALIGN="LEFT"><B><FONT FACE="Arial" COLOR="#FFFFFF"> <FONT SIZE="2">Fill 
+                in the information below and click &quot;Join CAPP!&quot; </FONT></FONT></B></DIV>
+            </TD>
+          </TR>
+          <TR BGCOLOR="#009999"> 
+            <TD COLSPAN="3"> 
+              <DIV ALIGN="CENTER"> 
+                <FORM METHOD="post" ACTION="mailto:mrska@fear.net" NAME="JOINCAPP">
+                  <P>&nbsp;</P>
+                  <P><FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">State Your Name:</FONT> 
+                    <FONT SIZE="2"> 
+                    <INPUT TYPE="text" NAME="NAME">
+                    </FONT></P>
+                  <P> <FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">State Your Profession:</FONT> 
+                    <FONT SIZE="2"> 
+                    <INPUT TYPE="text" NAME="JOB">
+                    </FONT></P>
+                  <P> <FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">State Your E-Mail 
+                    Address: </FONT><FONT SIZE="2"><B><FONT FACE="Arial" COLOR="#FFFFFF"> 
+                    <INPUT TYPE="text" NAME="E-MAIL">
+                    </FONT></B> </FONT></P>
+                  <P> <FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">State Your Geological 
+                    Location:</FONT><FONT SIZE="2"><B><FONT FACE="Arial" COLOR="#FFFFFF"> 
+                    <INPUT TYPE="text" NAME="LOCATION">
+                    </FONT></B></FONT></P>
+                  <P> <FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">State Your Clan:</FONT><FONT SIZE="2"><B><FONT FACE="Arial" COLOR="#FFFFFF"> 
+                    <INPUT TYPE="text" NAME="CLAN">
+                    </FONT></B> </FONT></P>
+                  <P> <FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">State Your Preferred</FONT> 
+                    <FONT FACE="Arial" COLOR="#FFFFFF" SIZE="2">Weapon &amp; Item: 
+                    </FONT><FONT SIZE="2"><B><FONT FACE="Arial" COLOR="#FFFFFF"> 
+                    <INPUT TYPE="text" NAME="PIECE">
+                    </FONT></B></FONT></P>
+                  <P>&nbsp; </P>
+                  <P> <FONT SIZE="2"> 
+                    <INPUT TYPE="submit" NAME="SUMBIT" VALUE="Join CAPP!">
+                    </FONT><BR>
+                  </P>
+                </FORM>
+                <P>&nbsp;</P>
+              </DIV>
+            </TD>
+          </TR>
+        </TABLE>
+        <P>&nbsp;</P>
+        <P ALIGN="CENTER">&nbsp; 
+        <P ALIGN="LEFT"> <BR>
+      </TD>
+    </TR>
+    <TR> 
+      <TD COLSPAN="2" BGCOLOR="#025883"><BASEFONT SIZE=2> <B><FONT COLOR="#ffffff" FACE="Arial" SIZE="2">CAPP 
+        is not a clan, it is a directory of dedicated Action Quake2 fans.</FONT></B></TD>
+      <TD BGCOLOR="#025883" WIDTH="19%"> 
+        <DIV ALIGN="RIGHT"><FONT COLOR="#f5edad" SIZE="-1" FACE="Comic Sans MS">copyright 
+          1998 - mr clark</FONT> </DIV>
+      </TD>
+    </TR>
+  </TABLE>
+</CENTER>
+
+</BODY>
+</HTML>

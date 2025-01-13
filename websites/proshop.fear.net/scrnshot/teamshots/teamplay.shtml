@@ -5,10 +5,10 @@
   <TITLE>The Pro Shop</TITLE>
 </HEAD>
 <BODY BGCOLOR="#ffffff" LINK="#000099" ALINK="#000099" VLINK="#000099">
-
+
 <BASEFONT SIZE=2>
 <P><CENTER><B><FONT COLOR="#000099" SIZE="+4" FACE="Arial">Teamplay</FONT></B></CENTER></P>
-
+
 <P><CENTER><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
   <TR>
     <TD COLSPAN="3" BGCOLOR="#008080"><BASEFONT SIZE=2>
@@ -47,8 +47,8 @@
     <TD COLSPAN="3" BGCOLOR="#008080"><BASEFONT SIZE=2>
     <B><FONT COLOR="#ffffff" FACE="Arial">Teamplay Pics</FONT></B></TD>
      
-  </TR>
+  </TR>
 </TABLE></CENTER>
-
+
 </BODY>
 </HTML>

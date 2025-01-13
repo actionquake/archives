@@ -4,15 +4,15 @@
   <TITLE>The Pro Shop</TITLE>
 </HEAD>
 <BODY BGCOLOR="#ffffff" LINK="#000099" ALINK="#000099" VLINK="#000099">
-
+
 <BASEFONT SIZE=2>
 <P><CENTER><B><FONT COLOR="#000099" SIZE="+4" FACE="Arial">MP5
 Shots</FONT></B></CENTER></P>
-
+
 <P><CENTER><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
   <TR>
     <TD COLSPAN="3" BGCOLOR="#008080"><BASEFONT SIZE=2>
-    <B><FONT COLOR="#ffffff" FACE="Arial">2 pics</FONT></B></TD>
+    <B><FONT COLOR="#ffffff" FACE="Arial">2 pics</FONT></B></TD>
      
   </TR>
   <TR>
@@ -40,6 +40,6 @@ Shots</FONT></B></CENTER></P>
      
   </TR>
 </TABLE></CENTER>
-
+
 </BODY>
 </HTML>

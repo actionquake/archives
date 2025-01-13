@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <TITLE>Join CAPP</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" LINK="#ffffff" ALINK="#ffffff" VLINK="#ffffff"
+TEXT="#ffffff">
+
+<BASEFONT SIZE=2>
+<P><IMG SRC="images/pagegraphics/mrcproshop.gif" WIDTH="622" 
+HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
+
+<P><CENTER>
+    <B><FONT COLOR="#004080" SIZE="+4" FACE="Arial">JOIN CLAN DIRECTORY</FONT></B> 
+  </CENTER></P>
+
+<P><CENTER>
+  <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
+    <TR> 
+      <TD COLSPAN="3" BGCOLOR="#025883"><BASEFONT SIZE=2> <B><FONT COLOR="#ffffff" FACE="Arial" SIZE="2">Clan 
+        Directory Page - Join Here </FONT></B></TD>
+    </TR>
+    <TR> 
+      <TD COLSPAN="3" BGCOLOR="#004080"><BASEFONT SIZE=2> 
+        <P ALIGN="LEFT">&nbsp; 
+        <TABLE WIDTH="74%" ALIGN="CENTER" CELLPADDING="0" CELLSPACING="0">
+          <TR> 
+            <TD COLSPAN="3" BGCOLOR="#008080" HEIGHT="26"> 
+              <DIV ALIGN="LEFT"><B><FONT FACE="Arial" COLOR="#FFFFFF"> <FONT SIZE="2">Fill 
+                in the information below and click &quot;Join Directory!&quot; 
+                </FONT></FONT></B></DIV>
+            </TD>
+          </TR>
+          <TR BGCOLOR="#009999"> 
+            <TD COLSPAN="3" HEIGHT="101"> 
+              <DIV ALIGN="CENTER"> 
+                <FORM METHOD="post" ACTION="mailto:mrska@fear.net" NAME="JOINCLAN">
+                  <P>&nbsp;</P>
+                  <P><FONT FACE="Arial" SIZE="2">State your clan's name:</FONT> 
+                    <FONT SIZE="2"> 
+                    <INPUT TYPE="text" NAME="CLANNAME">
+                    </FONT></P>
+                  <P><FONT FACE="Arial" SIZE="2">State your clan's in-game tag:</FONT> 
+                    <FONT SIZE="2"> 
+                    <INPUT TYPE="text" NAME="CLANTAG">
+                    </FONT></P>
+                  <P><FONT SIZE="2" FACE="Arial" COLOR="#FFFFFF">State your clan's 
+                    homepage:</FONT><FONT SIZE="2"> 
+                    <INPUT TYPE="text" NAME="CLANPAGE">
+                    <BR>
+                    </FONT></P>
+                  <P> <FONT SIZE="2"> 
+                    <SELECT NAME="CLANJOIN">
+                      <OPTION SELECTED>Choose your clan's try-out requirments</OPTION>
+                      <OPTION>Invite Only</OPTION>
+                      <OPTION>Open</OPTION>
+                      <OPTION>Tryout</OPTION>
+                    </SELECT>
+                    </FONT></P>
+                  <P> <FONT SIZE="2"> 
+                    <INPUT TYPE="submit" NAME="JOINCLAN" VALUE="Join Directory!">
+                    </FONT></P>
+                </FORM>
+              </DIV>
+            </TD>
+          </TR>
+        </TABLE>
+        <P>&nbsp;</P>
+        <P ALIGN="CENTER">&nbsp; 
+        <P ALIGN="LEFT"> <BR>
+      </TD>
+    </TR>
+    <TR> 
+      <TD COLSPAN="2" BGCOLOR="#025883"><BASEFONT SIZE=2> <B><FONT COLOR="#FFFFFF" FACE="Arial" SIZE="2">All 
+        information will be sent directly to Mr. Ska, and posted</FONT></B></TD>
+      <TD BGCOLOR="#025883" WIDTH="19%">
+        <DIV ALIGN="RIGHT"><FONT COLOR="#f5edad" SIZE="-1" FACE="Comic Sans MS">copyright 
+          1998 - mr clark</FONT> </DIV>
+      </TD>
+    </TR>
+    <TR> 
+      <TD COLSPAN="3" BGCOLOR="#025883"><BASEFONT SIZE=2> 
+        <P ALIGN=RIGHT>&nbsp;
+      </TD>
+    </TR>
+  </TABLE>
+</CENTER>
+
+</BODY>
+</HTML>

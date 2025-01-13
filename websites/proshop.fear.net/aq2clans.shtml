@@ -8,11 +8,11 @@
 <BASEFONT SIZE=2> 
 <P><IMG SRC="images/pagegraphics/mrcproshop.gif" WIDTH="622" 
 HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
-
+
 <P><CENTER>
     <B><FONT COLOR="#004080" SIZE="+4" FACE="Arial">AQ2 CLAN DIRECTORY</FONT></B> 
   </CENTER></P>
-
+
 <P><CENTER>
   <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
     <TR> 
@@ -32,7 +32,7 @@ HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
               <TD COLSPAN="4" ALIGN="CENTER" BGCOLOR="#0271a6" HEIGHT="75"><BASEFONT SIZE=2> 
                 <B><FONT COLOR="#ffff80" SIZE="+3" FACE="Verdana">AQ2 Clans</FONT></B></TD>
             </TR>
-            <TR> 
+            <TR> 
               <TD HEIGHT="24" BGCOLOR="#0271a6" ALIGN="CENTER" COLSPAN="2"><FONT SIZE="2"><B><FONT FACE="Arial" COLOR="#FFFFFF"><A HREF="http://www.aggression.org">Aggression 
                 Rangers</A> </FONT></B></FONT></TD>
               <TD WIDTH="79" HEIGHT="24" BGCOLOR="#0271a6" ALIGN="CENTER"><FONT SIZE="2"><B><FONT FACE="Arial" COLOR="#FFFF99">=AR=</FONT></B></FONT></TD>
@@ -132,6 +132,6 @@ HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
     </TR>
   </TABLE>
 </CENTER>
-
+
 </BODY>
 </HTML>

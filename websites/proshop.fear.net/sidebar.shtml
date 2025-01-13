@@ -4,7 +4,7 @@
   <TITLE>Pro Shop's Menu Bar</TITLE>
 </HEAD>
 <BODY TEXT="#ffffff" LINK="#ffffff" ALINK="#ffffff" VLINK="#ffffff" BACKGROUND="images/pagegraphics/mrcbluegray.gif">
-
+
 <BASEFONT SIZE="2">
 <P><CENTER><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="100%">
   <TR>
@@ -13,6 +13,6 @@
 </TD>
   </TR>
 </TABLE></CENTER>
-
+
 </BODY>
 </HTML>

@@ -4,12 +4,12 @@
   <TITLE>The Pro Shop's Tactics &amp; Strategies</TITLE>
 </HEAD>
 <BODY BGCOLOR="#ffffff" LINK="#f5edad" ALINK="#f5edad" VLINK="#f5edad">
-
+
 <BASEFONT SIZE="2">
 <P><IMG SRC="images/pagegraphics/mrcproshop.gif" WIDTH="622" HEIGHT="129" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></P>
-
+
 <P><CENTER><B><FONT COLOR="#004080" SIZE="+4" FACE="Arial">TACTICS</FONT></B></CENTER></P>
-
+
 <P><CENTER><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
   <TR>
     <TD COLSPAN="3" BGCOLOR="#025883"><BASEFONT SIZE="2">
@@ -17,7 +17,7 @@
      
   </TR>
   <TR>
-    <TD COLSPAN="3" BGCOLOR="#004080"><BASEFONT SIZE="2">
+    <TD COLSPAN="3" BGCOLOR="#004080"><BASEFONT SIZE="2">
     <P><CENTER><BR>
     <TABLE WIDTH="300" BORDER="0" CELLSPACING="4" CELLPADDING="6">
       <TR>
@@ -50,7 +50,7 @@
         Tips by Futile [ADF]</A></FONT></B></TD> 
       </TR>
     </TABLE></CENTER><P></P>
-
+
     <P><CENTER><TABLE WIDTH="90%" BORDER="0" CELLSPACING="4" CELLPADDING="4">
       <TR>
         <TD WIDTH="100%" BGCOLOR="#008080"><BASEFONT SIZE="2">
@@ -66,13 +66,13 @@
         with controls directly wired into their brain. To put it simply,
         some people just can't figure out what makes the good players,
         well, <I>good</I>.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">To begin with, we'll cover
         controller setup, computer and video setup, internet connections,
         and then move on to some common sense tips for anyone and everyone.</FONT></P>
-
+
         <P><B><FONT COLOR="#ffff00" FACE="Arial">Controller Setup</FONT></B></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">I've played them all, and
         I've used all of the standard control methods. Now, while keyboard
         only was sufficient for Doom, what with elevation not mattering...
@@ -81,7 +81,7 @@
         moments notice, and be able to do so without taking your finger
         off the trigger or moving your hands in such a way that you can't
         move quickly if you spot trouble.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">So the keyboard is out...
         at least using <I>only</I> the keyboard. Now there is the possibility
         of using a joystick, but there are just too many controls, which
@@ -93,7 +93,7 @@
         must, and with any joystick you simply can't control your aim
         well enough to be able to accomplish such maneuvers and still
         be able to aim well.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">The preferred control setup
         is, of course, the mouse and keyboard together. Using &quot;freelook&quot;
         to aim and turn, and using a &quot;T&quot; or &quot;+&quot; shaped
@@ -101,7 +101,7 @@
         to side strafing movement. I found out that just as in Descent,
         being able to strafe or slide sideways during combat is of paramount
         importance.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">So set up your two mouse
         buttons to be &quot;fire&quot; and one other common command (usually
         &quot;jump&quot;) and then set up your keyboard for the other
@@ -112,16 +112,16 @@
         never look down at the keyboard while I'm playing, and neither
         should you... because if you aren't watching the screen, then
         you're going to be a sitting target for whoever comes along.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">On a side note, esteemed
         AQ2 activist &quot;BattleAxe&quot; noted that he plays with yet
         another combination of controls. It seems he uses a mouse in
         the right hand to aim and fire and crouch, and then uses a joystick
         in his left hand to move and perform a couple other actions.
         This is quite an innovative setup, for sure!</FONT></P>
-
+
         <P><B><FONT COLOR="#ffff00" FACE="Arial">Computer and Video Setup</FONT></B></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">First off, you'd better
         damn well be playing on a computer with a processor that is equal
         or better to a Intel Pentium 200. Anything slower will get so
@@ -132,7 +132,7 @@
         would cut my frame rate down so low that I'd have problems maneuvering
         and aiming. Never underestimate the value of a good, fast computer
         to help out your abilities.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Furthermore, it is almost
         a necessity to get a good 3D accelerator board. I run my Viper330
         at 640x480 opengl, which is pretty playable on the PPro-200.
@@ -143,14 +143,14 @@
         I was in their field of view or not, especially at long ranges.
         If you plan to be a sniper, then you'd better make sure you have
         a decent video board.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">The combination of a fast
         processor and a fast video processor will greatly enchance your
         ActionQuake experience. But sometimes there are other factors
         that keep the game from being as playable as it should be.</FONT></P>
-
+
         <P><B><FONT COLOR="#ffff00" FACE="Arial">Internet Connections</FONT></B></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Nothing will make you as
         frustrated as a laggy net connection that freezes, lags, and
         chops your game into unplayable pieces. The absolute minimum
@@ -158,7 +158,7 @@
         the best for normal dial-up. Some lucky fools have ISDN or Cable
         Modems, while some even luckier fools are directly wired to the
         net with 10baseT or 100baseTX.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Common symptoms of a laggy
         connection are smooth movement, with opponents that seem to jump
         from one spot to the other, and your shots coming off a half
@@ -169,7 +169,7 @@
         during which time your game freezes, then suddenly blazes on
         as the game catches up on the few seconds worth of data that
         comes in all at once.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">If you use gamespy, try
         to connect to the servers with the lowest ping possible. There
         are times when the router network of the internet itself may
@@ -177,7 +177,7 @@
         with traffic. In these sorts of situations there isn't much you
         can do but wait for the net to even out and then get back to
         playing.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Note that a high bandwidth
         connection does not necessarily equate to an ultra fast ping
         time, for there is more than sheer bandwidth that comes into
@@ -189,7 +189,7 @@
         you're in New York, don't go looking for servers in Los Angeles
         because you're going to get frustrated as hell with all the network
         lags.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">In general, a fast network
         connection is just as important as a properly equipped computer...
         without either of these you will be at a disadvantage when playing.
@@ -197,10 +197,10 @@
         should you claim someone is a &quot;cheatin' tard&quot; because
         they have a much better connection to the net. Just play as best
         you can under the circumstances.</FONT></P>
-
+
         <P><B><FONT COLOR="#ffff00" FACE="Arial">A few simple rules that
         can save your ass (sometimes)</FONT></B></P>
-
+
         <OL>
           <LI><FONT COLOR="#ffffff" FACE="Arial">Don't stand still in open,
           well-lit areas. This invites everyone to snipe at you to their
@@ -262,7 +262,7 @@
           to jump kick someone is quite difficult, and the unarmed combatant
           is an easy target. (We'll see if the knife changes these rules.)</FONT>
         </OL>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">That's it for basic tips
         and tactics. You'll become accustomed to ActionQuake in time,
         and settle on a playing style that works for you. But always
@@ -271,7 +271,7 @@
         :)</FONT></TD> 
       </TR>
     </TABLE></CENTER><P></P>
-
+
     <P><CENTER><TABLE WIDTH="90%" BORDER="0" CELLSPACING="4" CELLPADDING="4">
       <TR>
         <TD WIDTH="100%" BGCOLOR="#008080"><BASEFONT SIZE="2">
@@ -286,7 +286,7 @@
         of getting the most frags possible. And, while a valid method
         of playing in any case, it is dangerous for any and all players
         to attempt to be the bulletproof action hero.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">In AQ2 you will sometimes
         be thrown into a level that is quite small and has ten or more
         players. It's at this point that I switch to &quot;aggressive&quot;
@@ -296,14 +296,14 @@
         There is almost nowhere to dodge, and with six or more players,
         you will constantly be getting pegged in the back while trying
         to chase down someone else.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">I will grant that there
         are some semi-protected spots on these levels where you can try
         to defend yourself with moderate hard cover or the veil of a
         shadowy corner, but unless you have very quick reflexes and very,
         very good internet latency, you will be popped just about as
         often as if you were charging around at a dead run.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Ever try to be sneaky and
         stealthy while down in the main compound of basev28? You'll get
         tagged before you can say &quot;D'oh!&quot; It always seems to
@@ -312,7 +312,7 @@
         either be aggressive as possible, or run like hell... because
         there is a time and a place to be a sneak-dog, and the middle
         of a firefight isn't one of those places.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Personally, I feel that
         running people aren't inaccurate enough. All too often I get
         pegged by someone charging at me blazing away with a pistol,
@@ -321,7 +321,7 @@
         to them in those conditions, where I'm trying to use skill and
         they are counting on luck. Of course, lady luck is a fickle girl...
         and she isn't always there when you need her.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Basically, I find that
         less populous games, say four or five people at most, are very
         defensive games, with sneakiness and planning being of great
@@ -330,9 +330,9 @@
         you simply can't watch your back with that many people all gunning
         for each other. Perhaps the teamplay rules will bring some skill
         and planning into the bigger gunfights.</FONT></P>
-
+
         <P><B><FONT COLOR="#ffff00" FACE="Arial">Aggressive Tips</FONT></B></P>
-
+
         <OL>
           <LI><FONT COLOR="#ffffff" FACE="Arial">You'd better have a high
           bandwidth, low latency connection, because you'll need to be
@@ -355,7 +355,7 @@
           <LI><FONT COLOR="#ffffff" FACE="Arial">Don't complain if you
           try this tactic and get smeared all the time.</FONT>
         </OL>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">I cannot stress how important
         it is to have a fast computer and a very good internet connection
         if you're going to be an aggressive player. I don't even know
@@ -364,7 +364,7 @@
         ISDN or something...</FONT></TD> 
       </TR>
     </TABLE></CENTER><P></P>
-
+
     <P><CENTER><TABLE WIDTH="90%" BORDER="0" CELLSPACING="4" CELLPADDING="4">
       <TR>
         <TD WIDTH="100%" BGCOLOR="#008080"><BASEFONT SIZE="2">
@@ -381,7 +381,7 @@
         The person that plays defensively tries to emulate how a person
         would act in the real world, not wanting to take extra chances
         with their precious skin.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">As soon as the fight starts,
         the defensive player attempts to duck for cover if possible.
         I've had several situations where I met someone in a hallway,
@@ -390,14 +390,14 @@
         their lead in the process... but I wait to hear their weapon
         go <I>*click*</I>, and when they're reloading, just standing
         in plain view of course, I step out and tag them.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">It's silly how often people
         waste entire clips on a door or wall, just on the off chance
         that the person they just saw will poke their head out. On the
         other hand, I suppose this is a valid tactic since the agressive
         player <I>would</I> turn around and come charging out with their
         guns blazing.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">The defensive player also
         avoids open areas like the plague. Having to cross an open stretch
         of floor makes every professional itch all over, just wishing
@@ -408,7 +408,7 @@
         100% visible to anyone and everyone, which immediately draws
         a fierce hailstorm of lead slugs... because the best kills are
         those where the body topples off the building!</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Sniping is a skill practiced
         by the defensive player, as it minimizes the risk to the player.
         Of course, if you snipe in an obvious fashion, you are inviting
@@ -418,14 +418,14 @@
         here is to bag your target without being seen... and especially
         to avoid being seen by other people out of your field of vision
         who will then bushwhack you without mercy.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">This style of playing has
         many flavors, which you can see exhibited by which gun a player
         will prefer. Many prefer the M4 for it's devastating fire rate
         and penetration... however, many will shun it because it attracts
         too much attention and cannot be silenced. Others prefer a shotgun,
         giving them the ability to take out even the armored opponent.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Generally, the defensive
         player must discard some of his tactics when a level becomes
         crowded, for it's hard to duck and dodge when you find yourself
@@ -434,7 +434,7 @@
         lead, and side-stepped out a convenient door only to be nailed
         by someone coming out that door. What can I say? It's hard to
         be a ninja in a crowd!</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Another problem I pointed
         out in the &quot;opinions&quot; section applies to the defensive
         player, and that is the problem of trying to fire around or over
@@ -447,14 +447,14 @@
         cautious, and taking care to plan your position. Too often I
         have found out that I end up shooting a crate while someone has
         fun plinking at my exposed head in absolute safety.</FONT></P>
-
+
         <P><B><FONT COLOR="#ffff00" FACE="Arial">Tips for the defensive
         player</FONT></B></P>
-
+
         <OL>
           <LI><FONT COLOR="#ffffff" FACE="Arial">Keep your back to the
           wall and control your field of fire... never linger in areas
-          where your blind sides are exposed.</FONT>
+          where your blind sides are exposed.</FONT>
           <LI><FONT COLOR="#ffffff" FACE="Arial">Use your weapon of choice
           to your best advantage. If I have the MP5, I'll stick to narrower
           hallways and stairs, or lurk near doors... allowing the shape
@@ -482,7 +482,7 @@
           <LI><FONT COLOR="#ffffff" FACE="Arial">Adjust your style if the
           level becomes too crowded.</FONT>
         </OL>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">The key to being &quot;successful&quot;
         in AQ2 is being flexible. The game dynamics change considerably
         when there are just a few players... necessitating changes in
@@ -490,14 +490,14 @@
         The best strategy and planning can always go awry just because
         one person was in the wrong place at the right time and gets
         the drop on you.</FONT></P>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">And above all... get yourself
         centered before trying to climb that ladder! Getting stuck on
         a ladder makes you a big, juicy target for every person who can
         see you, which will ultimately lead to an untimely enema!</FONT></TD> 
       </TR>
     </TABLE></CENTER><P></P>
-
+
     <P><CENTER><TABLE WIDTH="90%" BORDER="0" CELLSPACING="4" CELLPADDING="4">
       <TR>
         <TD WIDTH="100%" BGCOLOR="#008080"><BASEFONT SIZE="2">
@@ -514,7 +514,7 @@
         playing nice, and it certainly about giving your fellow man a
         break. It's a kill or be killed world in ActionQuake2. So here
         are some tricks to try out the next time you feel evil.</FONT></P>
-
+
         <OL>
           <LI><FONT COLOR="#ffff00" FACE="Arial">The Ladder Vulture</FONT><FONT COLOR="#ffffff" FACE="Arial"> - these types usually hover around
           the tops of ladders, or sometimes wait in a hidden spot where
@@ -612,7 +612,7 @@
           ranges. </FONT><FONT COLOR="#ffffff" SIZE="-1" FACE="Arial">(donated
           by Orion French)</FONT>
         </OL>
-
+
         <P><FONT COLOR="#ffffff" FACE="Arial">Do you have an arch-type
         that you'd like added to the list? Email me the name and info
         and I'll add it in.</FONT></TD> 
@@ -808,8 +808,8 @@
     <P ALIGN="RIGHT"><FONT COLOR="#f5edad" SIZE="-1" FACE="Comic Sans MS">copyright
     1998 - mr clark</FONT></TD>
      
-  </TR>
+  </TR>
 </TABLE></CENTER>
-
+
 </BODY>
 </HTML>
