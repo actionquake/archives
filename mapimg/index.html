@@ -14,11 +14,18 @@
         .map-item {
             border: 1px solid #333;
             padding: 5px;
+            text-align: center;
         }
         .map-item img {
             width: 100%;
             height: auto;
             display: block;
+            margin-bottom: 5px;
+        }
+        .map-name {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 5px 0;
         }
         .loading {
             text-align: center;
@@ -37,7 +44,7 @@
         
         async function loadMaps() {
             const container = document.getElementById('mapContainer');
-            container.innerHTML = ''; // Clear loading message
+            container.innerHTML = '';
             
             try {
                 const response = await fetch(REPO_URL);
@@ -51,9 +58,14 @@
                         const img = document.createElement('img');
                         img.src = file.download_url;
                         img.alt = file.name;
-                        img.loading = 'lazy'; // Enable lazy loading
+                        img.loading = 'lazy';
+                        
+                        const nameDiv = document.createElement('div');
+                        nameDiv.className = 'map-name';
+                        nameDiv.textContent = file.name.replace(/\.[^/.]+$/, '');
                         
                         mapDiv.appendChild(img);
+                        mapDiv.appendChild(nameDiv);
                         container.appendChild(mapDiv);
                     }
                 });
