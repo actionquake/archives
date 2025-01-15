@@ -20,20 +20,49 @@
             height: auto;
             display: block;
         }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
-    <div class="map-grid">
-        <?php
-        $mapPath = "mapimg/";
-        $maps = glob($mapPath . "*.{jpg,jpeg,png,gif}", GLOB_BRACE);
-        
-        foreach($maps as $map) {
-            echo '<div class="map-item">';
-            echo '<img src="' . $map . '" alt="' . basename($map) . '">';
-            echo '</div>';
-        }
-        ?>
+    <div id="mapContainer" class="map-grid">
+        <div class="loading">Loading maps...</div>
     </div>
+
+    <script>
+        const REPO_URL = 'https://api.github.com/repos/actionquake/archives/contents/mapimg';
+        
+        async function loadMaps() {
+            const container = document.getElementById('mapContainer');
+            container.innerHTML = ''; // Clear loading message
+            
+            try {
+                const response = await fetch(REPO_URL);
+                const files = await response.json();
+                
+                files.forEach(file => {
+                    if (file.name.match(/\.(jpg|jpeg|png|gif)$/i)) {
+                        const mapDiv = document.createElement('div');
+                        mapDiv.className = 'map-item';
+                        
+                        const img = document.createElement('img');
+                        img.src = file.download_url;
+                        img.alt = file.name;
+                        img.loading = 'lazy'; // Enable lazy loading
+                        
+                        mapDiv.appendChild(img);
+                        container.appendChild(mapDiv);
+                    }
+                });
+            } catch (error) {
+                container.innerHTML = 'Error loading maps. Please try again.';
+            }
+        }
+
+        loadMaps();
+    </script>
 </body>
 </html>
