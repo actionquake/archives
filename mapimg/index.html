@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map Archives</title>
+    <style>
+        .map-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .map-item {
+            border: 1px solid #333;
+            padding: 5px;
+        }
+        .map-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-grid">
+        <?php
+        $mapPath = "mapimg/";
+        $maps = glob($mapPath . "*.{jpg,jpeg,png,gif}", GLOB_BRACE);
+        
+        foreach($maps as $map) {
+            echo '<div class="map-item">';
+            echo '<img src="' . $map . '" alt="' . basename($map) . '">';
+            echo '</div>';
+        }
+        ?>
+    </div>
+</body>
+</html>
