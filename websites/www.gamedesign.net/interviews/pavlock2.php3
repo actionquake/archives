@@ -3,21 +3,21 @@
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><base href="http://www.gamedesign.net/" />
 <style type="text/css">
-@import url(http://assets.aq2world.com/archive/websites/www.gamedesign.net/drupal.css);
+@import url(http://archives.aq2world.com/archive/websites/www.gamedesign.net/drupal.css);
 </style>
 			<title>
 				RUST - Gamedesign.net
 			</title>
-			<link rel="stylesheet" type="text/css" href="themes/rusted/http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/rusted.css">
+			<link rel="stylesheet" type="text/css" href="themes/rusted/http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/rusted.css">
 			<style type="text/css">
-				@import "themes/rusted/http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/rusted.css";
+				@import "themes/rusted/http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/rusted.css";
 			</style>
 		</head>
 		<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#000000">
 	<table width="900" height="24" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000"><tr><td align="left" valign="middle" width="40"><img src="/images/smalltf.gif" width="40" height="24" alt=""></td><td align="left" valign="middle"  width="250"><div class="networkBar">&nbsp;&nbsp;<A href="http://www.telefragged.com">TeleFragged</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.telefragged.com/network">Network</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<A href="http://www.3ddownloads.com">Downloads</a>&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;</div></td><td align="right" valign="middle" width="610"><div class="networkBar3"><iframe width=610 height=18 marginwidth=0 marginheight=0 frameborder=0 scrolling=no src="http://www.ugo.com/syndicatedContent/todayOnUGO/680x18_IframeContent.asp?channel=games&site=gamebanshee&bgcolor=000000&fontcolor=ffffff"></iframe></div></td></tr></table>
 			<table bgcolor="000000" width="900" border="0" bordercolor="FFFFFF" cellpadding="0" cellspacing="0">
 				<tr>
-					<td colspan="5"><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/mh_top.jpg" width="900" height="88" /></td>
+					<td colspan="5"><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/mh_top.jpg" width="900" height="88" /></td>
 				</tr>
 				<tr>
 					<td valign="top" width="7"><img src="images/mh_lowerbg1.jpg" width="7" height="150" /></td><td valign="top" width="150"><!-- Left Sidebar --><table border="0" cellpadding="0" cellspacing="0">
@@ -26,8 +26,8 @@
 									<div align="center" class="sidebar_head">Navigation</div>
 								</td>
 							</tr>
-							<tr><td valign="top" background="images/lsb_bodybg.jpg" width="150"><img src="images/lsb_bodytop.jpg" width="150" height="1" /><div class="sidebar">- <a href="http://www.gamedesign.net/" title="Return to the main page.">home</a><br />- <a href="http://www.gamedesign.net/book" title="Read and contribute to the collaborative books.">Handbooks</a><br />- <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/14" title="">Community</a><br />- <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/13" title="Learn more about the crazy kids running this joint.">Staff</a><br />- <a href="http://www.gamedesign.net/poll" title="View the list of polls on this site.">Polls</a><br />- <a href="http://www.gamedesign.net/search" title="Search for older content.">Search</a><br />- <a href="http://www.gamedesign.net/user" title="Create a user account, request a new password or edit your account settings.">My account</a></div><img src="images/lsb_bodybottom.jpg" width="150" height="1" /></td></tr>
-							<tr><td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
+							<tr><td valign="top" background="images/lsb_bodybg.jpg" width="150"><img src="images/lsb_bodytop.jpg" width="150" height="1" /><div class="sidebar">- <a href="http://www.gamedesign.net/" title="Return to the main page.">home</a><br />- <a href="http://www.gamedesign.net/book" title="Read and contribute to the collaborative books.">Handbooks</a><br />- <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/14" title="">Community</a><br />- <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/13" title="Learn more about the crazy kids running this joint.">Staff</a><br />- <a href="http://www.gamedesign.net/poll" title="View the list of polls on this site.">Polls</a><br />- <a href="http://www.gamedesign.net/search" title="Search for older content.">Search</a><br />- <a href="http://www.gamedesign.net/user" title="Create a user account, request a new password or edit your account settings.">My account</a></div><img src="images/lsb_bodybottom.jpg" width="150" height="1" /></td></tr>
+							<tr><td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
 							<tr>
 								<td valign="center" background="images/lsb_header.jpg" width="150" height="24">
 									<div align="center" class="sidebar_head">Editing Handbooks</div>
@@ -35,12 +35,12 @@
 							</tr>
 							<tr><td valign="top" background="images/lsb_bodybg.jpg" width="150"><img src="images/lsb_bodytop.jpg" width="150" height="1" /><div class="sidebar">							
 										- <a href="/book/view/1?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Half-Life</a><br />- <a href="/book/view/11?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Quake II</a><br />- <a href="/book/view/12?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Quake III</a><br />- <a href="/book/view/111?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Generic</a><br />- <a href="/book/view/58?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Interviews</a><br />- <a href="/book/view/128?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Kingpin</a><br />- <a href="/book/view/167?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Doom 3</a><br />- <a href="/book/view/532?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">Modeling</a><br />- <a href="/book/view/549?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">RUST Resumes</a><br />- <a href="/book/view/14?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">RUST Community</a><br />- <a href="/book/view/630?PHPSESSID=3bbd555a3c9fee9f27829c68d1658505">RUST Competition</a><br />									</div><img src="images/lsb_bodybottom.jpg" width="150" height="1" /></td></tr><tr>
-								<td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td>
+								<td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td>
 							</tr>
 																						<tr><td valign="center" background="images/lsb_header.jpg" width="150" height="24"><div align="center" class="sidebar_head">Advertisement</div></td> </tr>
 								<tr><td valign="top" background="images/lsb_bodybg.jpg" width="150"><img src="images/lsb_bodytop.jpg" width="150" height="1" /><div class="sidebar" align="center"><!-- AdSpace Network=ugo size=120x600 adtype=under affiliate=telefragged suba=telefragged channel=games subchannel=pc category=fps PT=hp CR=mi pez=tic --><iframe width=120 height=600 marginwidth=0 marginheight=0 frameborder=0 bordercolor=000000 scrolling=no src="http://mediamgr.ugo.com:80/html.ng/Network=ugo&size=120x600&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic"><script language="javascript1.1" src="http://mediamgr.ugo.com:80/js.ng/params.richmedia=yes&Network=ugo&size=120x600&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic"></script><noscript><a href="http://mediamgr.ugo.com:80/click.ng/params.richmedia=yes&Network=ugo&size=120x600&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic"><img src="http://mediamgr.ugo.com:80/image.ng/params.richmedia=yes&Network=ugo&size=120x600&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic" border=0></a></noscript></iframe><!-- /AdSpace -->
 </div><img src="images/lsb_bodybottom.jpg" width="150" height="1" /></td></tr>
-								<tr><td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
+								<tr><td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
 													</table>
 					</td>
 					<td valign="top" width="7"><img src="images/mh_lowerbg2.jpg" width="7" height="90" /></td>
@@ -81,7 +81,7 @@ document.write("<COMMENT>");
 </noscript>
 </COMMENT>
 <!-- END RedSheriff Customer Intelligence V4 --></td></tr>
-							<tr><td valign="top" height="7" colspan="3"><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7"></td></tr>
+							<tr><td valign="top" height="7" colspan="3"><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7"></td></tr>
 							<tr>
 								<td colspan="3">
 								<table width="729" border="0" bordercolor="FFFFFF" cellpadding="0" cellspacing="0"><tr><td>
@@ -99,13 +99,13 @@ document.write("<COMMENT>");
 <tr><td><a href="http://forums.gamedesign.net/viewtopic.php?p=209611#209611">Method</a></td><td><a href="http://forums.gamedesign.net/viewforum.php?f=81">RUST .plan</a></td><td><a href="http://forums.gamedesign.net/profile.php?mode=viewprofile&u=2287">Method</a></td></tr>
 </table>
 </div></td></tr><tr><td valign="bottom"><img src="images/midbar_bottom.jpg" /></td></tr></table></td>
-								<td valign="top" width="7" height="250"><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7"></td>
+								<td valign="top" width="7" height="250"><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7"></td>
 								<td valign="top" width="300" height="250">
 									<!-- AdSpace Network=ugo size=300x250 adtype=under affiliate=telefragged suba=telefragged channel=games subchannel=pc category=fps PT=hp CR=mi pez=tic --><iframe width=300 height=250 marginwidth=0 marginheight=0 frameborder=0 bordercolor=000000 scrolling=no src="http://mediamgr.ugo.com:80/html.ng/Network=ugo&size=300x250&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic"><script language="javascript1.1" src="http://mediamgr.ugo.com:80/js.ng/params.richmedia=yes&Network=ugo&size=300x250&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic"></script><noscript><a href="http://mediamgr.ugo.com:80/click.ng/params.richmedia=yes&Network=ugo&size=300x250&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic"><img src="http://mediamgr.ugo.com:80/image.ng/params.richmedia=yes&Network=ugo&size=300x250&adtype=under&affiliate=telefragged&suba=telefragged&channel=games&subchannel=pc&category=fps&PT=hp&CR=mi&pez=tic" border=0></a></noscript></iframe><!-- /AdSpace -->
 								</td></tr></table> </td>
 							</tr>
 							<tr>
-								<td valign="top" height="7" colspan="3"><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7"></td>
+								<td valign="top" height="7" colspan="3"><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7"></td>
 							</tr>							<tr>
 								<td width="729" valign="top">
 									<table border="0" width="522" cellpadding="0" cellspacing="0">
@@ -134,19 +134,19 @@ id Software released a <a href = "http://www.iddevnet.com/">DOOM 3 SDK</a>, with
 <img src="content/news/CSsource/de_dust20015_small.jpg"><img src="content/news/CSsource/de_chateau0002_small.jpg"><img src="content/news/CSsource/de_dust20007_small.jpg"><p>
 With Thirty Six stunning <a href="http://forums.gamedesign.net/viewtopic.php?t=49313" target=_new><b>Screen Shot's</b></a> from Counter Strike Source.<br>
 <br /><br />
-<a href="http://www.gamedesign.net/comment/reply/649" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/649" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 5 reads
+<a href="http://www.gamedesign.net/comment/reply/649" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/649" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 5 reads
 </div><br />
 
 
 <!-- Node: "Le Ray's Quake 2 Cafe - 2005 Mapping Contest." -->
 <div class="body_box_header">Le Ray's Quake 2 Cafe - 2005 Mapping Contest.</div>
 <div class="body_box"><small>Submitted by <a href="http://www.gamedesign.net/user/view/120" title="View user profile.">KaMiKrAe-Z</a> on Tuesday, October 12, 2004 - 21:26</small><br /><br />
-Hot on the heels of Le Ray's last mapping competition (read about the results <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/645">here</a>) the Q2 Cafe has another contest in motion already! 
+Hot on the heels of Le Ray's last mapping competition (read about the results <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/645">here</a>) the Q2 Cafe has another contest in motion already! 
 <br>
 <br>
 <center><img src="http://www.gamedesign.net/miniwood/images/pandm8.jpg"></center>
 <br /><br />
-<a href="http://www.gamedesign.net/comment/reply/647" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/647" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 35 reads
+<a href="http://www.gamedesign.net/comment/reply/647" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/647" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 35 reads
 </div><br />
 
 
@@ -158,7 +158,7 @@ Hot on the heels of Le Ray's last mapping competition (read about the results <a
 If you can't see the wood for the trees in your latest map maybe you need to relax a bit and study a bit of game design theory.  Alan Dennis has put together a list of blogs discussing the theory of game design and the present state of the industry.  He says:
 <BLOCKQUOTE>Within these blogs you will find countless articles on some of the newest ideas and trends within the game industry. I have outlined just a few of the many blogs in the community and, for those interested in the art of game design, the articles found within these blogs will likely prove invaluable.</BLOCKQUOTE>
 <br /><br />
-<a href="http://www.gamedesign.net/comment/reply/646" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/646" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 57 reads
+<a href="http://www.gamedesign.net/comment/reply/646" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/646" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 57 reads
 </div><br />
 
 
@@ -184,7 +184,7 @@ Six mappers made the deadline for Leray's first Quake 2 mapping contest at the Q
 
 Head over to <A HREF="http://leray.proboards34.com/index.cgi">Leray's Quake 2 Cafe</A> for download links and discussion of the maps, Q2 and life in general.
 <br /><br />
-<a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/645#comment" title="Jump to the first comment of this posting.">2 comments</a> &middot; 62 reads
+<a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/645#comment" title="Jump to the first comment of this posting.">2 comments</a> &middot; 62 reads
 </div><br />
 
 
@@ -199,7 +199,7 @@ Half-Life 2 Steam Offers Ready Thursday.<br>
  
 Tomorrow at 11 am PST, the Half-Life 2 Steam offers will be ready for purchase. Details and pricing for these offers are pasted below. Those who purchase via Steam, will receive the final version of Counter-Strike: Source immediately.<br> <b>Half-Life 2 and other games in the Steam offerings will be made available to purchasers <u>upon their release</u>.</b><br>
 <br /><br />
-<a href="http://www.gamedesign.net/comment/reply/643" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/643" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 29 reads
+<a href="http://www.gamedesign.net/comment/reply/643" title="Add a new comment to this page.">Add new comment</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/643" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 29 reads
 </div><br />
 
 
@@ -217,7 +217,7 @@ Tomorrow at 11 am PST, the Half-Life 2 Steam offers will be ready for purchase. 
 
 &nbsp;&nbsp;&nbsp;Actually it wasn't just damn good, it was mind blowing. So it comes as no surprise that the initial reviews of Half-Life 2 have hit the streets screaming <b><i>"Mind blowingly brilliant"</i></b>.<br><br>
 <br /><br />
-<a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/642#comment" title="Jump to the first comment of this posting.">2 comments</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/642" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 73 reads
+<a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/642#comment" title="Jump to the first comment of this posting.">2 comments</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/642" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 73 reads
 </div><br />
 
 
@@ -230,7 +230,7 @@ Tomorrow at 11 am PST, the Half-Life 2 Steam offers will be ready for purchase. 
 This information was sourced from Mithodical Construction. <br>
 It provides a good brief background on common mapping terms. While the heading say's compiling terms, the terms themselves are generic to most mapping applications and editors.<br> There are more comprehensive lists out there, but the reason I like this one, is that it deals with complex terms in a simple fashion.<br>
 <br /><br />
-<a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/639#comment" title="Jump to the first comment of this posting.">4 comments</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/639" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 110 reads
+<a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/639#comment" title="Jump to the first comment of this posting.">4 comments</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/639" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 110 reads
 </div><br />
 
 
@@ -243,7 +243,7 @@ The ORBIT KotS team is going to try and revive the mod one last time by reseting
 <br />
 Now is the perfect time to jump aboard. No 'impossible to kill' level 10 railers, but fair play for all and a chance for a shot at the title.
 <br /><br />
-<a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/638#comment" title="Jump to the first comment of this posting.">4 comments</a> &middot; <a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/638" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 62 reads
+<a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/638#comment" title="Jump to the first comment of this posting.">4 comments</a> &middot; <a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/638" title="Read the rest of this posting." class="read-more"><b>Read more</b></a> &middot; 62 reads
 </div><br />
 
 
@@ -267,7 +267,7 @@ Get the patch <a href = "http://www.doom3.com/update.asp">here</a>
 									</table>
 								</td>
 								<td valign="top" width="7">
-									<img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" />
+									<img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" />
 								</td>
 								<td valign="top" width="200">
 									<table border="0" cellpadding="0" cellspacing="0">	
@@ -284,20 +284,20 @@ Get the patch <a href = "http://www.doom3.com/update.asp">here</a>
 
 </form>
 </div>
-<div class="item-list"><ul><li><a href="http://www.gamedesign.net/user/register" title="Create a new user account.">Create new account</a></li><li><a href="http://www.gamedesign.net/user/password" title="Request new password via e-mail.">Request new password</a></li></ul></div></div></div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
+<div class="item-list"><ul><li><a href="http://www.gamedesign.net/user/register" title="Create a new user account.">Create new account</a></li><li><a href="http://www.gamedesign.net/user/password" title="Request new password via e-mail.">Request new password</a></li></ul></div></div></div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
 			
 						<!-- Box: Poll (all)-->
 						
 			<tr><td valign="center" background="images/rsb_header.jpg" width="200" height="24"><div class="sidebar_head" align="center">Poll</div></td></tr><tr><td valign="top" background="images/rsb_bodybg.jpg" width="200"><img src="images/rsb_bodytop.jpg" width="200" height="1" /><div class="sidebar"><div class="poll-title">What is the coolest weapon out of the original Half-Life?</div><br><div class="poll"><form action="/interviews/pavlock2.php3" method="post"><div class="vote-form"><div class="choices"><div><input type="radio" name="pollvote[644]" value="0" />The Glock</div><div><input type="radio" name="pollvote[644]" value="1" />The Mp5</div><div><input type="radio" name="pollvote[644]" value="2" />The Snark</div><div><input type="radio" name="pollvote[644]" value="3" />The Gauss</div><div><input type="radio" name="pollvote[644]" value="4" />The Crowbar</div><div><input type="radio" name="pollvote[644]" value="5" />The satchel</div><div><input type="radio" name="pollvote[644]" value="6" />The Rpg</div><div><input type="radio" name="pollvote[644]" value="7" />Shotgun</div><div><input type="radio" name="pollvote[644]" value="8" />I dont care, if it kills its good</div></div><input type="submit" class="form-submit" name="vote" value="Vote" />
-</div><div class="links"><a href="http://assets.aq2world.com/archive/websites/www.gamedesign.net/node/view/644#comment" title="Jump to the first comment of this posting.">2 comments</a> &middot; <a href="/interviews/pavlock2.php3?pollresults[644]=1">View results</a> &middot; 21 reads &middot; <a href="http://www.gamedesign.net/poll" title="View the list of polls on this site.">Older polls</a></div></form></div></div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
+</div><div class="links"><a href="http://archives.aq2world.com/archive/websites/www.gamedesign.net/node/view/644#comment" title="Jump to the first comment of this posting.">2 comments</a> &middot; <a href="/interviews/pavlock2.php3?pollresults[644]=1">View results</a> &middot; 21 reads &middot; <a href="http://www.gamedesign.net/poll" title="View the list of polls on this site.">Older polls</a></div></form></div></div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
 			
 						<!-- Box: Who's new (all)-->
 						
-			<tr><td valign="center" background="images/rsb_header.jpg" width="200" height="24"><div class="sidebar_head" align="center">Who's new</div></td></tr><tr><td valign="top" background="images/rsb_bodybg.jpg" width="200"><img src="images/rsb_bodytop.jpg" width="200" height="1" /><div class="sidebar"><div class="item-list"><ul><li><a href="http://www.gamedesign.net/user/view/2285" title="View user profile.">ratt30</a></li><li><a href="http://www.gamedesign.net/user/view/2284" title="View user profile.">dcchancy</a></li><li><a href="http://www.gamedesign.net/user/view/2283" title="View user profile.">mrsleepless</a></li><li><a href="http://www.gamedesign.net/user/view/2282" title="View user profile.">GameDrained</a></li><li><a href="http://www.gamedesign.net/user/view/2281" title="View user profile.">skinmaster</a></li></ul></div></div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
+			<tr><td valign="center" background="images/rsb_header.jpg" width="200" height="24"><div class="sidebar_head" align="center">Who's new</div></td></tr><tr><td valign="top" background="images/rsb_bodybg.jpg" width="200"><img src="images/rsb_bodytop.jpg" width="200" height="1" /><div class="sidebar"><div class="item-list"><ul><li><a href="http://www.gamedesign.net/user/view/2285" title="View user profile.">ratt30</a></li><li><a href="http://www.gamedesign.net/user/view/2284" title="View user profile.">dcchancy</a></li><li><a href="http://www.gamedesign.net/user/view/2283" title="View user profile.">mrsleepless</a></li><li><a href="http://www.gamedesign.net/user/view/2282" title="View user profile.">GameDrained</a></li><li><a href="http://www.gamedesign.net/user/view/2281" title="View user profile.">skinmaster</a></li></ul></div></div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
 			
 						<!-- Box: Who's online (all)-->
 						
-			<tr><td valign="center" background="images/rsb_header.jpg" width="200" height="24"><div class="sidebar_head" align="center">Who's online</div></td></tr><tr><td valign="top" background="images/rsb_bodybg.jpg" width="200"><img src="images/rsb_bodytop.jpg" width="200" height="1" /><div class="sidebar">There are currently 0 users and 45 guests online.</div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://assets.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
+			<tr><td valign="center" background="images/rsb_header.jpg" width="200" height="24"><div class="sidebar_head" align="center">Who's online</div></td></tr><tr><td valign="top" background="images/rsb_bodybg.jpg" width="200"><img src="images/rsb_bodytop.jpg" width="200" height="1" /><div class="sidebar">There are currently 0 users and 45 guests online.</div><img src="images/rsb_bodybottom.jpg" width="200" height="1" /></td></tr><tr><td><img src="http://archives.aq2world.com/archive/websites/www.gamedesign.net/themes/rusted/images/spacer.gif" width="7" height="7" /></td></tr>
 			
 												</table>
 								</td>

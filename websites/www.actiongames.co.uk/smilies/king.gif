@@ -2372,7 +2372,7 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
       <div id="positionHome">
 	<div id="searchHome">
 	  <form name="form1" method="get" action="/web/submit">
-	    <input class="form-control" type="text" name="url" value="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/smilies/king.gif" size="40" onfocus="javascript:this.focus();this.select();" >
+	    <input class="form-control" type="text" name="url" value="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/smilies/king.gif" size="40" onfocus="javascript:this.focus();this.select();" >
 	    <button class="btn btn-default" type="submit" name="type" value="replay">Latest</button>
 	    <button class="btn btn-default" type="submit" name="type" value="urlquery">Show All</button>
 	  </form>
@@ -2381,7 +2381,7 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
 <h2>Hrm.</h2>
 <p>The Wayback Machine has not archived that URL.</p>
     <p>Click here to search for all archived pages under
-      <a href="https://web.archive.org/web/*/https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/smilies/*">https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/smilies/</a>.
+      <a href="https://web.archive.org/web/*/https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/smilies/*">https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/smilies/</a>.
     </p>
 </div>
       </div>

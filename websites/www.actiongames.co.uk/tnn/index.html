@@ -7,7 +7,7 @@
 <title>TNN - News</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 <meta http-equiv="content-language" content="en-GB">
-<link rel="stylesheet" type="text/css" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/default.css">
+<link rel="stylesheet" type="text/css" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/default.css">
 <!-- Modified:  -->
 </head>
 <body>
@@ -58,9 +58,9 @@
 <td class="panelleft">&nbsp;</td>
 <td class="panel">
 <a href="/">Actiongames</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/">Action Quake</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/cstrike">Counter Strike</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/rpg">RPGs</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/">Action Quake</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/cstrike">Counter Strike</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/rpg">RPGs</a><br>
 </td>
 <td class="panelright">&nbsp;</td>
 </tr>
@@ -164,7 +164,7 @@ Dedicated to all things Action Quake. The Ultimate Quake 2 Mod</td>
 <p><a name='52'></a><span class="title">LTK Source Code</span><span class="small">&nbsp;&nbsp;by smurphster at 22:05:51</span></p>
 <p>After weeks of searching, we finally got a hold of the source code for LTK v1.22. A big thanks goes out to Idle of <a href="http://aqmd.action-web.net" target="_BLANK" class="pagelink">AQMD</a> for sending me the source.
 <br>
-<br>Head on over to the <a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/ltk/ltkdload.shtml" target="_BLANK" class="pagelink">LTK files</a> page to download the source.</p>
+<br>Head on over to the <a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/ltk/ltkdload.shtml" target="_BLANK" class="pagelink">LTK files</a> page to download the source.</p>
 <table width="100%" cellpadding="2" cellspacing="2"><tr><td class="newsday">Tuesday 4 June 2002&nbsp;</td></tr></table>
 
 <p><a name='38'></a><span class="title">Map Contest Results</span><span class="small">&nbsp;&nbsp;by smurphster at 17:48:52</span></p>
@@ -183,7 +183,7 @@ Dedicated to all things Action Quake. The Ultimate Quake 2 Mod</td>
 <p><a name='15'></a><span class="title">AQ:ETE 4.6c is RELEASED!</span><span class="small">&nbsp;&nbsp;by Black Monk at 07:42:46</span></p>
 <p>This mainly fixes some minor Windows bugs for Windows-based servers.  Go ahead and snag it for your servers, eh!  No functionality changes whatsoever but there are both Linux and Windows binaries available.
 <br>
-<br><a href="https://assets.aq2world.com/archive/websites/aqdt.fear.net/" target="_BLANK" class="pagelink">http://aqdt.fear.net/</a></p>
+<br><a href="https://archives.aq2world.com/archive/websites/aqdt.fear.net/" target="_BLANK" class="pagelink">http://aqdt.fear.net/</a></p>
 <table width="100%" cellpadding="2" cellspacing="2"><tr><td class="newsday">Friday 19 April 2002&nbsp;</td></tr></table>
 
 <p><a name='14'></a><span class="title">AQMD map contest extended</span><span class="small">&nbsp;&nbsp;by smurphster at 17:48:12</span></p>

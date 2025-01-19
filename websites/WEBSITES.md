@@ -14,23 +14,23 @@ Since the mod was given life way back in 1998, there have been a plethora of web
 
 #### Development
 * Action Quake 2 (Original 1.52)
-  * https://assets.aq2world.com/archive/websites/action.telefragged.com
+  * https://archives.aq2world.com/archive/websites/action.telefragged.com
 * Action Quake 2: Edition
-  * https://assets.aq2world.com/archive/websites/action.gametown.de/english/
+  * https://archives.aq2world.com/archive/websites/action.gametown.de/english/
 * Action Quake 2: The Next Generation
   * http://aq2-tng.sourceforge.net/
 * Action Quake 2: Espionage Tournament Edition
-  * https://assets.aq2world.com/archive/websites/aqdt.fear.net/
+  * https://archives.aq2world.com/archive/websites/aqdt.fear.net/
 * CGF: Computer Generated Forces
-  * https://assets.aq2world.com/archive/websites/www.botepidemic.com/aid/cgf/
+  * https://archives.aq2world.com/archive/websites/www.botepidemic.com/aid/cgf/
 * PaTMaN's ^J Mod
-  * https://assets.aq2world.com/archive/websites/www.indevs.com/patman/
+  * https://archives.aq2world.com/archive/websites/www.indevs.com/patman/
 * AQ: Gangsters
-  * https://assets.aq2world.com/archive/websites/www.planetquake.com/gangsters
+  * https://archives.aq2world.com/archive/websites/www.planetquake.com/gangsters
 * AQ: Heroes
-  * https://assets.aq2world.com/archive/websites/heroes.mattworld.com/
+  * https://archives.aq2world.com/archive/websites/heroes.mattworld.com/
 * License to Kill: The Borg Matrix (LTKTBM)
-  * https://assets.aq2world.com/archive/websites/www.theborgmatrix.com
+  * https://archives.aq2world.com/archive/websites/www.theborgmatrix.com
 * AQtion
   * https://github.com/actionquake/distrib
 
@@ -39,11 +39,11 @@ Since the mod was given life way back in 1998, there have been a plethora of web
 * AQ2 Suomi
   * https://www.aq2suomi.com/
 * The Action Quake Map Depot (AQMD)
-  * https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/
+  * https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/
 * Lahtela's Map Archive
   * https://www.lahtela.com/action-quake-2-maps/
 * The Actors Guild
-  * https://assets.aq2world.com/archive/websites/guild.action-web.net 
+  * https://archives.aq2world.com/archive/websites/guild.action-web.net 
 * WizardExt's Map Site
   * https://wizardext.se/
 * AQ2 Pro
@@ -51,34 +51,34 @@ Since the mod was given life way back in 1998, there have been a plethora of web
 
 #### News / Articles
 * The Newbie's Niche (TNN)
-  * https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn
+  * https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn
 * Action World
-  * https://assets.aq2world.com/archive/websites/aw.telefragged.com
+  * https://archives.aq2world.com/archive/websites/aw.telefragged.com
 * Action Mods (Spinoffs)
-  * https://assets.aq2world.com/archive/websites/aqmods.telefragged.com/
+  * https://archives.aq2world.com/archive/websites/aqmods.telefragged.com/
 * Mr. Ska's Pro Shop
-  * https://assets.aq2world.com/archive/websites/proshop.fear.net/
+  * https://archives.aq2world.com/archive/websites/proshop.fear.net/
 * AQ2 Team
-  * https://assets.aq2world.com/archive/websites/aq2-team.de/ 
+  * https://archives.aq2world.com/archive/websites/aq2-team.de/ 
 * AQ2: Owner's Guide
-  * https://assets.aq2world.com/archive/websites/aq2og.telefragged.com/
+  * https://archives.aq2world.com/archive/websites/aq2og.telefragged.com/
 * Mr. Brian's CTB
-  * https://assets.aq2world.com/archive/websites/gauntlet.telefragged.com/action/
+  * https://archives.aq2world.com/archive/websites/gauntlet.telefragged.com/action/
 * MudMan's Action Quake 2 Hideout
-  * https://assets.aq2world.com/archive/websites/members.xoom.com/MudmanQ2/aq2.htm
+  * https://archives.aq2world.com/archive/websites/members.xoom.com/MudmanQ2/aq2.htm
 * LoJiK's Unsolicited AQ2 Commentary
-  * https://assets.aq2world.com/archive/websites/www.party.demon.co.uk/action.htm
+  * https://archives.aq2world.com/archive/websites/www.party.demon.co.uk/action.htm
 * PQ: Qaspel
-  * https://assets.aq2world.com/archive/websites/www.planetquake.com/qaspel/ 
+  * https://archives.aq2world.com/archive/websites/www.planetquake.com/qaspel/ 
 * Map Reviews
-  * [actcity](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/actcity.html) | [actcity2](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/actcity2.html) | [asylum](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/asylum.html) | [cinema](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/cinema.html) | [cliff2](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/cliff2.html) | [downtown](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/downtown.html) | [lavatube](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/lavatube.html) | [p1_lightbeam](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/p1_lightbeam.html) | [parkgarage](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/parkgarage.html) | [teamjung](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/teamjung.html) | [tokyo](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/tokyo.html) | [urban](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/urban.html) | [urban3](https://assets.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/urban3.html) 
+  * [actcity](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/actcity.html) | [actcity2](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/actcity2.html) | [asylum](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/asylum.html) | [cinema](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/cinema.html) | [cliff2](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/cliff2.html) | [downtown](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/downtown.html) | [lavatube](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/lavatube.html) | [p1_lightbeam](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/p1_lightbeam.html) | [parkgarage](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/parkgarage.html) | [teamjung](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/teamjung.html) | [tokyo](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/tokyo.html) | [urban](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/urban.html) | [urban3](https://archives.aq2world.com/archive/websites/www.loop.com/sockit/mapreviews/urban3.html) 
 
 
 #### Clan Sites
 * Good Looking
-  * https://assets.aq2world.com/archive/websites/goodlookings.webs.com/
+  * https://archives.aq2world.com/archive/websites/goodlookings.webs.com/
 * Norweigian Whalers
-  * https://assets.aq2world.com/archive/websites/www.sigma-systems.no/quake/
+  * https://archives.aq2world.com/archive/websites/www.sigma-systems.no/quake/
 * Clan Donkeys
   * https://clandonkeys.com/
 * madCoCk's

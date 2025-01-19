@@ -7,7 +7,7 @@
 <title>TNN - Config Part 7</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 <meta http-equiv="content-language" content="en-GB">
-<link rel="stylesheet" type="text/css" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/default.css">
+<link rel="stylesheet" type="text/css" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/default.css">
 <!-- Modified:  -->
 </head>
 <body>
@@ -57,9 +57,9 @@
 <td class="panelleft">&nbsp;</td>
 <td class="panel">
 <a href="/">Actiongames</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn">Action Quake</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/cstrike">Counter Strike</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/rpg">RPGs</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn">Action Quake</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/cstrike">Counter Strike</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/rpg">RPGs</a><br>
 </td>
 <td class="panelright">&nbsp;</td>
 </tr>
@@ -108,7 +108,7 @@ everything is bound but more importantly it will allow you to see
 easily which keys are available when you need to alter or add binds
 to your config. I've made a printable keymap for you with the Q2
 names of the keys written on each key, you can download it <a href=
-"https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">here</a>(It's not my fault if your keyboard
+"https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">here</a>(It's not my fault if your keyboard
 differs from mine).</p>
 
 <p class="standard">Open the keybinds.cfg file and on the first
@@ -157,7 +157,7 @@ Forward</p>
 
 <p class="standard">Make sure each bind is on it's own line, if
 you're not sure of the name of the key you wish to use check the <a
-href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">keymap</a>.</p>
+href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">keymap</a>.</p>
 
 <p class="standard">Depending on your personal preference you may
 also want to add binds for the following:</p>
@@ -337,7 +337,7 @@ href="index.php?page_id=40">&nbsp;NEXT</a></p>
 </table>
 </td>
 <td class="rightcolumn" align="center" valign="top"><img src=
-"https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/images/aglogo.gif" alt=
+"https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/actiongames/images/aglogo.gif" alt=
 "actiongames.co.uk" width="88" height="87"> <br>
 <br>
 <br>

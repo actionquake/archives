@@ -7,7 +7,7 @@
 <title>Config Part 7</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 <meta http-equiv="content-language" content="en-GB">
-<link rel="stylesheet" type="text/css" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/default.css">
+<link rel="stylesheet" type="text/css" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/default.css">
 <!-- Author: 1 Modified: 20 May 2002 23:31:43 -->
 </head>
 <body>
@@ -27,11 +27,11 @@
 <tr>
 <td class="panelleft">&nbsp;</td>
 <td class="panel">
- <a class="menunorm" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/aboutguides.shtml" target="_top">About AQ</a><br>
- <a class="menunorm" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/config.shtml" target="_top">Config</a><br>
- <a class="menunorm" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/languide.shtml" target="_top">LAN Guide</a><br>
- <a class="menunorm" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/disclaimer.shtml" target="_top">Ping Guide</a><br>
- <a class="menunorm" href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/scripts.shtml" target="_top">Scripts</a><br>
+ <a class="menunorm" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/aboutguides.shtml" target="_top">About AQ</a><br>
+ <a class="menunorm" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/config.shtml" target="_top">Config</a><br>
+ <a class="menunorm" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/languide.shtml" target="_top">LAN Guide</a><br>
+ <a class="menunorm" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/disclaimer.shtml" target="_top">Ping Guide</a><br>
+ <a class="menunorm" href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guides/scripts.shtml" target="_top">Scripts</a><br>
 </td>
 <td class="panelright">&nbsp;</td>
 </tr>
@@ -56,9 +56,9 @@
 <td class="panelleft">&nbsp;</td>
 <td class="panel">
 <a href="/">Actiongames</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/">Action Quake</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/cstrike">Counter Strike</a><br>
-<a href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/dunsiege">DungeonSiege</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/">Action Quake</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/cstrike">Counter Strike</a><br>
+<a href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/dunsiege">DungeonSiege</a><br>
 </td>
 <td class="panelright">&nbsp;</td>
 </tr>
@@ -123,7 +123,7 @@ everything is bound but more importantly it will allow you to see
 easily which keys are available when you need to alter or add binds
 to your config. I've made a printable keymap for you with the Q2
 names of the keys written on each key, you can download it <a href=
-"https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">here</a>(It's not my fault if your keyboard
+"https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">here</a>(It's not my fault if your keyboard
 differs from mine).</p>
 
 <p class="standard">Open the keybinds.cfg file and on the first
@@ -172,7 +172,7 @@ Forward</p>
 
 <p class="standard">Make sure each bind is on it's own line, if
 you're not sure of the name of the key you wish to use check the <a
-href="https://assets.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">keymap</a>.</p>
+href="https://archives.aq2world.com/archive/websites/www.actiongames.co.uk/tnn/guide/keymap.gif">keymap</a>.</p>
 
 <p class="standard">Depending on your personal preference you may
 also want to add binds for the following:</p>
