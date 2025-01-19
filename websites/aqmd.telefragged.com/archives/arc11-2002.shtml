@@ -1,7 +1,7 @@
 <html>
 <head>
 <BASE HREF="">
-<LINK REL="STYLESHEET" img src="http://assets.aq2world.com/archive/websites/aqmd.telefragged.com/AQMD.css">
+<LINK REL="STYLESHEET" img src="http://archives.aq2world.com/archive/websites/aqmd.telefragged.com/AQMD.css">
 <title>AQMD News Archive</title>
 </head>
 <body BGCOLOR="#000000" TEXT="#c0c0c0" LINK="#bdbd00" VLINK="#858c53" ALINK="#ffcc66" TOPMARGIN="0" LEFTMARGIN="0">
@@ -18,10 +18,10 @@
     <TD WIDTH="1" BGCOLOR="#151C26"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD BGCOLOR="#151C26">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2>
-    <B><A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/news.shtml">Latest News</A></B><BR>
+    <B><A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/news.shtml">Latest News</A></B><BR>
     <A HREF="archive.shtml">News Archives</a><BR>
-    <B><A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/interviews.shtml">Interviews</A></B><BR>
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/contest.shtml">Mapping Contest</a>
+    <B><A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/interviews.shtml">Interviews</A></B><BR>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/contest.shtml">Mapping Contest</a>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -68,7 +68,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/mappak.shtml">Map Paks</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/mappak.shtml">Map Paks</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -106,7 +106,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/skies.shtml">Skies</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/skies.shtml">Skies</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -115,7 +115,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/textures.shtml">Textures</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/textures.shtml">Textures</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -124,7 +124,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/sounds.shtml">Sounds</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/sounds.shtml">Sounds</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -133,7 +133,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/primitives.shtml">Prefabs</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/primitives.shtml">Prefabs</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -142,7 +142,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/tutorials.shtml">Tutorials</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/tutorials.shtml">Tutorials</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -151,7 +151,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/editors.shtml">Editors</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/editors.shtml">Editors</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -160,7 +160,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/links.shtml">Links</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/links.shtml">Links</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -178,7 +178,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/maprid.shtml">MapRid</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/maprid.shtml">MapRid</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -218,7 +218,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/mmaps.shtml">Requirements</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/mmaps.shtml">Requirements</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -227,7 +227,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/deathtest.shtml">Testing How-To</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/deathtest.shtml">Testing How-To</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -236,7 +236,7 @@
     <TD WIDTH="1" BGCOLOR="#001A00"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD ALIGN="RIGHT" BGCOLOR="#001A00">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2 COLOR="#BDBD00">
-    <A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/submitmap.shtml">Upload Map</A>
+    <A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/submitmap.shtml">Upload Map</A>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -260,7 +260,7 @@
     <TD WIDTH="1" BGCOLOR="#151C26"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD BGCOLOR="#151C26">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2>
-    <B><A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/faq.shtml">FAQ</A></B>
+    <B><A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/faq.shtml">FAQ</A></B>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -354,7 +354,7 @@
     <TD WIDTH="1" BGCOLOR="#151C26"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD BGCOLOR="#151C26">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2>
-    <B><a href="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/cgi-bin/search/search.pl" TARGET="_blank">Search</A></B>
+    <B><a href="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/cgi-bin/search/search.pl" TARGET="_blank">Search</A></B>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -363,7 +363,7 @@
     <TD WIDTH="1" BGCOLOR="#151C26"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD BGCOLOR="#151C26">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2>
-    <B><A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/maillist.shtml">Mailing List</A></B>
+    <B><A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/maillist.shtml">Mailing List</A></B>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -372,7 +372,7 @@
     <TD WIDTH="1" BGCOLOR="#151C26"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
     <TD BGCOLOR="#151C26">
     <font FACE="Arial,Verdana,Helvetica" SIZE=2>
-    <B><A HREF="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/staff.shtml">AQMD Staff</A></B>
+    <B><A HREF="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/staff.shtml">AQMD Staff</A></B>
     </FONT>
     </TD>
     <TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
@@ -407,11 +407,11 @@
 		<td bgcolor="#001A00">
 		<font face="arial" size="2">
 		<a name="newsitem1041310211,11622,"></a>
-<p><strong><font COLOR="#bba689" SIZE="2" FACE="arial">Ho ho ho!<br></font></strong><font face="Arial" size="1">Posted </font><font color="#99CCff" face="arial" size="1">Monday, December 30, 2002 @ 10:50PM [EST]</font><font face="Arial" size="1"> by <a href="mailto:idle@telefragged.com">MP*Idle</a></font></p><p><font SIZE="2" FACE="arial">Yeah, Santa is kinda late, but hey!<br>Better late than never. <img src="http://assets.aq2world.com/archive/websites/aqmd.telefragged.com/icon/icon12.gif" alt="wink" /><br><br>Today, we bring you three new maps to get your sticky, little paws on. These are:<br><br><ul><br><li><a href="http://www.3ddownloads.com/?file_id=162738" title="Click to download huge.zip">Honey, I shrunk the A*Team! (huge.bsp)</a>, by Bob (Bobert) Szymanski</li><br><li><a href="http://www.3ddownloads.com/?file_id=162739" title="Click to download pirate.zip">Pirate (pirate.bsp)</a>, by Kenzhin</li><br><li><a href="http://www.3ddownloads.com/?file_id=162740" title="Click to download waterland.zip">Waterland: The Flooded City (waterland.bsp)</a>, by Sabotuer</a><br></ul><br><br>I will leave the reviewing part for our dear Spear, I would just screw up in trying to describe my thoughts on these wonderful maps.<br><br>Many thanks to the mappers for their great maps, and supporting the AQ2 community so nicely!<br><br><br>Happy new year everyone, and thanks for everything!</font></p><hr>
+<p><strong><font COLOR="#bba689" SIZE="2" FACE="arial">Ho ho ho!<br></font></strong><font face="Arial" size="1">Posted </font><font color="#99CCff" face="arial" size="1">Monday, December 30, 2002 @ 10:50PM [EST]</font><font face="Arial" size="1"> by <a href="mailto:idle@telefragged.com">MP*Idle</a></font></p><p><font SIZE="2" FACE="arial">Yeah, Santa is kinda late, but hey!<br>Better late than never. <img src="http://archives.aq2world.com/archive/websites/aqmd.telefragged.com/icon/icon12.gif" alt="wink" /><br><br>Today, we bring you three new maps to get your sticky, little paws on. These are:<br><br><ul><br><li><a href="http://www.3ddownloads.com/?file_id=162738" title="Click to download huge.zip">Honey, I shrunk the A*Team! (huge.bsp)</a>, by Bob (Bobert) Szymanski</li><br><li><a href="http://www.3ddownloads.com/?file_id=162739" title="Click to download pirate.zip">Pirate (pirate.bsp)</a>, by Kenzhin</li><br><li><a href="http://www.3ddownloads.com/?file_id=162740" title="Click to download waterland.zip">Waterland: The Flooded City (waterland.bsp)</a>, by Sabotuer</a><br></ul><br><br>I will leave the reviewing part for our dear Spear, I would just screw up in trying to describe my thoughts on these wonderful maps.<br><br>Many thanks to the mappers for their great maps, and supporting the AQ2 community so nicely!<br><br><br>Happy new year everyone, and thanks for everything!</font></p><hr>
 <a name="newsitem1040669478,21882,"></a>
-<p><strong><font COLOR="#bba689" SIZE="2" FACE="arial">Happy holidays!<br></font></strong><font face="Arial" size="1">Posted </font><font color="#99CCff" face="arial" size="1">Monday, December 23, 2002 @ 12:51PM [EST]</font><font face="Arial" size="1"> by <a href="mailto:idle@telefragged.com">MP*Idle</a></font></p><p><font SIZE="2" FACE="arial">We've got few maps under our desk which will be released<br>some time during the holidays (our internal deadline is December 31).<br>And just to keep you all hot 'n excited, I won't tell you the names of those maps nor theirh respective authors.<br><br>Remember, first come, first serve! <img src="http://assets.aq2world.com/archive/websites/aqmd.telefragged.com/icon/icon12.gif" alt="Wink" /><br><small>Spear, not in front of the kids!</small><br><br>Oh, I had almost forgotten...<br><br>The AQMD staff wishes all of you a great season,<br>packed with loads of fun, action and uNFing.<br>Merry Christmas! </font></p><hr>
+<p><strong><font COLOR="#bba689" SIZE="2" FACE="arial">Happy holidays!<br></font></strong><font face="Arial" size="1">Posted </font><font color="#99CCff" face="arial" size="1">Monday, December 23, 2002 @ 12:51PM [EST]</font><font face="Arial" size="1"> by <a href="mailto:idle@telefragged.com">MP*Idle</a></font></p><p><font SIZE="2" FACE="arial">We've got few maps under our desk which will be released<br>some time during the holidays (our internal deadline is December 31).<br>And just to keep you all hot 'n excited, I won't tell you the names of those maps nor theirh respective authors.<br><br>Remember, first come, first serve! <img src="http://archives.aq2world.com/archive/websites/aqmd.telefragged.com/icon/icon12.gif" alt="Wink" /><br><small>Spear, not in front of the kids!</small><br><br>Oh, I had almost forgotten...<br><br>The AQMD staff wishes all of you a great season,<br>packed with loads of fun, action and uNFing.<br>Merry Christmas! </font></p><hr>
 <a name="newsitem1038969565,75899,"></a>
-<p><strong><font COLOR="#bba689" SIZE="2" FACE="arial">Murder2: It is not a LIE!<br></font></strong><font face="Arial" size="1">Posted </font><font color="#99CCff" face="arial" size="1">Tuesday, December 3, 2002 @ 8:39PM [EST]</font><font face="Arial" size="1"> by <a href="mailto:spearnsn@yahoo.com">{TGr}Spear</a></font></p><p><font SIZE="2" FACE="arial">Hello everyone, it is I, Spear! Seeing as how this is my first news post I figured we'd bake a cake and slap some candles on it,<br/> you know just for looks. Unfortunately, No Fear tripped over it and the cat ate the rest.<br><br><img src="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/news_images/murder2_1s.jpg"><br><br>As I digress, it has been awhile since the last update and we here at the Aqmd felt it was hightime we did something about it.<br>Now I'm sure many of you would rather see our heads in slings than not be able to play FiReWaLKeR's latest masterpiece,<br/> so without further ado, I give you  <a href="http://www.3ddownloads.com/?file_id=162604" target="_blank" >Murder2</a> <br><br><img src="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/news_images/murder2_2s.jpg"><br><br>Oh, before I go, Idle wanted to give you all a piece of his mind, fortunately I told him no!<br>Here's my <a href="mailto:spearnsn@yahoo.com">email</a> if anyone feels the need to send me thanks, !<img src="http://assets.aq2world.com/archive/websites/aqmd.telefragged.com/icon/icon51.gif"> congragulations or hate mail, or even a bit of both, do what you must!</font></p><hr>
+<p><strong><font COLOR="#bba689" SIZE="2" FACE="arial">Murder2: It is not a LIE!<br></font></strong><font face="Arial" size="1">Posted </font><font color="#99CCff" face="arial" size="1">Tuesday, December 3, 2002 @ 8:39PM [EST]</font><font face="Arial" size="1"> by <a href="mailto:spearnsn@yahoo.com">{TGr}Spear</a></font></p><p><font SIZE="2" FACE="arial">Hello everyone, it is I, Spear! Seeing as how this is my first news post I figured we'd bake a cake and slap some candles on it,<br/> you know just for looks. Unfortunately, No Fear tripped over it and the cat ate the rest.<br><br><img src="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/news_images/murder2_1s.jpg"><br><br>As I digress, it has been awhile since the last update and we here at the Aqmd felt it was hightime we did something about it.<br>Now I'm sure many of you would rather see our heads in slings than not be able to play FiReWaLKeR's latest masterpiece,<br/> so without further ado, I give you  <a href="http://www.3ddownloads.com/?file_id=162604" target="_blank" >Murder2</a> <br><br><img src="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/news_images/murder2_2s.jpg"><br><br>Oh, before I go, Idle wanted to give you all a piece of his mind, fortunately I told him no!<br>Here's my <a href="mailto:spearnsn@yahoo.com">email</a> if anyone feels the need to send me thanks, !<img src="http://archives.aq2world.com/archive/websites/aqmd.telefragged.com/icon/icon51.gif"> congragulations or hate mail, or even a bit of both, do what you must!</font></p><hr>
 		
 		</font>
 		</td>
@@ -443,16 +443,16 @@
 	<TD WIDTH="1" BGCOLOR="#364967"><IMG SRC="images/clear.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
 	<TD BGCOLOR="#001A00">	
 	<font face="Arial, Helvetica, sans-serif" size="2">
-	<a href="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/skies/greydeath/index.shtml" target="_self">New sky by GreyDeath</a>
+	<a href="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/skies/greydeath/index.shtml" target="_self">New sky by GreyDeath</a>
 	</font>
 	<p>
 	<font face="Arial, Helvetica, sans-serif" size="2">
-	<a href="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/textures.shtml" target="_self">Updated links (Xatrix textures)</a>
+	<a href="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/textures.shtml" target="_self">Updated links (Xatrix textures)</a>
 	</font>
 	</p>
 	<p>
 	<font face="Arial, Helvetica, sans-serif" size="2">
-	<a href="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/sounds.shtml" target="_self">Two New Sound Packs</a>
+	<a href="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/sounds.shtml" target="_self">Two New Sound Packs</a>
 	</font>
 	</p>
 	</TD>
@@ -471,7 +471,7 @@
 </table>
 <font color="white" face="Arial" size="1">
 <p align="center">
-Copyright &copy; 2000 - 2003 AQMD [Action Quake2 Map Depot]. All Rights Reserved. <a href="https://assets.aq2world.com/archive/websites/aqmd.telefragged.com/res/privacy.shtml">Privacy Statement</a>.<br />
+Copyright &copy; 2000 - 2003 AQMD [Action Quake2 Map Depot]. All Rights Reserved. <a href="https://archives.aq2world.com/archive/websites/aqmd.telefragged.com/res/privacy.shtml">Privacy Statement</a>.<br />
 Design by <a href="mailto:magnet@telefragged.com">Death Magnet</a>.
 </font>
 </p>

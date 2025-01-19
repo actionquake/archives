@@ -12,7 +12,7 @@ Useful for finding files that the scraper did not get (it's possible they existe
 
 Python - `linkchecker`
 
-Example usage: `linkchecker -o html http://assets.aq2world.com/archive/websites/aqmd.telefragged.com/ > ../tests/aqmd-broken-links.html`
+Example usage: `linkchecker -o html http://archives.aq2world.com/archive/websites/aqmd.telefragged.com/ > ../tests/aqmd-broken-links.html`
 
 ## Goals and Scope
 
@@ -41,7 +41,7 @@ The goals, in order of importance:
 5. Determine if links to images and files are missing entirely (no image exists, linked to another site that no longer exists, etc.) or if the path to the image is wrong
     1. Tip: If an image is referenced but does not exist in the archive.org scrape download, copy the full url of the image as it was linked and do a Wayback Machine search for that image.  I've had a good success rate of finding that image manually and then adding the image manually to the archived website directory.
 6. Update links to other hosted archives sites
-    1. For example, changing a link from http://aqmd.telefragged.com to https://assets.aq2world.com/archive/websites/aqmd.telefragged.com makes the link usable again
+    1. For example, changing a link from http://aqmd.telefragged.com to https://archives.aq2world.com/archive/websites/aqmd.telefragged.com makes the link usable again
 7. Resolve PHP/cgi-bin links
     1. Determine if the link is simply trying to reach another part of the website.  Some sites had PHP or cgi-bin logic to determine what to do when clicked, but if it's just referencing another part of the site, update the link to the html document instead
 8.  Utilize the `linkchecker` tool for determining broken links, with a focus on fixing inter-site references (example: AQMD referencing AQDT) and any sites that we may want to archive in the future.
